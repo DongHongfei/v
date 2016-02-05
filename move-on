@@ -61,31 +61,16 @@
 
 
 
-<meta name="description" content="我是产品，我是产品，我是产品。
-
-经历了好几天开会撕逼后，项目终于缓缓进入了开发阶段。  
-#问题&amp;amp;思考从之前升级分诊功能，到后面问诊运营修复bug，再到现在系统升级，以产品角色参与其中，中间走了挺多弯路的。  
-我想问题还是出在自己并没有完全的站在一个产品的角度去做每件事情，作为一个产品，更多地应该是从解决实际问题出发，而不是让之前作为程序员的角色思维过多影响到自己。  
-我觉得产品应该">
+<meta name="description" content="搬家了，原来用的 wordpress，一点都不酷，内容也都是东朝西摘的，一点都不酷，所以这把搞个酷酷的~安装参考:http://cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/">
 <meta property="og:type" content="article">
-<meta property="og:title" content="首先是个产品">
-<meta property="og:url" content="http://yoursite.com/2015/first-of-all-i-am-pm/index.html">
+<meta property="og:title" content="搬家了">
+<meta property="og:url" content="http://yoursite.com/move-on">
 <meta property="og:site_name" content="小学生·董宏飞">
-<meta property="og:description" content="我是产品，我是产品，我是产品。
-
-经历了好几天开会撕逼后，项目终于缓缓进入了开发阶段。  
-#问题&amp;amp;思考从之前升级分诊功能，到后面问诊运营修复bug，再到现在系统升级，以产品角色参与其中，中间走了挺多弯路的。  
-我想问题还是出在自己并没有完全的站在一个产品的角度去做每件事情，作为一个产品，更多地应该是从解决实际问题出发，而不是让之前作为程序员的角色思维过多影响到自己。  
-我觉得产品应该">
-<meta property="og:updated_time" content="2015-09-16T23:14:08.000Z">
+<meta property="og:description" content="搬家了，原来用的 wordpress，一点都不酷，内容也都是东朝西摘的，一点都不酷，所以这把搞个酷酷的~安装参考:http://cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/">
+<meta property="og:updated_time" content="2015-07-08T16:37:46.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="首先是个产品">
-<meta name="twitter:description" content="我是产品，我是产品，我是产品。
-
-经历了好几天开会撕逼后，项目终于缓缓进入了开发阶段。  
-#问题&amp;amp;思考从之前升级分诊功能，到后面问诊运营修复bug，再到现在系统升级，以产品角色参与其中，中间走了挺多弯路的。  
-我想问题还是出在自己并没有完全的站在一个产品的角度去做每件事情，作为一个产品，更多地应该是从解决实际问题出发，而不是让之前作为程序员的角色思维过多影响到自己。  
-我觉得产品应该">
+<meta name="twitter:title" content="搬家了">
+<meta name="twitter:description" content="搬家了，原来用的 wordpress，一点都不酷，内容也都是东朝西摘的，一点都不酷，所以这把搞个酷酷的~安装参考:http://cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/">
 
 
 
@@ -103,7 +88,7 @@
   };
 </script>
 
-  <title> 首先是个产品 | 小学生·董宏飞 </title>
+  <title> 搬家了 | 小学生·董宏飞 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -252,7 +237,7 @@
             
             
               
-                首先是个产品
+                搬家了
               
             
           </h1>
@@ -264,8 +249,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2015-09-16T23:55:03+08:00" content="2015-09-16">
-              2015-09-16
+            <time itemprop="dateCreated" datetime="2015-03-08T23:11:49+08:00" content="2015-03-08">
+              2015-03-08
             </time>
           </span>
 
@@ -275,8 +260,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2015/first-of-all-i-am-pm/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/first-of-all-i-am-pm/" itemprop="commentsCount"></span>
+                <a href="/move-on#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="move-on" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -297,15 +282,7 @@
       
 
       
-        <blockquote>
-<p>我是产品，我是产品，我是产品。</p>
-</blockquote>
-<p>经历了好几天开会撕逼后，项目终于缓缓进入了开发阶段。  </p>
-<p>#问题&amp;思考<br>从之前升级分诊功能，到后面问诊运营修复bug，再到现在系统升级，以产品角色参与其中，中间走了挺多弯路的。  </p>
-<p>我想问题还是出在自己并没有完全的站在一个产品的角度去做每件事情，作为一个产品，更多地应该是从解决实际问题出发，而不是让之前作为程序员的角色思维过多影响到自己。  </p>
-<p>我觉得产品应该是团队的核心，从需求采集到方案设计再到实施上线，一个优秀的产品在这个过程中应该起到主导作用。</p>
-<p>而在这段时间的工作中，可能对开发工作相对比较熟悉，在与开发同学讨论需求时候会过多的去想一些方案的具体实现，会过多的干预到开发同学实现方案的制定上，而在产品应该发挥作用的地方并没有完全hold住，比如流程的梳理、功能的设计、对用户需求的挖掘、对项目整体的把控，结果就导致在讨论具体开发开发方案时比较混乱，而在涉及到产品层面的东西时，自己还是做不到完全心里有底。</p>
-<p>捡了芝麻丢了西瓜的感觉，一定得记着，首先是个产品~~~</p>
+        <p>搬家了，原来用的 wordpress，一点都不酷，内容也都是东朝西摘的，一点都不酷，所以这把搞个酷酷的~<br>安装参考:<a href="http://cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/" target="_blank" rel="external">http://cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/</a></p>
 
       
     </div>
@@ -317,16 +294,16 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2015/初见Python/" rel="next" title="初见Python">
-                <i class="fa fa-chevron-left"></i> 初见Python
+              <a href="/handling-cors-issues-in-ionic" rel="next" title="解决 ionic 中的 CORS 问题【译】">
+                <i class="fa fa-chevron-left"></i> 解决 ionic 中的 CORS 问题【译】
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2015/a-running-account/" rel="prev" title="一篇流水账">
-                一篇流水账 <i class="fa fa-chevron-right"></i>
+              <a href="/Ionic-jpush-IOS" rel="prev" title="Ionic 集成 jpush(极光)推送之 IOS 篇">
+                Ionic 集成 jpush(极光)推送之 IOS 篇 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -353,8 +330,8 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2015/first-of-all-i-am-pm/"
-           data-title="首先是个产品" data-url="http://yoursite.com/2015/first-of-all-i-am-pm/">
+      <div class="ds-thread" data-thread-key="move-on"
+           data-title="搬家了" data-url="http://yoursite.com/move-on">
       </div>
     
   </div>

@@ -61,22 +61,25 @@
 
 
 
-<meta name="description" content="极光推送官方版的 phonegap 插件在这里。由于官方版插件 ios 版暂时没有打开通知的方法，所以在官方基础上修改了下，修改后的插件放在了这里，下面说明以修改后的插件为准。（感谢极光官方大神viper耐心帮助，同时也参考了下@lanceli大神的cnodejs-ionic项目）
-极光账户设置部分可以参考小和尚的这篇分享。
-下面主要说明项目代码部分修改。">
+<meta name="description" content="我想，我是爱你的
+我不知道我是否真的爱你只是在寂静的夜里你经常出现在梦里
+我不知道我是否真的爱你只是曾经的只言片语会蓦然的想起
+我不知道我是否真的爱你即便无法再收到你的讯息依然无法将你忘记">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Ionic 集成 jpush(极光)推送之 IOS 篇">
-<meta property="og:url" content="http://yoursite.com/2015/Ionic-jpush-IOS/index.html">
+<meta property="og:title" content="我想，我是爱你的">
+<meta property="og:url" content="http://yoursite.com/i-think-maybe-i-love-you">
 <meta property="og:site_name" content="小学生·董宏飞">
-<meta property="og:description" content="极光推送官方版的 phonegap 插件在这里。由于官方版插件 ios 版暂时没有打开通知的方法，所以在官方基础上修改了下，修改后的插件放在了这里，下面说明以修改后的插件为准。（感谢极光官方大神viper耐心帮助，同时也参考了下@lanceli大神的cnodejs-ionic项目）
-极光账户设置部分可以参考小和尚的这篇分享。
-下面主要说明项目代码部分修改。">
-<meta property="og:updated_time" content="2015-07-08T22:47:09.000Z">
+<meta property="og:description" content="我想，我是爱你的
+我不知道我是否真的爱你只是在寂静的夜里你经常出现在梦里
+我不知道我是否真的爱你只是曾经的只言片语会蓦然的想起
+我不知道我是否真的爱你即便无法再收到你的讯息依然无法将你忘记">
+<meta property="og:updated_time" content="2015-07-08T16:37:46.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Ionic 集成 jpush(极光)推送之 IOS 篇">
-<meta name="twitter:description" content="极光推送官方版的 phonegap 插件在这里。由于官方版插件 ios 版暂时没有打开通知的方法，所以在官方基础上修改了下，修改后的插件放在了这里，下面说明以修改后的插件为准。（感谢极光官方大神viper耐心帮助，同时也参考了下@lanceli大神的cnodejs-ionic项目）
-极光账户设置部分可以参考小和尚的这篇分享。
-下面主要说明项目代码部分修改。">
+<meta name="twitter:title" content="我想，我是爱你的">
+<meta name="twitter:description" content="我想，我是爱你的
+我不知道我是否真的爱你只是在寂静的夜里你经常出现在梦里
+我不知道我是否真的爱你只是曾经的只言片语会蓦然的想起
+我不知道我是否真的爱你即便无法再收到你的讯息依然无法将你忘记">
 
 
 
@@ -94,7 +97,7 @@
   };
 </script>
 
-  <title> Ionic 集成 jpush(极光)推送之 IOS 篇 | 小学生·董宏飞 </title>
+  <title> 我想，我是爱你的 | 小学生·董宏飞 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -243,7 +246,7 @@
             
             
               
-                Ionic 集成 jpush(极光)推送之 IOS 篇
+                我想，我是爱你的
               
             
           </h1>
@@ -255,8 +258,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2015-03-09T06:39:14+08:00" content="2015-03-09">
-              2015-03-09
+            <time itemprop="dateCreated" datetime="2014-09-21T10:05:50+08:00" content="2014-09-21">
+              2014-09-21
             </time>
           </span>
 
@@ -266,8 +269,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2015/Ionic-jpush-IOS/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/Ionic-jpush-IOS/" itemprop="commentsCount"></span>
+                <a href="/i-think-maybe-i-love-you#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="i-think-maybe-i-love-you" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -288,49 +291,10 @@
       
 
       
-        <p>极光推送官方版的 phonegap 插件在<a href="https://github.com/jpush/jpush-phonegap-plugin" target="_blank" rel="external">这里</a>。<br>由于官方版插件 ios 版暂时没有打开通知的方法，所以在官方基础上修改了下，修改后的插件放在了<a href="https://github.com/DongHongfei/jpush-phonegap-plugin" target="_blank" rel="external">这里</a>，下面说明以修改后的插件为准。（感谢极光官方大神viper耐心帮助，同时也参考了下<a href="http://ionichina.com/user/lanceli" target="_blank" rel="external">@lanceli</a>大神的<a href="https://github.com/lanceli/cnodejs-ionic" target="_blank" rel="external">cnodejs-ionic</a>项目）</p>
-<p>极光账户设置部分可以参考小和尚的<a href="http://ionichina.com/topic/54f96e7b59a9bdef119234a1" target="_blank" rel="external">这篇</a>分享。</p>
-<p>下面主要说明项目代码部分修改。</p>
-<a id="more"></a>
-<h4 id="u65B0_u5EFA_u4E00_u4E2A_ionic_u9879_u76EE"><a href="#u65B0_u5EFA_u4E00_u4E2A_ionic_u9879_u76EE" class="headerlink" title="新建一个 ionic项目"></a>新建一个 ionic项目</h4><p><code>$ ionic start --id com.ionichina.ionicjpush ionic_jpush tabs</code></p>
-<p><em>注：修改 id 为自己应用的 Bundle identifier</em></p>
-<h4 id="u6DFB_u52A0_IOS__u5E73_u53F0"><a href="#u6DFB_u52A0_IOS__u5E73_u53F0" class="headerlink" title="添加 IOS 平台"></a>添加 IOS 平台</h4><p><code>$ cd ionic_jpush</code><br><code>$ ionic platform add ios</code></p>
-<h4 id="u5B89_u88C5_u63D2_u4EF6"><a href="#u5B89_u88C5_u63D2_u4EF6" class="headerlink" title="安装插件"></a>安装插件</h4><p><code>$ ionic plugin add https://github.com/DongHongfei/jpush-phonegap-plugin.git</code></p>
-<p><em>等待时间比较长，你也可以像小和尚<a href="http://ionichina.com/topic/54f96e7b59a9bdef119234a1" target="_blank" rel="external">文章</a>里介绍的先下载下来，再安装，但这个过程是跑不了的</em></p>
-<p><em>（接下来，蛋疼的事情开始了）</em></p>
-<h4 id="u4FEE_u6539_u914D_u7F6E"><a href="#u4FEE_u6539_u914D_u7F6E" class="headerlink" title="修改配置"></a>修改配置</h4><ul>
-<li>修改: <code>ionic_jpush\plugins\cn.jpush.phonegap.JPushPlugin\src\ios\PushConfig.plist</code><br>修改对应的APP_KEY和CHANNEL(渠道)为你自己申请的值，</li>
-</ul>
-<p><strong>注意</strong><br>确保有如下代码，不然后面 Xcode 运行会警告：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#60;key&#62;APS_FOR_PRODUCTION&#60;/key&#62;&#10;&#60;string&#62;0&#60;/string&#62;</span><br></pre></td></tr></table></figure>
-<h4 id="u5728_js__u4E2D_u6DFB_u52A0_u901A_u77E5_u5B9E_u73B0"><a href="#u5728_js__u4E2D_u6DFB_u52A0_u901A_u77E5_u5B9E_u73B0" class="headerlink" title="在 js 中添加通知实现"></a>在 js 中添加通知实现</h4><ul>
-<li>在 <code>app.js</code> 最后添加一个 push 工厂(参考了<a href="http://ionichina.com/user/lanceli" target="_blank" rel="external">@lanceli</a>大神的<a href="https://github.com/lanceli/cnodejs-ionic" target="_blank" rel="external">Ccnodejs-ionic</a>项目)</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.factory(&#39;Push&#39;, function() &#123;&#10;  var push;&#10;  return &#123;&#10;    setBadge: function(badge) &#123;&#10;      if (push) &#123;&#10;        console.log(&#39;jpush: set badge&#39;, badge);&#10;        plugins.jPushPlugin.setBadge(badge);&#10;      &#125;&#10;    &#125;,&#10;    setAlias: function(alias) &#123;&#10;      if (push) &#123;&#10;        console.log(&#39;jpush: set alias&#39;, alias);&#10;        plugins.jPushPlugin.setAlias(alias);&#10;      &#125;&#10;    &#125;,&#10;    check: function() &#123;&#10;      if (window.jpush &#38;&#38; push) &#123;&#10;        plugins.jPushPlugin.receiveNotificationIniOSCallback(window.jpush);&#10;        window.jpush = null;&#10;      &#125;&#10;    &#125;,&#10;    init: function(notificationCallback) &#123;&#10;      console.log(&#39;jpush: start init-----------------------&#39;);&#10;      push = window.plugins &#38;&#38; window.plugins.jPushPlugin;&#10;      if (push) &#123;&#10;        console.log(&#39;jpush: init&#39;);&#10;        plugins.jPushPlugin.init();&#10;        plugins.jPushPlugin.setDebugMode(true);&#10;        plugins.jPushPlugin.openNotificationInAndroidCallback = notificationCallback;&#10;        plugins.jPushPlugin.receiveNotificationIniOSCallback = notificationCallback;&#10;      &#125;&#10;    &#125;&#10;  &#125;;&#10;&#125;);</span><br></pre></td></tr></table></figure>
-<p>在 app.js 的 run 函数里定义通知回调函数</p>
-<p><em>记得在 run 函数里引用 Push 先</em></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"> // push notification callback&#10; var notificationCallback = function(data) &#123;&#10;   console.log(&#39;received data :&#39; + data);&#10;   var notification = angular.fromJson(data);&#10;   //app &#26159;&#21542;&#22788;&#20110;&#27491;&#22312;&#36816;&#34892;&#29366;&#24577;&#10;   var isActive = notification.notification;&#10;&#10;   // here add your code&#10;&#10;&#10;   //ios&#10;   if (ionic.Platform.isIOS()) &#123;&#10;     window.alert(notification);&#10;&#10;   &#125; else &#123;&#10;//&#38750;ios(android)&#10;   &#125;&#10; &#125;;</span><br></pre></td></tr></table></figure>
-<p>在  $ionicPlatform.ready 里进行初始化</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">//&#21021;&#22987;&#21270;&#10;Push.init(notificationCallback);&#10;//&#35774;&#32622;&#21035;&#21517;&#10;Push.setAlias(&#34;12345678&#34;);</span><br></pre></td></tr></table></figure>
-<h4 id="u7F16_u8BD1_IOS__u9879_u76EE"><a href="#u7F16_u8BD1_IOS__u9879_u76EE" class="headerlink" title="编译 IOS 项目"></a>编译 IOS 项目</h4><p><code>$ ionic build ios</code></p>
-<p><em>（接下来，更蛋疼的事情开始了）</em></p>
-<h4 id="u4FEE_u6539_u914D_u7F6E_IOS__u9879_u76EE_uFF08_u4E0D_u8981_u95EE_u6211_u4E3A_u5565_uFF09"><a href="#u4FEE_u6539_u914D_u7F6E_IOS__u9879_u76EE_uFF08_u4E0D_u8981_u95EE_u6211_u4E3A_u5565_uFF09" class="headerlink" title="修改配置 IOS 项目（不要问我为啥）"></a>修改配置 IOS 项目（不要问我为啥）</h4><ul>
-<li>修改 AppDelegate.m，<br>添加</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#import &#34;APService.h&#34;&#10;#import &#34;JPushPlugin.h&#34;  //viper</span><br></pre></td></tr></table></figure>
-<p><code>didFinishLaunchingWithOptions</code>函数中添加</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#10;    // Required&#10;#if __IPHONE_OS_VERSION_MAX_ALLOWED &#62; __IPHONE_7_1&#10;    if ([[UIDevice currentDevice].systemVersion floatValue] &#62;= 8.0) &#123;&#10;        //&#21487;&#20197;&#28155;&#21152;&#33258;&#23450;&#20041;categories&#10;        [APService registerForRemoteNotificationTypes:(UIUserNotificationTypeBadge |&#10;                                                       UIUserNotificationTypeSound |&#10;                                                       UIUserNotificationTypeAlert)&#10;                                           categories:nil];&#10;    &#125; else &#123;&#10;        //categories &#24517;&#39035;&#20026;nil&#10;        [APService registerForRemoteNotificationTypes:(UIRemoteNotificationTypeBadge |&#10;                                                       UIRemoteNotificationTypeSound |&#10;                                                       UIRemoteNotificationTypeAlert)&#10;                                           categories:nil];&#10;    &#125;&#10;#else&#10;    //categories &#24517;&#39035;&#20026;nil&#10;    [APService registerForRemoteNotificationTypes:(UIRemoteNotificationTypeBadge |&#10;                                                   UIRemoteNotificationTypeSound |&#10;                                                   UIRemoteNotificationTypeAlert)&#10;                                       categories:nil];&#10;#endif&#10;    // Required&#10;    [APService setupWithOption:launchOptions];</span><br></pre></td></tr></table></figure>
-<p><code>didRegisterForRemoteNotificationsWithDeviceToken</code>中添加</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">// Required&#10;[APService registerDeviceToken:deviceToken];&#10;[APService setDebugMode];</span><br></pre></td></tr></table></figure>
-<p>添加函数</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo &#123;&#10;    // Required&#10;    [APService handleRemoteNotification:userInfo];&#10;    BOOL isActive;&#10;    if (application.applicationState == UIApplicationStateActive) &#123;&#10;        isActive = TRUE;&#10;    &#125; else &#123;&#10;        isActive = FALSE;&#10;    &#125;&#10;    NSDictionary *dict=[[NSMutableDictionary alloc] initWithDictionary:userInfo];&#10;    &#10;    [dict setValue: [[NSNumber alloc] initWithBool:isActive] forKey:@&#34;isActive&#34; ];&#10;    &#10;    [[NSNotificationCenter defaultCenter] postNotificationName:kJPushPlugReceiveNotificaiton&#10;                                                        object:dict] ;//viper&#10;    &#10;    &#10;&#125;</span><br></pre></td></tr></table></figure>
-<h4 id="OC__u4EE3_u7801_u7B97_u662F_u5B8C_u4E8B_u513F_uFF0C_u7136_u540E_u5C31_u662F_u914D_u7F6E"><a href="#OC__u4EE3_u7801_u7B97_u662F_u5B8C_u4E8B_u513F_uFF0C_u7136_u540E_u5C31_u662F_u914D_u7F6E" class="headerlink" title="OC 代码算是完事儿，然后就是配置"></a>OC 代码算是完事儿，然后就是配置</h4><ul>
-<li>修改项目 Capabilities，打开 Background Modes，勾选最后一项Remote notications</li>
-<li>设置证书，这个就不教了，网上一大堆</li>
-<li>Xcode 这边就算配置完了</li>
-</ul>
-<p>接下就是设置一些Xcode常规操作，编译运行，从极光官方控制台发送一条通知，然后查看Xcode控制台，应该就会有推送的通知数据打印了。<br>下面的事儿你自己应该搞的定。</p>
-<p>示例代码我放在了<a href="https://github.com/DongHongfei/ionic_jpush" target="_blank" rel="external">这里</a>。</p>
+        <p>我想，我是爱你的</p>
+<p>我不知道我是否真的爱你<br>只是在寂静的夜里<br>你经常出现在梦里</p>
+<p>我不知道我是否真的爱你<br>只是曾经的只言片语<br>会蓦然的想起</p>
+<p>我不知道我是否真的爱你<br>即便无法再收到你的讯息<br>依然无法将你忘记</p>
 
       
     </div>
@@ -342,16 +306,16 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2015/move-on/" rel="next" title="搬家了">
-                <i class="fa fa-chevron-left"></i> 搬家了
+              <a href="/范东坡" rel="next" title="某篇文章里">
+                <i class="fa fa-chevron-left"></i> 某篇文章里
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2015/wujiecao-meixiaxian-shejiao-app-jingpinfenxi/" rel="prev" title="无节操没下限段子类社交 app 竞品分析">
-                无节操没下限段子类社交 app 竞品分析 <i class="fa fa-chevron-right"></i>
+              <a href="/navigating-the-changes" rel="prev" title="Navigating the Changes">
+                Navigating the Changes <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -378,8 +342,8 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2015/Ionic-jpush-IOS/"
-           data-title="Ionic 集成 jpush(极光)推送之 IOS 篇" data-url="http://yoursite.com/2015/Ionic-jpush-IOS/">
+      <div class="ds-thread" data-thread-key="i-think-maybe-i-love-you"
+           data-title="我想，我是爱你的" data-url="http://yoursite.com/i-think-maybe-i-love-you">
       </div>
     
   </div>
@@ -500,7 +464,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#u65B0_u5EFA_u4E00_u4E2A_ionic_u9879_u76EE"><span class="nav-number">1.</span> <span class="nav-text">新建一个 ionic项目</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#u6DFB_u52A0_IOS__u5E73_u53F0"><span class="nav-number">2.</span> <span class="nav-text">添加 IOS 平台</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#u5B89_u88C5_u63D2_u4EF6"><span class="nav-number">3.</span> <span class="nav-text">安装插件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#u4FEE_u6539_u914D_u7F6E"><span class="nav-number">4.</span> <span class="nav-text">修改配置</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#u5728_js__u4E2D_u6DFB_u52A0_u901A_u77E5_u5B9E_u73B0"><span class="nav-number">5.</span> <span class="nav-text">在 js 中添加通知实现</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#u7F16_u8BD1_IOS__u9879_u76EE"><span class="nav-number">6.</span> <span class="nav-text">编译 IOS 项目</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#u4FEE_u6539_u914D_u7F6E_IOS__u9879_u76EE_uFF08_u4E0D_u8981_u95EE_u6211_u4E3A_u5565_uFF09"><span class="nav-number">7.</span> <span class="nav-text">修改配置 IOS 项目（不要问我为啥）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#OC__u4EE3_u7801_u7B97_u662F_u5B8C_u4E8B_u513F_uFF0C_u7136_u540E_u5C31_u662F_u914D_u7F6E"><span class="nav-number">8.</span> <span class="nav-text">OC 代码算是完事儿，然后就是配置</span></a></li></ol></div>
+              <p class="post-toc-empty">此文章未包含目录</p>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator">

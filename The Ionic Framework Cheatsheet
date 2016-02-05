@@ -61,22 +61,20 @@
 
 
 
-<meta name="description" content="好漂亮的眼睛！
-口罩遮住了大半张脸，却无法遮住那份美丽和灵动！
-两弯似蹙非蹙罥烟眉,一双似喜非喜含情目。">
+<meta name="description" content="Ionic Framework 操作说明书如果你用了 Ionic Framework 一段时间之后你会发现有好多经常重复用到的命令行语句。有时候经常会突然用到一个特殊的标记或者选项，所以我做了个小抄放在手边。这样在开发我的 app 的时候就能把注意力集中在编程上，不用时不时的去搜索一个特殊的命令了。
+另外这个对初学者来说太方便了，你会发现分分钟搞出来一个很棒的 Ionic App。你往下看看，爽死">
 <meta property="og:type" content="article">
-<meta property="og:title" content="平淡的一天(2)">
-<meta property="og:url" content="http://yoursite.com/2015/dull-day-2/index.html">
+<meta property="og:title" content="Ionic Framework 操作说明书">
+<meta property="og:url" content="http://yoursite.com/The Ionic Framework Cheatsheet">
 <meta property="og:site_name" content="小学生·董宏飞">
-<meta property="og:description" content="好漂亮的眼睛！
-口罩遮住了大半张脸，却无法遮住那份美丽和灵动！
-两弯似蹙非蹙罥烟眉,一双似喜非喜含情目。">
+<meta property="og:description" content="Ionic Framework 操作说明书如果你用了 Ionic Framework 一段时间之后你会发现有好多经常重复用到的命令行语句。有时候经常会突然用到一个特殊的标记或者选项，所以我做了个小抄放在手边。这样在开发我的 app 的时候就能把注意力集中在编程上，不用时不时的去搜索一个特殊的命令了。
+另外这个对初学者来说太方便了，你会发现分分钟搞出来一个很棒的 Ionic App。你往下看看，爽死">
+<meta property="og:image" content="http://7vzo2z.com1.z0.glb.clouddn.com/FiwlXYxEha6sdME06DdQGcvc62TM">
 <meta property="og:updated_time" content="2015-07-08T16:37:46.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="平淡的一天(2)">
-<meta name="twitter:description" content="好漂亮的眼睛！
-口罩遮住了大半张脸，却无法遮住那份美丽和灵动！
-两弯似蹙非蹙罥烟眉,一双似喜非喜含情目。">
+<meta name="twitter:title" content="Ionic Framework 操作说明书">
+<meta name="twitter:description" content="Ionic Framework 操作说明书如果你用了 Ionic Framework 一段时间之后你会发现有好多经常重复用到的命令行语句。有时候经常会突然用到一个特殊的标记或者选项，所以我做了个小抄放在手边。这样在开发我的 app 的时候就能把注意力集中在编程上，不用时不时的去搜索一个特殊的命令了。
+另外这个对初学者来说太方便了，你会发现分分钟搞出来一个很棒的 Ionic App。你往下看看，爽死">
 
 
 
@@ -94,7 +92,7 @@
   };
 </script>
 
-  <title> 平淡的一天(2) | 小学生·董宏飞 </title>
+  <title> Ionic Framework 操作说明书 | 小学生·董宏飞 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -243,7 +241,7 @@
             
             
               
-                平淡的一天(2)
+                Ionic Framework 操作说明书
               
             
           </h1>
@@ -255,8 +253,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2015-02-17T21:10:50+08:00" content="2015-02-17">
-              2015-02-17
+            <time itemprop="dateCreated" datetime="2015-02-26T21:10:45+08:00" content="2015-02-26">
+              2015-02-26
             </time>
           </span>
 
@@ -266,8 +264,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2015/dull-day-2/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/dull-day-2/" itemprop="commentsCount"></span>
+                <a href="/The Ionic Framework Cheatsheet#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="The Ionic Framework Cheatsheet" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -288,15 +286,13 @@
       
 
       
-        <p>好漂亮的眼睛！</p>
-<p>口罩遮住了大半张脸，却无法遮住那份美丽和灵动！</p>
-<p>两弯似蹙非蹙罥烟眉,一双似喜非喜含情目。<br><a id="more"></a><br>短暂的大脑空白之后，突然意识到该说点儿什么或做点儿什么。</p>
-<p>听过见过想象过的各种桥段一个一个在脑海中闪现，又一个一个Pass掉，电光火石间进行着天人交战。</p>
-<p>突然感觉被人撞了一下，NMB，心中默念三字经，不爽的扭过头，但扭过来只够看到对方胸大肌的时候，放弃了仰视下是什么鸟人的想法，同时豁达的原谅了他的不礼貌。</p>
-<p>地铁就是这样神奇的一个地方，总会在你觉得挤满了的时候，又能挤进来一拨人。所以被从莫名其妙的地方冒出来个人挤一下一点儿也不会觉得莫名其妙。</p>
-<p>电光火石间调整好心态，却发现，姑娘不见了…</p>
-<p>　　……</p>
-<p>　　(未完待续)</p>
+        <h2 id="Ionic_Framework__u64CD_u4F5C_u8BF4_u660E_u4E66"><a href="#Ionic_Framework__u64CD_u4F5C_u8BF4_u660E_u4E66" class="headerlink" title="Ionic Framework 操作说明书"></a>Ionic Framework 操作说明书</h2><p>如果你用了 Ionic Framework 一段时间之后你会发现有好多经常重复用到的命令行语句。有时候经常会突然用到一个特殊的标记或者选项，所以我做了个小抄放在手边。这样在开发我的 app 的时候就能把注意力集中在编程上，不用时不时的去搜索一个特殊的命令了。</p>
+<p>另外这个对初学者来说太方便了，你会发现分分钟搞出来一个很棒的 Ionic App。你往下看看，爽死你~如果你觉得还有哪儿需要添加什么东西，欢迎给我留言(译者注：在 Ionichina 社区讨论也可以的哦~)。</p>
+<a id="more"></a>
+<p>下面这张图就是 Ionic Framework 操作说明书了，送给所有的初学者，懒蛋和所有喜欢我的人~</p>
+<p><img src="http://7vzo2z.com1.z0.glb.clouddn.com/FiwlXYxEha6sdME06DdQGcvc62TM" alt="ionic-cheatsheet.png"></p>
+<p>来源：<a href="http://devdactic.com/ionic-cheatsheet/" target="_blank" rel="external">The Ionic Framework Cheatsheet</a></p>
+<p><em>译者注：原文是Cheatsheet，我这里翻译成说明书，如果不对或者有更好的解释，请指正。</em></p>
 
       
     </div>
@@ -308,16 +304,16 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2015/dull-day-1/" rel="next" title="平淡的一天(1)">
-                <i class="fa fa-chevron-left"></i> 平淡的一天(1)
+              <a href="/dull-day-4" rel="next" title="平淡的一天(4)">
+                <i class="fa fa-chevron-left"></i> 平淡的一天(4)
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2015/dull-day-3/" rel="prev" title="平淡的一天(3)">
-                平淡的一天(3) <i class="fa fa-chevron-right"></i>
+              <a href="/handling-cors-issues-in-ionic" rel="prev" title="解决 ionic 中的 CORS 问题【译】">
+                解决 ionic 中的 CORS 问题【译】 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -344,8 +340,8 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2015/dull-day-2/"
-           data-title="平淡的一天(2)" data-url="http://yoursite.com/2015/dull-day-2/">
+      <div class="ds-thread" data-thread-key="The Ionic Framework Cheatsheet"
+           data-title="Ionic Framework 操作说明书" data-url="http://yoursite.com/The Ionic Framework Cheatsheet">
       </div>
     
   </div>
@@ -466,7 +462,7 @@
               
             
             
-              <p class="post-toc-empty">此文章未包含目录</p>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Ionic_Framework__u64CD_u4F5C_u8BF4_u660E_u4E66"><span class="nav-number">1.</span> <span class="nav-text">Ionic Framework 操作说明书</span></a></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator">

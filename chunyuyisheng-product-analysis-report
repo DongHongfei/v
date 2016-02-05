@@ -61,37 +61,16 @@
 
 
 
-<meta name="description" content="今天头昏昏沉沉的，一出门就撞着柱子了
-我记得这儿以前没有柱子的
-看来最近真的太累了
-该好好休息休息了
-谁知道还会不会出现比柱子更硬的东西呢
-总有一天我会一头撞死在上头
-不知到时会不会被人捡回家煮了吃
-成就另一个守柱待T的故事">
+<meta name="description" content="占坑儿">
 <meta property="og:type" content="article">
-<meta property="og:title" content="某篇文章里">
-<meta property="og:url" content="http://yoursite.com/2014/范东坡/index.html">
+<meta property="og:title" content="春雨医生产品分析报告">
+<meta property="og:url" content="http://yoursite.com/chunyuyisheng-product-analysis-report">
 <meta property="og:site_name" content="小学生·董宏飞">
-<meta property="og:description" content="今天头昏昏沉沉的，一出门就撞着柱子了
-我记得这儿以前没有柱子的
-看来最近真的太累了
-该好好休息休息了
-谁知道还会不会出现比柱子更硬的东西呢
-总有一天我会一头撞死在上头
-不知到时会不会被人捡回家煮了吃
-成就另一个守柱待T的故事">
-<meta property="og:updated_time" content="2015-07-08T16:37:46.000Z">
+<meta property="og:description" content="占坑儿">
+<meta property="og:updated_time" content="2015-09-16T15:57:19.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="某篇文章里">
-<meta name="twitter:description" content="今天头昏昏沉沉的，一出门就撞着柱子了
-我记得这儿以前没有柱子的
-看来最近真的太累了
-该好好休息休息了
-谁知道还会不会出现比柱子更硬的东西呢
-总有一天我会一头撞死在上头
-不知到时会不会被人捡回家煮了吃
-成就另一个守柱待T的故事">
+<meta name="twitter:title" content="春雨医生产品分析报告">
+<meta name="twitter:description" content="占坑儿">
 
 
 
@@ -109,7 +88,7 @@
   };
 </script>
 
-  <title> 某篇文章里 | 小学生·董宏飞 </title>
+  <title> 春雨医生产品分析报告 | 小学生·董宏飞 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -258,7 +237,7 @@
             
             
               
-                某篇文章里
+                春雨医生产品分析报告
               
             
           </h1>
@@ -270,8 +249,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2014-02-21T12:03:50+08:00" content="2014-02-21">
-              2014-02-21
+            <time itemprop="dateCreated" datetime="2015-07-14T00:31:33+08:00" content="2015-07-14">
+              2015-07-14
             </time>
           </span>
 
@@ -281,8 +260,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2014/范东坡/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2014/范东坡/" itemprop="commentsCount"></span>
+                <a href="/chunyuyisheng-product-analysis-report#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="chunyuyisheng-product-analysis-report" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -303,14 +282,7 @@
       
 
       
-        <p>今天头昏昏沉沉的，一出门就撞着柱子了</p>
-<p>我记得这儿以前没有柱子的</p>
-<p>看来最近真的太累了</p>
-<p>该好好休息休息了</p>
-<p>谁知道还会不会出现比柱子更硬的东西呢</p>
-<p>总有一天我会一头撞死在上头</p>
-<p>不知到时会不会被人捡回家煮了吃</p>
-<p>成就另一个守柱待T的故事</p>
+        <p>占坑儿</p>
 
       
     </div>
@@ -322,12 +294,16 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/why-do-i-want-to-be-pm" rel="next" title="为什么我想做产品经理">
+                <i class="fa fa-chevron-left"></i> 为什么我想做产品经理
+              </a>
+            
           </div>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2014/i-think-maybe-i-love-you/" rel="prev" title="我想，我是爱你的">
-                我想，我是爱你的 <i class="fa fa-chevron-right"></i>
+              <a href="/football-field-different-position-description" rel="prev" title="足球场不同位置职责">
+                足球场不同位置职责 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -354,8 +330,8 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2014/范东坡/"
-           data-title="某篇文章里" data-url="http://yoursite.com/2014/范东坡/">
+      <div class="ds-thread" data-thread-key="chunyuyisheng-product-analysis-report"
+           data-title="春雨医生产品分析报告" data-url="http://yoursite.com/chunyuyisheng-product-analysis-report">
       </div>
     
   </div>
