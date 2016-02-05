@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2016-02-05T03:40:57.000Z</updated>
+  <updated>2016-02-03T15:45:56.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -13,28 +13,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <link href="http://yoursite.com/2016/hello-world/"/>
-    <id>http://yoursite.com/2016/hello-world/</id>
-    <published>2016-02-05T03:40:57.000Z</published>
-    <updated>2016-02-05T03:40:57.000Z</updated>
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick_Start"><a href="#Quick_Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create_a_new_post"><a href="#Create_a_new_post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server"><a href="#Run_server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files"><a href="#Generate_static_files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites"><a href="#Deploy_to_remote_sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.]]>
-    </summary>
-    
-  </entry>
   
   <entry>
     <title><![CDATA[张小龙饭否日记]]></title>
@@ -10169,6 +10147,26 @@
     <summary type="html">
     <![CDATA[<p>在发布 Beta 14 版本之前，我们花费了很长时间在 ionic 社区上搜集导航 UI 应该如何表现，不只是关于过渡动画，而是所有的元素怎么在一个 app 里整合起来。Beta 14 中在导航的结构和元素上我们遵循了很多非常棒并且已经很成熟的模式，这些模式在所有平台上的 app 里随处可见。我们赶脚这些更新可以让你很平滑的去构建导航的 UI。</p>]]>
     
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[我想，我是爱你的]]></title>
+    <link href="http://yoursite.com/2014/i-think-maybe-i-love-you/"/>
+    <id>http://yoursite.com/2014/i-think-maybe-i-love-you/</id>
+    <published>2014-09-21T02:05:50.000Z</published>
+    <updated>2015-07-08T16:37:46.000Z</updated>
+    <content type="html"><![CDATA[<p>我想，我是爱你的</p>
+<p>我不知道我是否真的爱你<br>只是在寂静的夜里<br>你经常出现在梦里</p>
+<p>我不知道我是否真的爱你<br>只是曾经的只言片语<br>会蓦然的想起</p>
+<p>我不知道我是否真的爱你<br>即便无法再收到你的讯息<br>依然无法将你忘记</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>我想，我是爱你的</p>
+<p>我不知道我是否真的爱你<br>只是在寂静的夜里<br>你经常出现在梦里</p>
+<p>我不知道我是否真的爱你<br>只是曾经的只言片语<br>会蓦然的想起</p>
+<p>我不知道我是否真的爱你<br>即便无法再收到你的讯息<br>依然无法将你]]>
     </summary>
     
   </entry>
