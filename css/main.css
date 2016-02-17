@@ -453,7 +453,7 @@ body {
 }
 .main-inner {
   margin: 0 auto;
-  width: 700px;
+  max-width: 700px;
 }
 @media (min-width: 1600px) {
   .container .main-inner {
@@ -1528,7 +1528,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #248ad9;
+  background: #bf5ecb;
 }
 .sidebar-nav {
   margin: 0 0 20px;
