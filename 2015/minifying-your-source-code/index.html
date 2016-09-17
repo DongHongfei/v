@@ -1,0 +1,679 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+  <meta name="google-site-verification" content="hLXEUgYmEJNA3INdNEsnWGLg2eunb2iXuTvrvu--Ovs" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  <link href="http://cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="http://fonts.useso.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+  
+
+<link href="http://cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+<link href="http://r.v.donghongfei.com/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="董宏飞, 小学生·董宏飞, 小学生董宏飞, 产品经理, 工程师" />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="小学生·董宏飞" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+
+
+
+
+
+
+<meta name="description" content="译者注：本人翻译功力有限，所以文中难免有翻译不准确的地方，凑合看吧，牛逼的话你看英文版的去，完事儿欢迎回来指正交流（^_^）。
+这篇文章是邀请Nic Raboy来写的，他是在Android， AngularJS， Ionic， Java， SQL和 Unity3D等多个领域都很有建树的应用开发者。Nic经常写一些关于Ionic和如何创建非常棒的hybrid应用的文章。
+先前我介绍过丑化你的Apac">
+<meta property="og:type" content="article">
+<meta property="og:title" content="压缩你的Ionic App源码【译】">
+<meta property="og:url" content="http://yoursite.com/2015/minifying-your-source-code/index.html">
+<meta property="og:site_name" content="小学生·董宏飞">
+<meta property="og:description" content="译者注：本人翻译功力有限，所以文中难免有翻译不准确的地方，凑合看吧，牛逼的话你看英文版的去，完事儿欢迎回来指正交流（^_^）。
+这篇文章是邀请Nic Raboy来写的，他是在Android， AngularJS， Ionic， Java， SQL和 Unity3D等多个领域都很有建树的应用开发者。Nic经常写一些关于Ionic和如何创建非常棒的hybrid应用的文章。
+先前我介绍过丑化你的Apac">
+<meta property="og:updated_time" content="2016-09-17T07:47:45.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="压缩你的Ionic App源码【译】">
+<meta name="twitter:description" content="译者注：本人翻译功力有限，所以文中难免有翻译不准确的地方，凑合看吧，牛逼的话你看英文版的去，完事儿欢迎回来指正交流（^_^）。
+这篇文章是邀请Nic Raboy来写的，他是在Android， AngularJS， Ionic， Java， SQL和 Unity3D等多个领域都很有建树的应用开发者。Nic经常写一些关于Ionic和如何创建非常棒的hybrid应用的文章。
+先前我介绍过丑化你的Apac">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 0,
+      author: '博主'
+    }
+  };
+</script>
+
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2015/minifying-your-source-code/"/>
+
+  <title> 压缩你的Ionic App源码【译】 | 小学生·董宏飞 </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-58430635-3', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?201990663e500043f19067a1bb94c67b";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">小学生·董宏飞</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle"></p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                压缩你的Ionic App源码【译】
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2015-01-26T18:17:56+08:00" content="2015-01-26">
+              2015-01-26
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2015/minifying-your-source-code/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/minifying-your-source-code/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p><em>译者注：本人翻译功力有限，所以文中难免有翻译不准确的地方，凑合看吧，牛逼的话你看<a href="http://ionicframework.com/blog/minifying-your-source-code/" target="_blank" rel="external">英文版</a>的去，完事儿欢迎回来指正交流（^_^）。</em></p>
+<p><em>这篇文章是邀请<a href="http://blog.nraboy.com/" target="_blank" rel="external">Nic Raboy</a>来写的，他是在Android， AngularJS， Ionic， Java， SQL和 Unity3D等多个领域都很有建树的应用开发者。Nic经常写一些关于Ionic和如何创建非常棒的hybrid应用的文章。</em></p>
+<p>先前我介绍过丑化你的Apache Cordova应用源码的重要性。如果你读过我<a href="/">之前</a> 的文章你就会知道，hybrid应用非常容易被反编译，所以混淆你的代码会给那些恶意用户增加不少难度。</p>
+<a id="more"></a>
+<p>我还写过一篇<a href="https://blog.nraboy.com/2014/12/use-grunt-lint-uglify-javascript-project/" target="_blank" rel="external">类似</a>的文章，介绍如何使用Grunt任务来丑化你的代码。然而，对于Apache Cordova项目来说，Grunt并不是最理想的解决方案，因为它在丑化代码的同时会产生很多错误。</p>
+<p>在这篇教程中，我们就来看看对于Apache Cordova项目，在构建之前如何有效的缩减代码(译者注：原文是lint and minify，但在这里实在不知道怎么翻译了%&gt;_&lt;%)。这篇教程同样适用于<a href="http://phonegap.com/" target="_blank" rel="external">Phonegap</a>和<a href="http://www.ionicframework.com/" target="_blank" rel="external">Ionic Framework</a>项目。</p>
+<p>我们就先从创建一个新的Apache Cordova的Android 和 iOS项目开始吧：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cordova create TestProject com.nraboy.testproject TestProject&#10;cd TestProject&#10;cordova platform add android&#10;cordova platform add ios</span><br></pre></td></tr></table></figure>
+<p>注意，只有在Mac下才可以添加或构建ios平台。</p>
+<p>这篇教程会分解成两部分讲述：</p>
+<p>高亮化项目中的JavaScript错误<br>为了混淆而丑化代码<br>一旦你跟着这些步骤走下来，你会发现你的项目变得更好了(译者注：much better shape咋翻译丫%&gt;_&lt;%)。</p>
+<p>高亮化项目中的JavaScript错误</p>
+<p>为了完成这个任务，我博客的一个订阅者推荐我去看看<a href="https://www.npmjs.com/package/cordova-linter" target="_blank" rel="external">Cordova Linter</a>，我去看了，但是根本搞不明白这玩意儿怎么用，我执行完之后它一直告诉我项目没有错误，包里面也没有文档来说明它使如何工作的。</p>
+<p>这时，我决定要自己创建Apache Cordova hook。如果你读过我之前关于hooks的<a href="https://blog.nraboy.com/2015/01/hooks-apache-cordova-mobile-applications/" target="_blank" rel="external">文章</a>，你就会大概知道我们接下来要干什么了。</p>
+<p>创建 hooks/before_prepare/02<em>jshint.js，如果你在使用Linux或者Mac，确保给了它执行权限。根据文件名你可能会猜到我们要用<a href="http://jshint.com/docs/" target="_blank" rel="external">JSHint</a>来linting(咋翻译哇%&gt;</em>&lt;%)了。打开02_jshint.js，然后添加下面的代码：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#!/usr/bin/env node&#10;&#10;var fs = require(&#39;fs&#39;);&#10;var path = require(&#39;path&#39;);&#10;var jshint = require(&#39;jshint&#39;).JSHINT;&#10;var async = require(&#39;async&#39;);&#10;&#10;var foldersToProcess = [&#10;    &#39;js&#39;&#10;];&#10;&#10;foldersToProcess.forEach(function(folder) &#123;&#10;    processFiles(&#34;www/&#34; + folder);&#10;&#125;);&#10;&#10;function processFiles(dir, callback) &#123;&#10;    var errorCount = 0;&#10;    fs.readdir(dir, function(err, list) &#123;&#10;        if (err) &#123;&#10;            console.log(&#39;processFiles err: &#39; + err);&#10;            return;&#10;        &#125;&#10;        async.eachSeries(list, function(file, innercallback) &#123;&#10;            file = dir + &#39;/&#39; + file;&#10;            fs.stat(file, function(err, stat) &#123;&#10;                if(!stat.isDirectory()) &#123;&#10;                    if(path.extname(file) === &#34;.js&#34;) &#123;&#10;                        lintFile(file, function(hasError) &#123;&#10;                            if(hasError) &#123;&#10;                                errorCount++;&#10;                            &#125;&#10;                            innercallback();&#10;                        &#125;);&#10;                    &#125; else &#123;&#10;                        innercallback();&#10;                    &#125;&#10;                &#125; else &#123;&#10;                    innercallback();&#10;                &#125;&#10;            &#125;);&#10;        &#125;, function(error) &#123;&#10;            if(errorCount &#62; 0) &#123;&#10;                process.exit(1);&#10;            &#125;&#10;        &#125;);&#10;    &#125;);&#10;&#125;&#10;&#10;function lintFile(file, callback) &#123;&#10;    console.log(&#34;Linting &#34; + file);&#10;    fs.readFile(file, function(err, data) &#123;&#10;        if(err) &#123;&#10;            console.log(&#39;Error: &#39; + err);&#10;            return;&#10;        &#125;&#10;        if(jshint(data.toString())) &#123;&#10;            console.log(&#39;File &#39; + file + &#39; has no errors.&#39;);&#10;            console.log(&#39;-----------------------------------------&#39;);&#10;            callback(false);&#10;        &#125; else &#123;&#10;            console.log(&#39;Errors in file &#39; + file);&#10;            var out = jshint.data(),&#10;            errors = out.errors;&#10;            for(var j = 0; j &#60; errors.length; j++) &#123;&#10;                console.log(errors[j].line + &#39;:&#39; + errors[j].character + &#39; -&#62; &#39; + errors[j].reason + &#39; -&#62; &#39; +&#10;errors[j].evidence);&#10;            &#125;&#10;            console.log(&#39;-----------------------------------------&#39;);&#10;            callback(true);&#10;        &#125;&#10;    &#125;);&#10;&#125;</span><br></pre></td></tr></table></figure>
+<p>上面这段脚本只会监视 www/js 目录，但随时可能会添加更多的目录。这个目录下所有的文件都会被过滤，如果是JavaScript，那么这个文件就会被放进JSHint。如果任何文件包含错误，那么（错误）就会被呈现到屏幕上，并且脚本会停止接下来所有程序的执行。这意味着如果你使用 cordova build [platform] 来执行脚本，如果包含错误应用是不会继续执行的。</p>
+<p>为了实现这个功能，02_jshint.js依赖了两个NodeJS库。在你的项目根目录执行下面命令来安装：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install jshint&#10;$ npm install async</span><br></pre></td></tr></table></figure>
+<p>为了混淆而丑化代码</p>
+<p>对于混淆方面，我的另外一个订阅者建议我去看看<a href="https://www.npmjs.com/package/cordova-uglify" target="_blank" rel="external">Cordova Uglify</a>，并不像Cordova Linter一样，这个NPM包像介绍的一样棒。在你的Apache Cordova项目根目录执行下面的命令：</p>
+<p>$ npm install cordova-uglify<br>当安装执行完毕之后，你会发现 hooks/after_prepare/uglify.js 已经被创建好了。在Linux或Mac你需要赋执行权限，否则不会生效。</p>
+<p>你可以通过执行 <code>cordova prepare</code> 或者 <code>cordova build [platform]</code> 来进行测试。</p>
+<p>结论</p>
+<p>默认情况下Apache Cordova不会在构建之前检查你代码里的错误，这意味在执行之前你不会知道代码里是不是存在错误。Linting你的代码可以减少很多误差造成的拼写错误或丢失/额外的括号。</p>
+<p>默认情况下你辛辛苦苦写出来的代码很容易就被反编译出来了，所以在发布之前丑化你的代码来达到混淆的目的是个很棒的主意。</p>
+<p>这篇文章下面还有两条视频：</p>
+<p><a href="https://www.youtube.com/watch?v=qQiYE6x7cFk" target="_blank" rel="external">第一部分</a></p>
+<p><a href="https://www.youtube.com/watch?v=hoy3MESySWQ" target="_blank" rel="external">第二部分</a></p>
+<p>Ps:下面的视频是放在YouTube上得，需要翻墙才能看，推荐个不错的Chrome插件<a href="http://honx.in/i/U-LXTOz5NFxwRetD" target="_blank" rel="external">红杏</a></p>
+
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2015/navigating-the-changes/" rel="next" title="Navigating the Changes">
+                <i class="fa fa-chevron-left"></i> Navigating the Changes
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2015/dull-day-1/" rel="prev" title="平淡的一天(1)">
+                平淡的一天(1) <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2015/minifying-your-source-code/"
+           data-title="压缩你的Ionic App源码【译】" data-url="http://yoursite.com/2015/minifying-your-source-code/">
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="http://r.v.donghongfei.com/images/avatar.gif"
+               alt="小学生·董宏飞" />
+          <p class="site-author-name" itemprop="name">小学生·董宏飞</p>
+          <p class="site-description motion-element" itemprop="description"></p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">23</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">10</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/DongHongfei" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://twitter.com/DongHongfei" target="_blank" title="Twitter">
+                  
+                    <i class="fa fa-fw fa-twitter"></i>
+                  
+                  Twitter
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/2012onlyone" target="_blank" title="Weibo">
+                  
+                    <i class="fa fa-fw fa-weibo"></i>
+                  
+                  Weibo
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <p class="post-toc-empty">此文章未包含目录</p>
+            
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2015 - 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">小学生·董宏飞</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="http://cdn.bootcss.com/jquery/2.1.3/jquery.js"></script>
+
+  
+  <script type="text/javascript" src="http://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js"></script>
+
+  
+  <script type="text/javascript" src="http://cdn.bootcss.com/jquery_lazyload/1.9.7/jquery.lazyload.min.js"></script>
+
+  
+  <script type="text/javascript" src="http://cdn.bootcss.com/velocity/1.2.1/velocity.min.js"></script>
+
+  
+  <script type="text/javascript" src="http://cdn.bootcss.com/velocity/1.2.1/velocity.ui.min.js"></script>
+
+  
+  <script type="text/javascript" src="http://cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="http://r.v.donghongfei.com/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="http://r.v.donghongfei.com/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="http://r.v.donghongfei.com/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="http://r.v.donghongfei.com/js/src/post-details.js?v=5.0.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="http://r.v.donghongfei.com/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"donghongfei"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+
+  
+    
+  
+
+
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+</body>
+</html>
