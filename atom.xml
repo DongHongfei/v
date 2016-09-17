@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2016-09-17T08:06:30.000Z</updated>
+  <updated>2016-09-17T08:21:54.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -19,15 +19,18 @@
     <link href="http://yoursite.com/2016/loved/"/>
     <id>http://yoursite.com/2016/loved/</id>
     <published>2016-09-17T08:05:56.000Z</published>
-    <updated>2016-09-17T08:06:30.000Z</updated>
-    <content type="html"><![CDATA[<p>来啊，互相伤害啊！  </p>
-<h2 id="u6765_u5C31_u6765_uFF01"><a href="#u6765_u5C31_u6765_uFF01" class="headerlink" title="来就来！"></a>来就来！</h2><a id="more"></a>
+    <updated>2016-09-17T08:21:54.000Z</updated>
+    <content type="html"><![CDATA[<p>来啊，互相伤害啊！<br>来就来！</p>
+<hr>
+<a id="more"></a>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>来啊，互相伤害啊！  </p>
-<h2 id="u6765_u5C31_u6765_uFF01"><a href="#u6765_u5C31_u6765_uFF01" class="headerlink" title="来就来！"></a>来就来！</h2>]]>
+    <![CDATA[<p>来啊，互相伤害啊！<br>来就来！</p>
+<hr>]]>
     
     </summary>
+    
+      <category term="爱过" scheme="http://yoursite.com/tags/%E7%88%B1%E8%BF%87/"/>
     
   </entry>
   
