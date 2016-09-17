@@ -102,7 +102,7 @@
 <meta property="og:description" content="译者注：本人翻译功力有限，所以文中难免有翻译不准确的地方，凑合看吧，牛逼的话你看英文版的去，完事儿欢迎回来指正交流（^_^）。
 这篇文章是邀请Nic Raboy来写的，他是在Android， AngularJS， Ionic， Java， SQL和 Unity3D等多个领域都很有建树的应用开发者。Nic经常写一些关于Ionic和如何创建非常棒的hybrid应用的文章。
 先前我介绍过丑化你的Apac">
-<meta property="og:updated_time" content="2015-07-08T16:37:46.000Z">
+<meta property="og:updated_time" content="2016-09-17T07:47:45.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="压缩你的Ionic App源码【译】">
 <meta name="twitter:description" content="译者注：本人翻译功力有限，所以文中难免有翻译不准确的地方，凑合看吧，牛逼的话你看英文版的去，完事儿欢迎回来指正交流（^_^）。
@@ -319,10 +319,11 @@
         <p><em>译者注：本人翻译功力有限，所以文中难免有翻译不准确的地方，凑合看吧，牛逼的话你看<a href="http://ionicframework.com/blog/minifying-your-source-code/" target="_blank" rel="external">英文版</a>的去，完事儿欢迎回来指正交流（^_^）。</em></p>
 <p><em>这篇文章是邀请<a href="http://blog.nraboy.com/" target="_blank" rel="external">Nic Raboy</a>来写的，他是在Android， AngularJS， Ionic， Java， SQL和 Unity3D等多个领域都很有建树的应用开发者。Nic经常写一些关于Ionic和如何创建非常棒的hybrid应用的文章。</em></p>
 <p>先前我介绍过丑化你的Apache Cordova应用源码的重要性。如果你读过我<a href="/">之前</a> 的文章你就会知道，hybrid应用非常容易被反编译，所以混淆你的代码会给那些恶意用户增加不少难度。</p>
+<a id="more"></a>
 <p>我还写过一篇<a href="https://blog.nraboy.com/2014/12/use-grunt-lint-uglify-javascript-project/" target="_blank" rel="external">类似</a>的文章，介绍如何使用Grunt任务来丑化你的代码。然而，对于Apache Cordova项目来说，Grunt并不是最理想的解决方案，因为它在丑化代码的同时会产生很多错误。</p>
 <p>在这篇教程中，我们就来看看对于Apache Cordova项目，在构建之前如何有效的缩减代码(译者注：原文是lint and minify，但在这里实在不知道怎么翻译了%&gt;_&lt;%)。这篇教程同样适用于<a href="http://phonegap.com/" target="_blank" rel="external">Phonegap</a>和<a href="http://www.ionicframework.com/" target="_blank" rel="external">Ionic Framework</a>项目。</p>
 <p>我们就先从创建一个新的Apache Cordova的Android 和 iOS项目开始吧：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cordova create TestProject com.nraboy.testproject TestProject &#10;cd TestProject&#10;cordova platform add android&#10;cordova platform add ios</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cordova create TestProject com.nraboy.testproject TestProject&#10;cd TestProject&#10;cordova platform add android&#10;cordova platform add ios</span><br></pre></td></tr></table></figure>
 <p>注意，只有在Mac下才可以添加或构建ios平台。</p>
 <p>这篇教程会分解成两部分讲述：</p>
 <p>高亮化项目中的JavaScript错误<br>为了混淆而丑化代码<br>一旦你跟着这些步骤走下来，你会发现你的项目变得更好了(译者注：much better shape咋翻译丫%&gt;_&lt;%)。</p>
