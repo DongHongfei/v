@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2016-10-03T07:30:57.000Z</updated>
+  <updated>2016-10-03T07:30:54.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -13,36 +13,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title><![CDATA[给产品经理讲讲技术 - 服务端]]></title>
-    <link href="http://yoursite.com/some-knowledge-you-need-to-know-as-a-pm/3-server/"/>
-    <id>http://yoursite.com/some-knowledge-you-need-to-know-as-a-pm/3-server/</id>
-    <published>2016-10-03T07:12:00.000Z</published>
-    <updated>2016-10-03T07:30:57.000Z</updated>
-    <content type="html"><![CDATA[<p>😝<br><a id="more"></a></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>😝<br>]]>
-    
-    </summary>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[给产品经理讲讲技术 - 爬虫]]></title>
-    <link href="http://yoursite.com/some-knowledge-you-need-to-know-as-a-pm/4-reptile/"/>
-    <id>http://yoursite.com/some-knowledge-you-need-to-know-as-a-pm/4-reptile/</id>
-    <published>2016-10-03T07:12:00.000Z</published>
-    <updated>2016-10-03T07:30:56.000Z</updated>
-    <content type="html"><![CDATA[<p>😝<br><a id="more"></a></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>😝<br>]]>
-    
-    </summary>
-    
-  </entry>
   
   <entry>
     <title><![CDATA[给产品经理讲讲技术 - sql]]></title>
@@ -60,61 +30,16 @@
   </entry>
   
   <entry>
-    <title><![CDATA[给产品经理讲讲技术 - 前端]]></title>
-    <link href="http://yoursite.com/some-knowledge-you-need-to-know-as-a-pm/4-%E7%9A%84%E5%89%AF%E6%9C%AC/"/>
-    <id>http://yoursite.com/some-knowledge-you-need-to-know-as-a-pm/4-的副本/</id>
+    <title><![CDATA[给产品经理讲讲技术 - 服务端]]></title>
+    <link href="http://yoursite.com/some-knowledge-you-need-to-know-as-a-pm/3-server/"/>
+    <id>http://yoursite.com/some-knowledge-you-need-to-know-as-a-pm/3-server/</id>
     <published>2016-10-03T07:12:00.000Z</published>
-    <updated>2016-10-03T07:28:50.000Z</updated>
+    <updated>2016-10-03T07:30:57.000Z</updated>
     <content type="html"><![CDATA[<p>😝<br><a id="more"></a></p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>😝<br>]]>
     
-    </summary>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[给产品经理讲讲技术 - 前端]]></title>
-    <link href="http://yoursite.com/some-knowledge-you-need-to-know-as-a-pm/4-/"/>
-    <id>http://yoursite.com/some-knowledge-you-need-to-know-as-a-pm/4-/</id>
-    <published>2016-10-03T07:12:00.000Z</published>
-    <updated>2016-10-03T07:28:50.000Z</updated>
-    <content type="html"><![CDATA[<p>😝<br><a id="more"></a></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>😝<br>]]>
-    
-    </summary>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[给产品经理讲讲技术 - 前端]]></title>
-    <link href="http://yoursite.com/some-knowledge-you-need-to-know-as-a-pm/3-server%E7%9A%84%E5%89%AF%E6%9C%AC/"/>
-    <id>http://yoursite.com/some-knowledge-you-need-to-know-as-a-pm/3-server的副本/</id>
-    <published>2016-10-03T07:12:00.000Z</published>
-    <updated>2016-10-03T07:28:50.000Z</updated>
-    <content type="html"><![CDATA[<p>😝<br><a id="more"></a></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>😝<br>]]>
-    
-    </summary>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[给产品经理讲讲技术 - 前端]]></title>
-    <link href="http://yoursite.com/2016/some-knowledge-you-need-to-know-as-a-pm/front-end/"/>
-    <id>http://yoursite.com/2016/some-knowledge-you-need-to-know-as-a-pm/front-end/</id>
-    <published>2016-10-03T07:12:00.000Z</published>
-    <updated>2016-10-03T07:24:09.000Z</updated>
-    <content type="html"><![CDATA[<p>😝<br>front-end-some-knowledge-you-need-to-know-as-pm</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>😝<br>front-end-some-knowledge-you-need-to-know-as-pm</p>
-]]>
     </summary>
     
   </entry>
@@ -135,46 +60,16 @@
   </entry>
   
   <entry>
-    <title><![CDATA[给产品经理讲讲技术 - 前端]]></title>
-    <link href="http://yoursite.com/some-knowledge-you-need-to-know-as-a-pm/front-end/"/>
-    <id>http://yoursite.com/some-knowledge-you-need-to-know-as-a-pm/front-end/</id>
+    <title><![CDATA[给产品经理讲讲技术 - 爬虫]]></title>
+    <link href="http://yoursite.com/some-knowledge-you-need-to-know-as-a-pm/4-reptile/"/>
+    <id>http://yoursite.com/some-knowledge-you-need-to-know-as-a-pm/4-reptile/</id>
     <published>2016-10-03T07:12:00.000Z</published>
-    <updated>2016-10-03T07:28:50.000Z</updated>
+    <updated>2016-10-03T07:30:56.000Z</updated>
     <content type="html"><![CDATA[<p>😝<br><a id="more"></a></p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>😝<br>]]>
     
-    </summary>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[给产品经理讲讲技术 - 前端]]></title>
-    <link href="http://yoursite.com/some-knowledge-you-need-to-know-as-a-pm/1-front-end/"/>
-    <id>http://yoursite.com/some-knowledge-you-need-to-know-as-a-pm/1-front-end/</id>
-    <published>2016-10-03T07:12:00.000Z</published>
-    <updated>2016-10-03T07:28:50.000Z</updated>
-    <content type="html"><![CDATA[<p>😝<br><a id="more"></a></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>😝<br>]]>
-    
-    </summary>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[给产品经理讲讲技术 - 网络]]></title>
-    <link href="http://yoursite.com/some-knowledge-you-need-to-know-as-a-pm/2-network/"/>
-    <id>http://yoursite.com/some-knowledge-you-need-to-know-as-a-pm/2-network/</id>
-    <published>2016-10-03T07:06:00.000Z</published>
-    <updated>2016-10-03T07:12:06.000Z</updated>
-    <content type="html"><![CDATA[<p>😝</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>😝</p>
-]]>
     </summary>
     
   </entry>
@@ -9875,6 +9770,341 @@
     <summary type="html">
     <![CDATA[<p>占坑儿</p>
 ]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[为什么我想做产品经理]]></title>
+    <link href="http://yoursite.com/2015/why-do-i-want-to-be-pm/"/>
+    <id>http://yoursite.com/2015/why-do-i-want-to-be-pm/</id>
+    <published>2015-07-08T22:39:14.000Z</published>
+    <updated>2015-07-20T15:40:09.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p>到今天为止，以产品的身份参加工作满一个月了，小纪念下。  </p>
+</blockquote>
+<a id="more"></a>
+<h1 id="u9009_u62E9_u4EA7_u54C1_u7ECF_u7406_u7684_u7406_u7531"><a href="#u9009_u62E9_u4EA7_u54C1_u7ECF_u7406_u7684_u7406_u7531" class="headerlink" title="选择产品经理的理由"></a>选择产品经理的理由</h1><p>这个问题从我萌生了想做产品经理这个想法的第一天就一直不断的被问到，被自己，被朋友，被hr，被上司，之前一直没有很明确的答案，入职前hr以此为由在原本就已经被砍了大半的薪资上又砍掉了1K。当时自己的确不是很清楚，没有办法用自己的解释给产品经理一个定义，也不知道自己究竟是因为什么想要去做，当时裸辞仅仅只是凭着一个老师的一句话：想就去做。<br>这句话其实还是蛮坑的，因为太符合我的性格了：小事上优柔寡断，大事上从来不多做考虑，只需要一个想法。<br>所以，选择做产品，仅仅只是想做了而已。</p>
+<h1 id="u5BF9_u4EA7_u54C1_u7684_u8BA4_u8BC6"><a href="#u5BF9_u4EA7_u54C1_u7684_u8BA4_u8BC6" class="headerlink" title="对产品的认识"></a>对产品的认识</h1><p><strong>那么啥是产品呢？</strong></p>
+<p><strong>产品经理是干嘛的？</strong></p>
+<h1 id="u505A_u4E86_u4E00_u6BB5_u65F6_u95F4_u540E_u7684_u4F53_u4F1A"><a href="#u505A_u4E86_u4E00_u6BB5_u65F6_u95F4_u540E_u7684_u4F53_u4F1A" class="headerlink" title="做了一段时间后的体会"></a>做了一段时间后的体会</h1><p><strong>现在公司的产品开发流程</strong></p>
+<p><strong>产品经理应该具备的能力</strong></p>
+<p>妈蛋，写不下去了</p>
+<hr>
+<p>2015-07-18更新：<br>重读了苏杰的《人人都是产品经理》，发现第一章他的思路跟我好像呀，英雄所见略同啊~<br>假使哥们儿入行早点儿，现在是不是就没苏杰啥事儿了呢，哼哼~</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<blockquote>
+<p>到今天为止，以产品的身份参加工作满一个月了，小纪念下。  </p>
+</blockquote>]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[无节操没下限段子类社交 app 竞品分析]]></title>
+    <link href="http://yoursite.com/2015/wujiecao-meixiaxian-shejiao-app-jingpinfenxi/"/>
+    <id>http://yoursite.com/2015/wujiecao-meixiaxian-shejiao-app-jingpinfenxi/</id>
+    <published>2015-05-26T10:17:56.000Z</published>
+    <updated>2015-07-20T15:41:07.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p>   v1.2<br>   小学生·董宏飞<br>   2015年5月27日</p>
+</blockquote>
+<a id="more"></a>
+<p><strong>报告框架</strong><br><img src="/images/20150526/报告框架.png" alt="报告框架"></p>
+<h1 id="u5206_u6790_u4E2A_u5565"><a href="#u5206_u6790_u4E2A_u5565" class="headerlink" title="分析个啥"></a>分析个啥</h1><h2 id="u5E02_u573A_u72B6_u51B5"><a href="#u5E02_u573A_u72B6_u51B5" class="headerlink" title="市场状况"></a>市场状况</h2><p><img src="/images/20150526/iresearch-1.png" alt="艾瑞分析数据"></p>
+<p>根据艾瑞咨询移动端网民网络行为监测系统mUserTracker数据显示，2014年8月，社交服务整体在移动App端月度覆盖人数为2.0亿人，同比增长35.7%。在移动App端社交各个细分服务中，微博类App月度覆盖人数为1.2亿人，同比增长30.9%；社区类App月度覆盖人数为1.1亿人，同比增长89.9%。两大终端对比，社区类服务均表现出优势，尤其在移动App端，社区类App增长尤为显著。<br>艾瑞咨询分析认为，社区类App数量众多，种类丰富，用户活跃度与粘性较高。其中，以百度贴吧、豆瓣小组为代表的兴趣聚合类社区App，以辣妈帮等为代表的垂直应用类社区App，以糗事百科、掌中天涯为代表的论坛内容类社区App带动了社区类App在移动端的蓬勃发展。<br>糗事百科网站从2005年开始运营，逐渐发展壮大，糗友遍天下，“一入糗门深似海”，形成了自己独特的文化，而后内涵段子、冷笑话精选大批无节操应用开始涌入，急剧拉低了我国国民节操总值。</p>
+<h2 id="u7ADE_u54C1_u5BF9_u8C61"><a href="#u7ADE_u54C1_u5BF9_u8C61" class="headerlink" title="竞品对象"></a>竞品对象</h2><p>我简单的对平常大家比较受大家关注的无节操类应用做了个简单的统计。如图所示：<br><img src="/images/20150526/横向分析-1.png" alt="无节操 app 统计"></p>
+<p>我从上面列表中选取了三个app 进行分析，糗事百科、内涵段子、冷笑话精选。选择原因是这三者排名相对靠前，并且都是主打段子类的，功能上比较相近。</p>
+<h1 id="u770B_u770B_u4EBA_u5BB6"><a href="#u770B_u770B_u4EBA_u5BB6" class="headerlink" title="看看人家"></a>看看人家</h1><h2 id="u4F7F_u7528_u573A_u666F_u5206_u6790"><a href="#u4F7F_u7528_u573A_u666F_u5206_u6790" class="headerlink" title="使用场景分析"></a>使用场景分析</h2><p>这些应用的使用场景都是很类似的，先看一下TalkingData对糗百的上个季度的统计数据（其他两者类似）<br><img src="/images/20150526/糗事百科-覆盖率.png" alt="糗事百科-覆盖率"> </p>
+<p>我们会发现在每个低谷都是周末，也就是说对于大部分人来说周末的时候是不会去或者很少去浏览这类应用的。</p>
+<p>那么这些无节操应用的使用场景是什么呢？<br>窃以为，有这样几种情况：</p>
+<ol>
+<li>消磨碎片化的时间<br>乘坐公交地铁，等人，拉屎等等</li>
+<li>缓解工作生活压力<br>每天都要面对很多来自生活或者工作的压力，闲暇时间来看一些别人的糗事，或者好笑好玩儿的段子、图片，会让心情放松不少</li>
+<li>寂寞无聊<br>当我们没事做或者什么都不愿意做的时候，我们总是会选择一些不需要费心去思考，操作机械重复简单的事情，譬如懒在沙发上看电视，找人聊一些有的没得，看看别人八卦什么的</li>
+</ol>
+<h2 id="u6A2A_u5411_u5206_u6790"><a href="#u6A2A_u5411_u5206_u6790" class="headerlink" title="横向分析"></a>横向分析</h2><p><img src="/images/20150526/横向分析-2.png" alt="横向分析"></p>
+<h2 id="u7EB5_u5411_u5206_u6790"><a href="#u7EB5_u5411_u5206_u6790" class="headerlink" title="纵向分析"></a>纵向分析</h2><p>功能对比：</p>
+<p><img src="/images/20150526/功能对比.png" alt="功能对比"></p>
+<p>重点介绍几个功能：匿名投稿、审核、神回复、投票、社交</p>
+<h3 id="u6295_u7A3F"><a href="#u6295_u7A3F" class="headerlink" title="投稿"></a>投稿</h3><p>投稿这个功能三者都有，功能类似，在输入框里都给出了发贴得一些提示和要求，但是糗百有一个特别出彩的功能-匿名，如图所示：</p>
+<p><img src="/images/20150526/投稿-匿名.png" alt="投稿-匿名"></p>
+<p>匿名投稿的功能只有糗事百科才有，所以在很多糗百段子里会有“可耻的匿了”、“不匿”这种类似的话。糗百的初衷是和大家分享生活中遇到那些尴尬、倒霉、搞笑、口误、无奈、欲哭无泪的糗事儿，而“匿名”这个功能则可以更好的保护糗友身份的隐蔽性，让大家畅所欲言，毫无顾忌的和大家分享生活中遇到的糗事儿。</p>
+<p><strong>可借鉴之处：</strong><br>通过匿名方式保护用户隐私，或者像 QQ 群里之前推出的匿名聊天的方式，匿名时给出一个花名，都可以使用户在发表内容时更加的暴露出无节操的一面。</p>
+<h3 id="u5BA1_u6838"><a href="#u5BA1_u6838" class="headerlink" title="审核"></a>审核</h3><p>三款应用都是以用户自主投稿+审核内容为网站的运作方式（UGC），所以审核在三款应用中都是很重要的功能。审核的作用是把用户上传的段子展示给某几个“大婶”来看，“大婶”来进行判断好笑还是不好笑，如果得票好，这条笑话就会展示给所有人看，如果得票低，则为不通过，其他人无法再看到。每一个用户都可以通过“审核”功能成为“大婶”，去评价刚刚上传的段子是不是可以通过。</p>
+<p><img src="/images/20150526/糗事百科-审帖.png" alt="糗事百科-审帖"></p>
+<p><img src="/images/20150526/内涵段子-审帖.png" alt="内涵段子-审帖"></p>
+<p><img src="/images/20150526/冷笑话精选-审帖.png" alt="冷笑话精选-审帖"></p>
+<p>对比三款应用的审核界面，“糗事百科”和“内涵段子”采用的是相同的菜单布局界面，而“冷笑话精选”采用的是侧边栏菜单。在实际体验过程中，“内涵段子”有多次不小心点到了审核按钮，而后弹出审核界面，给人的感觉很不友好，而糗百单独把审核按钮放到了左上角的位置，和“发稿”位置相对，对于“审核”这样一个平常不会频繁点击，而进入后会持续操作的界面，放在左上角这样一个在屏幕上并不容易碰触到的位置是很合适的。<br>“冷笑话精选”在审核时点了审核操作的按钮，会有一个盖戳的动画效果，这一点感觉体验比较好，很有审核的 feel~</p>
+<p><strong>可借鉴之处：</strong><br>界面的弹出切换需要符合常理，符合用户的期望，当我点一个菜单进入某个界面的时候，平滑的切入就好了，而弹出会让人觉得很突兀，如果没有特别出彩的动画效果，还是用最普通方式解决就好。<br>在功能完善的前提下，如果能在大家都有的功能上做一些小的优化，譬如“冷笑话”的盖戳特效，更能提高用户体验。</p>
+<h3 id="u795E_u56DE_u590D"><a href="#u795E_u56DE_u590D" class="headerlink" title="神回复"></a>神回复</h3><p><img src="/images/20150526/神回复功能对比.png" alt="神回复功能对比">  </p>
+<p>“内涵段子”和“冷笑话精选”都有神回复的功能，即在首页的笑话列表页面会显示某条笑话下得到赞数最高的一条或两条回复，这种回复往往可以起到反转剧情的作用，有时候笑话本身还好，而配上神回复之后就会让人笑到泪奔~</p>
+<p><strong>可借鉴之处：</strong><br>神回复可以极大的调动用户评论的热情，提高用户之间的互动效果。<code>(必抄功能）</code></p>
+<h3 id="u6295_u7968"><a href="#u6295_u7968" class="headerlink" title="投票"></a>投票</h3><p><img src="/images/20150526/投票功能对比.png" alt="投票功能对比.png"> </p>
+<p>三者的投票的作用是让读者来给阅读到的笑话一个评价，好笑还是不好笑，作用弱于“审核”功能，无法决定该条段子是否显示通过，但是投票会决定该条段子的权重，得票高的段子会成为热门，展示给更多地人看。<br>“糗百”和“内涵段子”投票都包含好笑和不好笑两种情况，而冷笑话仅包含了一种，是不是“冷”，并且点了“冷”之后还会有如图的雪花飘落，冷笑话在这些交互体验方面做的蛮好的。<br>个人觉得功能上来说，“糗百”这种包含两种情况的评价比较客观一点，仅有一种情况计算逻辑比较简单，但是会有一些并不是很好笑的段子，仅仅符合某一部分人的口味，如果这部分人有一定数量就会成为热门，但对于大部分人来说，这个段子并不好笑，如果有了“不好笑”这个评价，热门类别下就更能符合大多数口味了。  </p>
+<h3 id="u793E_u4EA4"><a href="#u793E_u4EA4" class="headerlink" title="社交"></a>社交</h3><p>“糗百”和“内涵段子”都包含了社交元素，“冷笑话”在这方面做的比较差，用户之间的互动只能通过互相评论回复。<br>而“糗百”和“段子”则包含了附近的人、糗友秀、段友圈、社区等等更多社交相关的内容。<br>糗百的社交界面</p>
+<p><img src="/images/20150526/糗事百科-社交-1.png" alt="糗事百科-社交-1.png"> </p>
+<p><img src="/images/20150526/糗事百科-社交-2.png" alt="糗事百科-社交-2.png"> </p>
+<p><img src="/images/20150526/糗事百科-社交-3.png" alt="糗事百科-社交-3.png"> </p>
+<p>内涵段子的社交界面</p>
+<p><img src="/images/20150526/内涵段子-社交-1.png" alt="内涵段子-社交-1.png"> </p>
+<p>“糗百”由于资历较老，用户群庞大，在社交方面功能比“内涵段子”要丰富很多，糗友秀、附近、任意门，交朋友想咋交就咋交，不过感觉功能略有重复，并且和市面其他交友类应用几乎一样，作为一个非重度“糗友”暂时还感受不到这些功能带给自己的欣喜，在我第一开始看到这些功能的时候，我是拒绝的。。。交友方面的功能只能算是中规中矩吧，没有很出彩的地方。<br>“里屋”是一个类似论坛的地方，大家可以发表话题，在“树洞”还可以找人商量一些比较私密的事情，类似“无秘”的方式。</p>
+<h2 id="u5C0F_u7ED3"><a href="#u5C0F_u7ED3" class="headerlink" title="小结"></a>小结</h2><p>这三款无节操段子 app 虽然同样无节操，但还是各有自己的特点。</p>
+<p>糗事百科：内容更多偏向生活化的方向，大多是发生在自己身边的糗事儿，应用体验优于其余两者，功能更全面，社交方面做了更多的尝试。</p>
+<p>内涵段子：内容偏重一些有内涵的段子，神回复算是特色功能之一，一个段子笑两次。。。在社交方面功能较薄弱。</p>
+<p>冷笑话精选：凭借在微博等网络平台推广运营，成为非常具网络影响力和商业价值的自媒体品牌，内容多为精选冷笑话搞笑图片等，同样拥有大批无节操的神回复。</p>
+<h1 id="u603B_28zen_29_u7ED3_28me_29_u4E0B_28chao_29"><a href="#u603B_28zen_29_u7ED3_28me_29_u4E0B_28chao_29" class="headerlink" title="总(zen)结(me)下(chao)"></a>总(zen)结(me)下(chao)</h1><ul>
+<li>内容类型：因为需要帮助用户打发碎片化的时间，缓解生活压力，内容就一定要短小精悍，更无节操，更没下限，而全部采用大家这种用户投稿审核的方式对内容的质量上就不好把控，所以个人感觉可以增加社区编辑提供的内容板块，提供一些类似精选、猎奇方面的内容，和用户投稿内容并行。</li>
+<li>功能设计：让用户更好的参与互动是个大前提，借鉴大家优势，审核、投稿、神回复、分享，标配了，社交方面感觉可以增加类似 apple watch 里心跳的功能，更多的增加用户之间的互动。</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<blockquote>
+<p>   v1.2<br>   小学生·董宏飞<br>   2015年5月27日</p>
+</blockquote>]]>
+    
+    </summary>
+    
+      <category term="内涵段子" scheme="http://yoursite.com/tags/%E5%86%85%E6%B6%B5%E6%AE%B5%E5%AD%90/"/>
+    
+      <category term="冷笑话精选" scheme="http://yoursite.com/tags/%E5%86%B7%E7%AC%91%E8%AF%9D%E7%B2%BE%E9%80%89/"/>
+    
+      <category term="竞品分析" scheme="http://yoursite.com/tags/%E7%AB%9E%E5%93%81%E5%88%86%E6%9E%90/"/>
+    
+      <category term="糗事百科" scheme="http://yoursite.com/tags/%E7%B3%97%E4%BA%8B%E7%99%BE%E7%A7%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Ionic 集成 jpush(极光)推送之 IOS 篇]]></title>
+    <link href="http://yoursite.com/2015/Ionic-jpush-IOS/"/>
+    <id>http://yoursite.com/2015/Ionic-jpush-IOS/</id>
+    <published>2015-03-08T22:39:14.000Z</published>
+    <updated>2015-07-08T22:47:09.000Z</updated>
+    <content type="html"><![CDATA[<p>极光推送官方版的 phonegap 插件在<a href="https://github.com/jpush/jpush-phonegap-plugin" target="_blank" rel="external">这里</a>。<br>由于官方版插件 ios 版暂时没有打开通知的方法，所以在官方基础上修改了下，修改后的插件放在了<a href="https://github.com/DongHongfei/jpush-phonegap-plugin" target="_blank" rel="external">这里</a>，下面说明以修改后的插件为准。（感谢极光官方大神viper耐心帮助，同时也参考了下<a href="http://ionichina.com/user/lanceli" target="_blank" rel="external">@lanceli</a>大神的<a href="https://github.com/lanceli/cnodejs-ionic" target="_blank" rel="external">cnodejs-ionic</a>项目）</p>
+<p>极光账户设置部分可以参考小和尚的<a href="http://ionichina.com/topic/54f96e7b59a9bdef119234a1" target="_blank" rel="external">这篇</a>分享。</p>
+<p>下面主要说明项目代码部分修改。</p>
+<a id="more"></a>
+<h4 id="u65B0_u5EFA_u4E00_u4E2A_ionic_u9879_u76EE"><a href="#u65B0_u5EFA_u4E00_u4E2A_ionic_u9879_u76EE" class="headerlink" title="新建一个 ionic项目"></a>新建一个 ionic项目</h4><p><code>$ ionic start --id com.ionichina.ionicjpush ionic_jpush tabs</code></p>
+<p><em>注：修改 id 为自己应用的 Bundle identifier</em></p>
+<h4 id="u6DFB_u52A0_IOS__u5E73_u53F0"><a href="#u6DFB_u52A0_IOS__u5E73_u53F0" class="headerlink" title="添加 IOS 平台"></a>添加 IOS 平台</h4><p><code>$ cd ionic_jpush</code><br><code>$ ionic platform add ios</code></p>
+<h4 id="u5B89_u88C5_u63D2_u4EF6"><a href="#u5B89_u88C5_u63D2_u4EF6" class="headerlink" title="安装插件"></a>安装插件</h4><p><code>$ ionic plugin add https://github.com/DongHongfei/jpush-phonegap-plugin.git</code></p>
+<p><em>等待时间比较长，你也可以像小和尚<a href="http://ionichina.com/topic/54f96e7b59a9bdef119234a1" target="_blank" rel="external">文章</a>里介绍的先下载下来，再安装，但这个过程是跑不了的</em></p>
+<p><em>（接下来，蛋疼的事情开始了）</em></p>
+<h4 id="u4FEE_u6539_u914D_u7F6E"><a href="#u4FEE_u6539_u914D_u7F6E" class="headerlink" title="修改配置"></a>修改配置</h4><ul>
+<li>修改: <code>ionic_jpush\plugins\cn.jpush.phonegap.JPushPlugin\src\ios\PushConfig.plist</code><br>修改对应的APP_KEY和CHANNEL(渠道)为你自己申请的值，</li>
+</ul>
+<p><strong>注意</strong><br>确保有如下代码，不然后面 Xcode 运行会警告：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#60;key&#62;APS_FOR_PRODUCTION&#60;/key&#62;&#10;&#60;string&#62;0&#60;/string&#62;</span><br></pre></td></tr></table></figure>
+<h4 id="u5728_js__u4E2D_u6DFB_u52A0_u901A_u77E5_u5B9E_u73B0"><a href="#u5728_js__u4E2D_u6DFB_u52A0_u901A_u77E5_u5B9E_u73B0" class="headerlink" title="在 js 中添加通知实现"></a>在 js 中添加通知实现</h4><ul>
+<li>在 <code>app.js</code> 最后添加一个 push 工厂(参考了<a href="http://ionichina.com/user/lanceli" target="_blank" rel="external">@lanceli</a>大神的<a href="https://github.com/lanceli/cnodejs-ionic" target="_blank" rel="external">Ccnodejs-ionic</a>项目)</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.factory(&#39;Push&#39;, function() &#123;&#10;  var push;&#10;  return &#123;&#10;    setBadge: function(badge) &#123;&#10;      if (push) &#123;&#10;        console.log(&#39;jpush: set badge&#39;, badge);&#10;        plugins.jPushPlugin.setBadge(badge);&#10;      &#125;&#10;    &#125;,&#10;    setAlias: function(alias) &#123;&#10;      if (push) &#123;&#10;        console.log(&#39;jpush: set alias&#39;, alias);&#10;        plugins.jPushPlugin.setAlias(alias);&#10;      &#125;&#10;    &#125;,&#10;    check: function() &#123;&#10;      if (window.jpush &#38;&#38; push) &#123;&#10;        plugins.jPushPlugin.receiveNotificationIniOSCallback(window.jpush);&#10;        window.jpush = null;&#10;      &#125;&#10;    &#125;,&#10;    init: function(notificationCallback) &#123;&#10;      console.log(&#39;jpush: start init-----------------------&#39;);&#10;      push = window.plugins &#38;&#38; window.plugins.jPushPlugin;&#10;      if (push) &#123;&#10;        console.log(&#39;jpush: init&#39;);&#10;        plugins.jPushPlugin.init();&#10;        plugins.jPushPlugin.setDebugMode(true);&#10;        plugins.jPushPlugin.openNotificationInAndroidCallback = notificationCallback;&#10;        plugins.jPushPlugin.receiveNotificationIniOSCallback = notificationCallback;&#10;      &#125;&#10;    &#125;&#10;  &#125;;&#10;&#125;);</span><br></pre></td></tr></table></figure>
+<p>在 app.js 的 run 函数里定义通知回调函数</p>
+<p><em>记得在 run 函数里引用 Push 先</em></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"> // push notification callback&#10; var notificationCallback = function(data) &#123;&#10;   console.log(&#39;received data :&#39; + data);&#10;   var notification = angular.fromJson(data);&#10;   //app &#26159;&#21542;&#22788;&#20110;&#27491;&#22312;&#36816;&#34892;&#29366;&#24577;&#10;   var isActive = notification.notification;&#10;&#10;   // here add your code&#10;&#10;&#10;   //ios&#10;   if (ionic.Platform.isIOS()) &#123;&#10;     window.alert(notification);&#10;&#10;   &#125; else &#123;&#10;//&#38750;ios(android)&#10;   &#125;&#10; &#125;;</span><br></pre></td></tr></table></figure>
+<p>在  $ionicPlatform.ready 里进行初始化</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">//&#21021;&#22987;&#21270;&#10;Push.init(notificationCallback);&#10;//&#35774;&#32622;&#21035;&#21517;&#10;Push.setAlias(&#34;12345678&#34;);</span><br></pre></td></tr></table></figure>
+<h4 id="u7F16_u8BD1_IOS__u9879_u76EE"><a href="#u7F16_u8BD1_IOS__u9879_u76EE" class="headerlink" title="编译 IOS 项目"></a>编译 IOS 项目</h4><p><code>$ ionic build ios</code></p>
+<p><em>（接下来，更蛋疼的事情开始了）</em></p>
+<h4 id="u4FEE_u6539_u914D_u7F6E_IOS__u9879_u76EE_uFF08_u4E0D_u8981_u95EE_u6211_u4E3A_u5565_uFF09"><a href="#u4FEE_u6539_u914D_u7F6E_IOS__u9879_u76EE_uFF08_u4E0D_u8981_u95EE_u6211_u4E3A_u5565_uFF09" class="headerlink" title="修改配置 IOS 项目（不要问我为啥）"></a>修改配置 IOS 项目（不要问我为啥）</h4><ul>
+<li>修改 AppDelegate.m，<br>添加</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#import &#34;APService.h&#34;&#10;#import &#34;JPushPlugin.h&#34;  //viper</span><br></pre></td></tr></table></figure>
+<p><code>didFinishLaunchingWithOptions</code>函数中添加</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#10;    // Required&#10;#if __IPHONE_OS_VERSION_MAX_ALLOWED &#62; __IPHONE_7_1&#10;    if ([[UIDevice currentDevice].systemVersion floatValue] &#62;= 8.0) &#123;&#10;        //&#21487;&#20197;&#28155;&#21152;&#33258;&#23450;&#20041;categories&#10;        [APService registerForRemoteNotificationTypes:(UIUserNotificationTypeBadge |&#10;                                                       UIUserNotificationTypeSound |&#10;                                                       UIUserNotificationTypeAlert)&#10;                                           categories:nil];&#10;    &#125; else &#123;&#10;        //categories &#24517;&#39035;&#20026;nil&#10;        [APService registerForRemoteNotificationTypes:(UIRemoteNotificationTypeBadge |&#10;                                                       UIRemoteNotificationTypeSound |&#10;                                                       UIRemoteNotificationTypeAlert)&#10;                                           categories:nil];&#10;    &#125;&#10;#else&#10;    //categories &#24517;&#39035;&#20026;nil&#10;    [APService registerForRemoteNotificationTypes:(UIRemoteNotificationTypeBadge |&#10;                                                   UIRemoteNotificationTypeSound |&#10;                                                   UIRemoteNotificationTypeAlert)&#10;                                       categories:nil];&#10;#endif&#10;    // Required&#10;    [APService setupWithOption:launchOptions];</span><br></pre></td></tr></table></figure>
+<p><code>didRegisterForRemoteNotificationsWithDeviceToken</code>中添加</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">// Required&#10;[APService registerDeviceToken:deviceToken];&#10;[APService setDebugMode];</span><br></pre></td></tr></table></figure>
+<p>添加函数</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo &#123;&#10;    // Required&#10;    [APService handleRemoteNotification:userInfo];&#10;    BOOL isActive;&#10;    if (application.applicationState == UIApplicationStateActive) &#123;&#10;        isActive = TRUE;&#10;    &#125; else &#123;&#10;        isActive = FALSE;&#10;    &#125;&#10;    NSDictionary *dict=[[NSMutableDictionary alloc] initWithDictionary:userInfo];&#10;    &#10;    [dict setValue: [[NSNumber alloc] initWithBool:isActive] forKey:@&#34;isActive&#34; ];&#10;    &#10;    [[NSNotificationCenter defaultCenter] postNotificationName:kJPushPlugReceiveNotificaiton&#10;                                                        object:dict] ;//viper&#10;    &#10;    &#10;&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="OC__u4EE3_u7801_u7B97_u662F_u5B8C_u4E8B_u513F_uFF0C_u7136_u540E_u5C31_u662F_u914D_u7F6E"><a href="#OC__u4EE3_u7801_u7B97_u662F_u5B8C_u4E8B_u513F_uFF0C_u7136_u540E_u5C31_u662F_u914D_u7F6E" class="headerlink" title="OC 代码算是完事儿，然后就是配置"></a>OC 代码算是完事儿，然后就是配置</h4><ul>
+<li>修改项目 Capabilities，打开 Background Modes，勾选最后一项Remote notications</li>
+<li>设置证书，这个就不教了，网上一大堆</li>
+<li>Xcode 这边就算配置完了</li>
+</ul>
+<p>接下就是设置一些Xcode常规操作，编译运行，从极光官方控制台发送一条通知，然后查看Xcode控制台，应该就会有推送的通知数据打印了。<br>下面的事儿你自己应该搞的定。</p>
+<p>示例代码我放在了<a href="https://github.com/DongHongfei/ionic_jpush" target="_blank" rel="external">这里</a>。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>极光推送官方版的 phonegap 插件在<a href="https://github.com/jpush/jpush-phonegap-plugin">这里</a>。<br>由于官方版插件 ios 版暂时没有打开通知的方法，所以在官方基础上修改了下，修改后的插件放在了<a href="https://github.com/DongHongfei/jpush-phonegap-plugin">这里</a>，下面说明以修改后的插件为准。（感谢极光官方大神viper耐心帮助，同时也参考了下<a href="http://ionichina.com/user/lanceli">@lanceli</a>大神的<a href="https://github.com/lanceli/cnodejs-ionic">cnodejs-ionic</a>项目）</p>
+<p>极光账户设置部分可以参考小和尚的<a href="http://ionichina.com/topic/54f96e7b59a9bdef119234a1">这篇</a>分享。</p>
+<p>下面主要说明项目代码部分修改。</p>]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[搬家了]]></title>
+    <link href="http://yoursite.com/2015/move-on/"/>
+    <id>http://yoursite.com/2015/move-on/</id>
+    <published>2015-03-08T15:11:49.000Z</published>
+    <updated>2015-07-08T16:37:46.000Z</updated>
+    <content type="html"><![CDATA[<p>搬家了，原来用的 wordpress，一点都不酷，内容也都是东朝西摘的，一点都不酷，所以这把搞个酷酷的~<br>安装参考:<a href="http://cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/" target="_blank" rel="external">http://cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>搬家了，原来用的 wordpress，一点都不酷，内容也都是东朝西摘的，一点都不酷，所以这把搞个酷酷的~<br>安装参考:<a href="http://cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/" targe]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[解决 ionic 中的 CORS 问题【译】]]></title>
+    <link href="http://yoursite.com/2015/handling-cors-issues-in-ionic/"/>
+    <id>http://yoursite.com/2015/handling-cors-issues-in-ionic/</id>
+    <published>2015-02-28T12:17:56.000Z</published>
+    <updated>2015-07-08T16:37:46.000Z</updated>
+    <content type="html"><![CDATA[<p><em>译者注：本人翻译功力有限，所以文中难免有翻译不准确的地方，凑合看吧，牛逼的话你看<a href="http://ionicframework.com/blog/handling-cors-issues-in-ionic/" target="_blank" rel="external">英文版</a>的去，完事儿欢迎回来指正交流（^_^）</em></p>
+<p>如果你通过 <code>ionic serve</code> 或者 <code>ionic run</code> 命令使用或 live reload 或者访问过外部 API 结点，那么你肯定遇到过 CORS 问题，譬如下面这样：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">XMLHttpRequest cannot load http://api.ionic.com/endpoint.&#10;No &#39;Access-Control-Allow-Origin&#39; header is present on the requested resource.&#10;Origin &#39;http://localhost:8100&#39; is therefore not allowed access.</span><br></pre></td></tr></table></figure>
+<p>那么问题来了，什么是 CORS 呢？又是什么导致了这个问题嘞？<br><a id="more"></a></p>
+<h1 id="u4EC0_u4E48_u662F_CORS_uFF1F"><a href="#u4EC0_u4E48_u662F_CORS_uFF1F" class="headerlink" title="什么是 CORS？"></a>什么是 CORS？</h1><p>CORS=Cross origin resource sharing(跨域资源共享)</p>
+<p><code>origin</code> 就是你现在正在看的主站，你现在访问的是 <code>http://ionicframework.com/blog/handling-cors-issues-in-ionic</code>，那么 <code>origin</code> 就是 <code>ionicframework.com</code>。</p>
+<p>如果说我们向 <code>http://cors.api.com/api</code> 发起一个 AJAX 请求，那么 host origin 会由被浏览器自动列入CORS请求的 Orgin header 指定好了<em>（原文：Say we send an AJAX request to <a href="http://cors.api.com/api" target="_blank" rel="external">http://cors.api.com/api</a>, your host origin will be specified by the Origin header that is automatically included for CORS requests by the browser. ）</em> 由于 <code>ionicframework.com</code> 和 <code>api.com</code> 的主机并不匹配，所以在一个HTTP OPTIONS请求报头的 form 中我们所有从 <code>ionicframework.com</code> 发起的访问服务器资源的请求必修得到服务器的授权。</p>
+<p>假如上面的请求出现错误(不被服务器允许)，那么我们是无法从服务器访问到(<code>api.com</code>上的)资源的。</p>
+<p>让我们来看一下当你通过<code>ionic serve</code>， <code>ionic run</code>，<code>ionic run -l</code>来运行 app 的时候 <code>origin</code> 会是什么。</p>
+<h1 id="u6D4F_u89C8_u5668_u4E2D_u7684_u8FD0_u884C"><a href="#u6D4F_u89C8_u5668_u4E2D_u7684_u8FD0_u884C" class="headerlink" title="浏览器中的运行"></a>浏览器中的运行</h1><p>当你运行 <code>ionic serve</code> 时发生了什么呢？</p>
+<ul>
+<li>启动了一个本地 web 服务器</li>
+<li>你的浏览器打开并定位到本地服务器地址</li>
+</ul>
+<p>这让你看着你的应用加载到你电脑上一个浏览器里，地址是：<code>http://localhost:8100</code>（如果你选择了 localhost的话）。</p>
+<p>你的 <code>origin</code> 就是 <code>localhost:8100</code>。</p>
+<p>任何的发送到其他不是 <code>localhost:8100</code> 主机上的 AJAX 请求都会把<code>localhost:8100</code>作为他的 origin，这就会导致必须要经过一个 CORS 预检来看是否可以访问（非本机的）服务器资源。</p>
+<h1 id="u8BBE_u5907_u4E0A_u7684_u8FD0_u884C"><a href="#u8BBE_u5907_u4E0A_u7684_u8FD0_u884C" class="headerlink" title="设备上的运行"></a>设备上的运行</h1><p>当你运行 <code>ionic run</code> 时发生了什么呢？</p>
+<ul>
+<li>app 所有的文件被拷贝到设备（或者模拟器）上。</li>
+<li>app 运行起来，触发手机/模拟器上的浏览器访问已经被拷贝上去的文件，比如：<br><code>file://some/path/www/index.html</code>。</li>
+</ul>
+<p>因为你正在运行的 URI 是 <code>file://</code>，所以你的 <code>origin</code> 将不会存在，所以任何向外的请求都不再需要 CORS 请求。</p>
+<h1 id="u5728_u8BBE_u5907_u4F7F_u7528_livereload__u8FD0_u884C"><a href="#u5728_u8BBE_u5907_u4F7F_u7528_livereload__u8FD0_u884C" class="headerlink" title="在设备使用 livereload 运行"></a>在设备使用 livereload 运行</h1><p>当你运行 <code>ionic run -l</code>时又发生了什么呢？</p>
+<ul>
+<li>启动了一个本地服务器</li>
+<li>app 运行起来，触发手机/模拟器上的一个浏览器通过<code>http://192.168.1.1:8100</code>来运行文件(你的 本地 ip 可能是其他的)。</li>
+</ul>
+<p>你的 <code>origin</code> 就会是 <code>192.168.1.1:8100</code>。</p>
+<p>任何一个发送到不是<code>192.168.1.1:8100</code>的服务器上的 AJAX 请求都会需要进行 CORS 预检请求来看是否可以访问到该服务器上的资源。</p>
+<h1 id="u5728_ionic__u4E2D_u89E3_u51B3_CORS__u95EE_u9898"><a href="#u5728_ionic__u4E2D_u89E3_u51B3_CORS__u95EE_u9898" class="headerlink" title="在 ionic 中解决 CORS 问题"></a>在 ionic 中解决 CORS 问题</h1><p>CORS 问题只有在我们通过 <code>ionic serve</code> 或者 <code>ionic run -l</code> 来运行或测试应用的时候才会遇到。</p>
+<p>解决这个问题有两个办法：第一个，也是比较简单的一个，就是在你的 API 服务器端允许所有的 origin，然而我们并不能控制我们访问的所有的结点。我们需要的是一个不指定<code>origin</code>的请求。</p>
+<p>我们可以通过使用代理服务器来解决这个问题。我们来看看 Ionic CLI 是怎样提供了一个易配置的代理服务器的。</p>
+<h1 id="Ionic_CLI_u4EE3_u7406_u670D_u52A1_u5668"><a href="#Ionic_CLI_u4EE3_u7406_u670D_u52A1_u5668" class="headerlink" title="Ionic CLI代理服务器"></a>Ionic CLI代理服务器</h1><p>关于代理的快速定义：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#22312;&#35745;&#31639;&#26426;&#32593;&#32476;&#20013;&#65292;&#20195;&#29702;&#26381;&#21153;&#22120;&#23601;&#26159;&#19968;&#20010;&#26381;&#21153;&#22120;&#65288;&#35745;&#31639;&#26426;&#31995;&#32479;&#25110;&#32773;&#24212;&#29992;&#31243;&#24207;&#65289;&#65292;&#26159;&#23458;&#25143;&#31471;&#21457;&#36215;&#30340;&#35831;&#27714;&#20174;&#20854;&#20182;&#26381;&#21153;&#22120;&#23547;&#27714;&#36164;&#28304;&#30340;&#20013;&#38388;&#26725;&#26753;&#12290;</span><br></pre></td></tr></table></figure>
+<p><em>原文：In computer networks, a proxy server is a server (a computer system or an application) that acts as an intermediary for requests from clients seeking resources from other servers.</em></p>
+<p>我们为了避开 CORS 问题需要做的就是有一个代理服务器，可以接收我们的请求，想 API 结点发出一个新的请求，接收结点响应，之后反馈给我们的应用，从而避开 CORS 问题。</p>
+<p>Ionic CLI 就有给你提供一个代理服务器从而避开所有可能会遇到的 CORS 问题的能力。</p>
+<p>由于代理服务器向你的目标主机发起了一个新的请求，所以就不会再有 <code>origin</code>，也就不再需要 CORS 了。要注意，在浏览器增加了 Origin header 是很重要的。</p>
+<h1 id="u8BBE_u7F6E_u4EE3_u7406_u670D_u52A1_u5668"><a href="#u8BBE_u7F6E_u4EE3_u7406_u670D_u52A1_u5668" class="headerlink" title="设置代理服务器"></a>设置代理服务器</h1><p><em>注意，这些设置只有通过<code>ionic serve</code> 和 <code>ionic run -l</code> 运行应用才需要</em></p>
+<p>首先我们需要在 <code>ionic.project</code>文件中设置我们的代理，这会告诉我们的 Ionic 本地服务器监听这些地址，然后发送这些请求到我们的目标地址上。</p>
+<p>在我们的应用中，当运行 <code>serve</code> 或 <code>run -l</code> 时候，我们需要把要访问的结点地址替换成代理服务器的地址。</p>
+<p>使用gulp任务的 replace 模块来转换出口地址会简单一点。</p>
+<p>建议的方法是设置一个 Angular Constant 来定位到我们试图代理的 API。</p>
+<p>这就是我们下面要采用的方法。我们会同时设置一个 Angular Service 来从 API结点 获取数据。</p>
+<h1 id="u8BBE_u7F6E_u4EE3_u7406_u8DEF_u5F84"><a href="#u8BBE_u7F6E_u4EE3_u7406_u8DEF_u5F84" class="headerlink" title="设置代理路径"></a>设置代理路径</h1><p>比如说我们想要访问 <code>http://cors.api.com/api</code>，但并不允许我们来自 <code>localhost</code>的 origin。</p>
+<p>代理的设置包括两件事儿：在你本地 Ionic 服务器需要访问的 <code>path</code>，最终需要访问API的 <code>proxyUrl</code>。</p>
+<p>在你的 <code>ionic.project</code> 中像这样设置：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;&#10;  &#34;name&#34;: &#34;proxy-example&#34;,&#10;  &#34;app_id&#34;: &#34;&#34;,&#10;  &#34;proxies&#34;: [&#10;    &#123;&#10;      &#34;path&#34;: &#34;/api&#34;,&#10;      &#34;proxyUrl&#34;: &#34;http://cors.api.com/api&#34;&#10;    &#125;&#10;  ]&#10;&#125;</span><br></pre></td></tr></table></figure>
+<p>通过<code>ionic serve</code>启动你的服务器。</p>
+<p>像我们上面指定的这样，当你访问 Ionic 服务器地址 <code>http://localhost:8100/api</code> 的时候，它会以你的名义访问 <code>http://cors.api.com/api</code>。</p>
+<p>这样，就不需要 CORS 了。</p>
+<h1 id="u8BBE_u7F6E_Angular_Constant"><a href="#u8BBE_u7F6E_Angular_Constant" class="headerlink" title="设置 Angular Constant"></a>设置 Angular Constant</h1><p>把你的 API结点设置成 Angular Constants是非常简单的一件事儿。</p>
+<p>下面我们就来把API结点指定成为我们的代理 URL。</p>
+<p>之后(发布时候)我们会把正式的地址作为 constant。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">angular.module(&#39;starter&#39;, [&#39;ionic&#39;, &#39;starter.controllers&#39;, &#39;starter.services&#39;])&#10;.constant(&#39;ApiEndpoint&#39;, &#123;&#10;  url: &#39;http://localhost:8100/api&#39;&#10;&#125;)&#10;// For the real endpoint, we&#39;d use this&#10;// .constant(&#39;ApiEndpoint&#39;, &#123;&#10;//  url: &#39;http://cors.api.com/api&#39;&#10;// &#125;)</span><br></pre></td></tr></table></figure>
+<p>设置好之后你就能像下面这样在应用中引入<code>ApiEndpoint</code>依赖，随意调用这个constant了。</p>
+<h1 id="u8BBE_u7F6EAngular_Service"><a href="#u8BBE_u7F6EAngular_Service" class="headerlink" title="设置Angular Service"></a>设置Angular Service</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">angular.module(&#39;starter.services&#39;, [])&#10;&#10;//NOTE: We are including the constant `ApiEndpoint` to be used here.&#10;.factory(&#39;Api&#39;, function($http, ApiEndpoint) &#123;&#10;  console.log(&#39;ApiEndpoint&#39;, ApiEndpoint)&#10;&#10;  var getApiData = function() &#123;&#10;    return $http.get(ApiEndpoint.url + &#39;/tasks&#39;)&#10;      .then(function(data) &#123;&#10;        console.log(&#39;Got some data: &#39;, data);&#10;        return data;&#10;      &#125;);&#10;  &#125;;&#10;&#10;  return &#123;&#10;    getApiData: getApiData&#10;  &#125;;&#10;&#125;)</span><br></pre></td></tr></table></figure>
+<h1 id="u901A_u8FC7_Gulp__u81EA_u52A8_u8F6C_u6362_u5730_u5740"><a href="#u901A_u8FC7_Gulp__u81EA_u52A8_u8F6C_u6362_u5730_u5740" class="headerlink" title="通过 Gulp 自动转换地址"></a>通过 Gulp 自动转换地址</h1><p>这个过程中，我们需要修改<code>gulpfile.js</code>来添加两个任务：添加代理和移除代理。</p>
+<p>首先安装<code>replace</code>模块 - <code>npm install --save replace</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">// `npm install --save replace`&#10;var replace = require(&#39;replace&#39;);&#10;var replaceFiles = [&#39;./www/js/app.js&#39;];&#10;&#10;gulp.task(&#39;add-proxy&#39;, function() &#123;&#10;  return replace(&#123;&#10;    regex: &#34;http://cors.api.com/api&#34;,&#10;    replacement: &#34;http://localhost:8100/api&#34;,&#10;    paths: replaceFiles,&#10;    recursive: false,&#10;    silent: false,&#10;  &#125;);&#10;&#125;)&#10;&#10;gulp.task(&#39;remove-proxy&#39;, function() &#123;&#10;  return replace(&#123;&#10;    regex: &#34;http://localhost:8100/api&#34;,&#10;    replacement: &#34;http://cors.api.com/api&#34;,&#10;    paths: replaceFiles,&#10;    recursive: false,&#10;    silent: false,&#10;  &#125;);&#10;&#125;)</span><br></pre></td></tr></table></figure>
+<h1 id="u7ED3_u8BED"><a href="#u7ED3_u8BED" class="headerlink" title="结语"></a>结语</h1><p>本教程向你展示了一个解决通过<code>ionic serve</code>或<code>ionic run -l</code>命令运行应用时候遇到的 CORS 问题的方法。</p>
+<p>我们知道在<code>ionic serve</code>和<code>ionic run -l</code>之间转换 API 结点地址的时候可能会是个麻烦，比较建议的方法是启动一个 gulp 进程。</p>
+<p>解决 CORS 问题最简单的方法是让 API 提供者允许所有的 hosts，然后这事儿有点儿不太现实。</p>
+<p>使用 Angular constant 和 replace 模块可以给我们一个避开 CORS 的折中的办法。</p>
+<p>如果你想看看完整的例子，可以看看这个<a href="http://github.com/driftyco/ionic-proxy-example" target="_blank" rel="external">示例项目</a>。</p>
+<p>这就是你需要访问一个有 CORS 限制的 API 服务器时候需要了解的所有事儿了。</p>
+<p>如果你还有什么疑问、问题或者想法，请在下面评论，或者在 <a href="https://twitter.com/IonicChina" target="_blank" rel="external">twitter</a> 或 <a href="https://github.com/IonicChina" target="_blank" rel="external">github</a> 上联系我们。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><em>译者注：本人翻译功力有限，所以文中难免有翻译不准确的地方，凑合看吧，牛逼的话你看<a href="http://ionicframework.com/blog/handling-cors-issues-in-ionic/">英文版</a>的去，完事儿欢迎回来指正交流（^_^）</em></p>
+<p>如果你通过 <code>ionic serve</code> 或者 <code>ionic run</code> 命令使用或 live reload 或者访问过外部 API 结点，那么你肯定遇到过 CORS 问题，譬如下面这样：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">XMLHttpRequest cannot load http://api.ionic.com/endpoint.&#10;No &#39;Access-Control-Allow-Origin&#39; header is present on the requested resource.&#10;Origin &#39;http://localhost:8100&#39; is therefore not allowed access.</span><br></pre></td></tr></table></figure>
+<p>那么问题来了，什么是 CORS 呢？又是什么导致了这个问题嘞？<br>]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Ionic Framework 操作说明书]]></title>
+    <link href="http://yoursite.com/2015/The%20Ionic%20Framework%20Cheatsheet/"/>
+    <id>http://yoursite.com/2015/The Ionic Framework Cheatsheet/</id>
+    <published>2015-02-26T13:10:45.000Z</published>
+    <updated>2015-07-08T16:37:46.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="Ionic_Framework__u64CD_u4F5C_u8BF4_u660E_u4E66"><a href="#Ionic_Framework__u64CD_u4F5C_u8BF4_u660E_u4E66" class="headerlink" title="Ionic Framework 操作说明书"></a>Ionic Framework 操作说明书</h2><p>如果你用了 Ionic Framework 一段时间之后你会发现有好多经常重复用到的命令行语句。有时候经常会突然用到一个特殊的标记或者选项，所以我做了个小抄放在手边。这样在开发我的 app 的时候就能把注意力集中在编程上，不用时不时的去搜索一个特殊的命令了。</p>
+<p>另外这个对初学者来说太方便了，你会发现分分钟搞出来一个很棒的 Ionic App。你往下看看，爽死你~如果你觉得还有哪儿需要添加什么东西，欢迎给我留言(译者注：在 Ionichina 社区讨论也可以的哦~)。</p>
+<a id="more"></a>
+<p>下面这张图就是 Ionic Framework 操作说明书了，送给所有的初学者，懒蛋和所有喜欢我的人~</p>
+<p><img src="http://7vzo2z.com1.z0.glb.clouddn.com/FiwlXYxEha6sdME06DdQGcvc62TM" alt="ionic-cheatsheet.png"></p>
+<p>来源：<a href="http://devdactic.com/ionic-cheatsheet/" target="_blank" rel="external">The Ionic Framework Cheatsheet</a></p>
+<p><em>译者注：原文是Cheatsheet，我这里翻译成说明书，如果不对或者有更好的解释，请指正。</em></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="Ionic_Framework__u64CD_u4F5C_u8BF4_u660E_u4E66"><a href="#Ionic_Framework__u64CD_u4F5C_u8BF4_u660E_u4E66" class="headerlink" title="Ionic Framework 操作说明书"></a>Ionic Framework 操作说明书</h2><p>如果你用了 Ionic Framework 一段时间之后你会发现有好多经常重复用到的命令行语句。有时候经常会突然用到一个特殊的标记或者选项，所以我做了个小抄放在手边。这样在开发我的 app 的时候就能把注意力集中在编程上，不用时不时的去搜索一个特殊的命令了。</p>
+<p>另外这个对初学者来说太方便了，你会发现分分钟搞出来一个很棒的 Ionic App。你往下看看，爽死你~如果你觉得还有哪儿需要添加什么东西，欢迎给我留言(译者注：在 Ionichina 社区讨论也可以的哦~)。</p>]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[平淡的一天(4)]]></title>
+    <link href="http://yoursite.com/2015/dull-day-4/"/>
+    <id>http://yoursite.com/2015/dull-day-4/</id>
+    <published>2015-02-17T13:10:59.000Z</published>
+    <updated>2015-07-08T16:37:46.000Z</updated>
+    <content type="html"><![CDATA[<p>·霍营地铁站台·</p>
+<p>一个碎花裙姑娘眼含笑意盯着面前这个满脸疲惫的男孩儿亢奋的滔滔不绝。</p>
+<p>“住这边真的还蛮好的，离地铁站走路只要5分钟，并且隔两趟就回有一趟空车，一趟车隔两分钟，所以稍等一会儿就可以保证可以坐到有座的车！”</p>
+<p>“为啥会空车？”<br><a id="more"></a><br>“这里是13号线中间的位置，列车到了这儿上一站要清车回库，然后再开出来，这儿相当于始发站了。”</p>
+<p>“哦…”</p>
+<p>“你累不累？你来之前我们已经唱了一下午了，结果晚上吃完饭他们说生日要嗨皮嗨皮，非要再去唱通宵，这又折腾一宿。”</p>
+<p>“没事儿啊，好久没这么疯了，挺好玩儿的！”</p>
+<p>“嗯，饿么？这会儿刚6点，有点儿太早了，刚才路上那几家早餐店都没开门儿，不然可以一起喝点儿粥的。”</p>
+<p>“不用，你们买了那么多吃的，这一宿零食一直没断，哈哈”</p>
+<p>男孩儿环顾了下空旷的站台，用手挠了挠后脑勺，</p>
+<p>“嗯，那个，这边挺方便的，交通啥的，你…要不要考虑…搬过来？我正好有个朋友，然后正好那边只有她自己住…”</p>
+<p>“看，车来了！”</p>
+<p>“……”</p>
+<p>“哈哈哈…”</p>
+<p>车站喇叭：</p>
+<p>“…列车将要进站，请注意安全…”</p>
+<p>·车上·</p>
+<p>还在思索为啥前面人为啥没按套路跌倒的违力学问题的我，瞟向站台的目光突然被一个碎花裙姑娘给拽住了，</p>
+<p>姑姑，不是，那个姑娘！！！</p>
+<p>我靠，穿越了么。。。</p>
+<p>那双眼睛，一定是她！</p>
+<p>虽然姑娘摘掉了口罩，换了身衣服，衣服！！！我靠，衣服都换了，真穿越了么！！！</p>
+<p>这个时候我感觉姑娘飘来的爱意突然变得同样惊恐！</p>
+<p>难道，我是。。。过儿？？？！！！</p>
+<p>·霍营地铁站台·</p>
+<p>“车来了，车来了，呀，车上还真没人啊！”</p>
+<p>“我都说了，隔两趟就会有一辆空车的。。。你真可以考虑下。。。”</p>
+<p>姑娘眼中透过一丝狡黠，“不对，你看，那儿明明有个人的！”</p>
+<p>“哪儿？啊，那个。。。那个可能是地铁工作人员吧。。。”</p>
+<p>“哈哈~”</p>
+<p>姑娘看着被自己问的有点儿结巴的男孩儿有些得意。</p>
+<p>看着缓缓驶来的列车，姑娘突然用力抓住了男孩儿的胳膊。</p>
+<p>“为什么。。。为什么那个人明明只有自己一个人在车上，可他站得姿势看上去好像很多人在挤他一样！！？？？”</p>
+<p>……</p>
+<p>(完)</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>·霍营地铁站台·</p>
+<p>一个碎花裙姑娘眼含笑意盯着面前这个满脸疲惫的男孩儿亢奋的滔滔不绝。</p>
+<p>“住这边真的还蛮好的，离地铁站走路只要5分钟，并且隔两趟就回有一趟空车，一趟车隔两分钟，所以稍等一会儿就可以保证可以坐到有座的车！”</p>
+<p>“为啥会空车？”<br>]]>
+    
     </summary>
     
   </entry>
