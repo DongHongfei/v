@@ -2,6 +2,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
   
 
 
@@ -9,8 +18,11 @@
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
 <meta name="theme-color" content="#222">
+
+
+
 
 
 
@@ -38,10 +50,6 @@
 
 
 
-  
-  
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
-
 
 
 
@@ -50,46 +58,25 @@
 
 <link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+<link href="/css/main.css?v=" rel="stylesheet" type="text/css" />
 
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=">
 
 
-  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
-
-
-
-
-
-  <meta name="keywords" content="Hexo, NexT" />
-
-
-
-
-
-  <link rel="alternate" href="/atom.xml" title="小学生·董宏飞" type="application/atom+xml" />
+  <link rel="mask-icon" href="/images/logo.svg?v=" color="#222">
 
 
 
 
 
 
-<meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="小学生·董宏飞">
-<meta property="og:url" content="http://yoursite.com/page/3/index.html">
-<meta property="og:site_name" content="小学生·董宏飞">
-<meta property="og:description">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="小学生·董宏飞">
-<meta name="twitter:description">
 
 
 
@@ -98,15 +85,13 @@
   var CONFIG = {
     root: '/',
     scheme: 'Muse',
-    version: '5.1.4',
+    version: '',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
-    fancybox: true,
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
-    duoshuo: {
-      userId: '0',
-      author: '博主'
-    },
     algolia: {
       applicationID: '',
       apiKey: '',
@@ -118,12 +103,37 @@
 </script>
 
 
+  
+
+
+
+
+  <meta name="description">
+<meta property="og:type" content="website">
+<meta property="og:title" content="小学生·董宏飞">
+<meta property="og:url" content="http://yoursite.com/page/3/index.html">
+<meta property="og:site_name" content="小学生·董宏飞">
+<meta property="og:description">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="小学生·董宏飞">
+<meta name="twitter:description">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="小学生·董宏飞" type="application/atom+xml" />
+
+
+
 
   <link rel="canonical" href="http://yoursite.com/page/3/"/>
 
 
 
-
+<script type="text/javascript" id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
 
   <title>小学生·董宏飞</title>
   
@@ -134,6 +144,34 @@
 
 
 
+
+
+  <noscript>
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
+  </style>
+</noscript>
 
 </head>
 
@@ -154,19 +192,17 @@
     
 
     <div class="custom-logo-site-title">
-      <a href="/"  class="brand" rel="start">
+      <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">小学生·董宏飞</span>
+        <span class="site-title"></span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
-      
-        <p class="site-subtitle"></p>
-      
+    
   </div>
 
   <div class="site-nav-toggle">
-    <button>
+    <button aria-label="Toggle navigation bar">
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
@@ -174,35 +210,37 @@
   </div>
 </div>
 
-<nav class="site-nav">
-  
 
+
+<nav class="site-nav">
   
     <ul id="menu" class="menu">
       
         
-        <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
-            
-            首页
-          </a>
-        </li>
-      
         
-        <li class="menu-item menu-item-archives">
-          <a href="/archives/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
-            
-            归档
-          </a>
-        </li>
-      
+        
+          
+          <li class="menu-item menu-item-home">
+    <a href="/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />Trang Chủ</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+    <a href="/archives/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />Lưu Trữ</a>
+  </li>
 
       
+      
     </ul>
+  
+
+  
+    
+
   
 
   
@@ -210,12 +248,20 @@
 
 
 
- </div>
+  
+
+
+
+</div>
     </header>
+
+    
+
 
     <main id="main" class="main">
       <div class="main-inner">
         <div class="content-wrap">
+          
           <div id="content" class="content">
             
   <section id="posts" class="posts-expand">
@@ -226,6 +272,8 @@
 
   
   
+  
+
   
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
@@ -252,25 +300,52 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/The Ionic Framework Cheatsheet/" itemprop="url">Ionic Framework 操作说明书</a></h1>
+                <a class="post-title-link" href="/2015/The Ionic Framework Cheatsheet/" itemprop="url">
+                  Ionic Framework 操作说明书
+                </a>
+              
+            
+          </h1>
         
 
         <div class="post-meta">
           <span class="post-time">
+
+            
+            
+            
+
             
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Tạo lúc</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-02-26T21:10:45+08:00">
-                2015-02-26
-              </time>
+
+              
+                
+              
+
+              <time title="Được tạo: 2015-02-26 21:10:45" itemprop="dateCreated datePublished" datetime="2015-02-26T21:10:45+08:00">2015-02-26</time>
             
 
             
+              
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Được thay đổi: 2015-07-09 00:37:46" itemprop="dateModified" datetime="2015-07-09T00:37:46+08:00">2015-07-09</time>
+              
             
           </span>
 
@@ -307,14 +382,17 @@
 <p>另外这个对初学者来说太方便了，你会发现分分钟搞出来一个很棒的 Ionic App。你往下看看，爽死你~如果你觉得还有哪儿需要添加什么东西，欢迎给我留言(译者注：在 Ionichina 社区讨论也可以的哦~)。</p>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2015/The Ionic Framework Cheatsheet/#thêm" rel="contents">
-              阅读全文 &raquo;
+            <a class="btn" href="/2015/The Ionic Framework Cheatsheet/#more" rel="contents">
+              Đọc tiếp &raquo;
             </a>
           </div>
           <!--/noindex-->
         
       
     </div>
+
+    
+
     
     
     
@@ -353,6 +431,8 @@
   
   
 
+  
+
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
   
   
@@ -377,25 +457,52 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/dull-day-4/" itemprop="url">平淡的一天(4)</a></h1>
+                <a class="post-title-link" href="/2015/dull-day-4/" itemprop="url">
+                  平淡的一天(4)
+                </a>
+              
+            
+          </h1>
         
 
         <div class="post-meta">
           <span class="post-time">
+
+            
+            
+            
+
             
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Tạo lúc</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-02-17T21:10:59+08:00">
-                2015-02-17
-              </time>
+
+              
+                
+              
+
+              <time title="Được tạo: 2015-02-17 21:10:59" itemprop="dateCreated datePublished" datetime="2015-02-17T21:10:59+08:00">2015-02-17</time>
             
 
             
+              
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Được thay đổi: 2015-07-09 00:37:46" itemprop="dateModified" datetime="2015-07-09T00:37:46+08:00">2015-07-09</time>
+              
             
           </span>
 
@@ -434,14 +541,17 @@
 <p>“为啥会空车？”<br>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2015/dull-day-4/#thêm" rel="contents">
-              阅读全文 &raquo;
+            <a class="btn" href="/2015/dull-day-4/#more" rel="contents">
+              Đọc tiếp &raquo;
             </a>
           </div>
           <!--/noindex-->
         
       
     </div>
+
+    
+
     
     
     
@@ -480,6 +590,8 @@
   
   
 
+  
+
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
   
   
@@ -504,25 +616,52 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/dull-day-3/" itemprop="url">平淡的一天(3)</a></h1>
+                <a class="post-title-link" href="/2015/dull-day-3/" itemprop="url">
+                  平淡的一天(3)
+                </a>
+              
+            
+          </h1>
         
 
         <div class="post-meta">
           <span class="post-time">
+
+            
+            
+            
+
             
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Tạo lúc</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-02-17T21:10:55+08:00">
-                2015-02-17
-              </time>
+
+              
+                
+              
+
+              <time title="Được tạo: 2015-02-17 21:10:55" itemprop="dateCreated datePublished" datetime="2015-02-17T21:10:55+08:00">2015-02-17</time>
             
 
             
+              
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Được thay đổi: 2015-07-09 00:37:46" itemprop="dateModified" datetime="2015-07-09T00:37:46+08:00">2015-07-09</time>
+              
             
           </span>
 
@@ -561,14 +700,17 @@
 <p>这姑娘属啥呢，如果不是心理素质过硬我都要怀疑我出现幻觉了。<br>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2015/dull-day-3/#thêm" rel="contents">
-              阅读全文 &raquo;
+            <a class="btn" href="/2015/dull-day-3/#more" rel="contents">
+              Đọc tiếp &raquo;
             </a>
           </div>
           <!--/noindex-->
         
       
     </div>
+
+    
+
     
     
     
@@ -607,6 +749,8 @@
   
   
 
+  
+
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
   
   
@@ -631,25 +775,52 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/dull-day-2/" itemprop="url">平淡的一天(2)</a></h1>
+                <a class="post-title-link" href="/2015/dull-day-2/" itemprop="url">
+                  平淡的一天(2)
+                </a>
+              
+            
+          </h1>
         
 
         <div class="post-meta">
           <span class="post-time">
+
+            
+            
+            
+
             
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Tạo lúc</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-02-17T21:10:50+08:00">
-                2015-02-17
-              </time>
+
+              
+                
+              
+
+              <time title="Được tạo: 2015-02-17 21:10:50" itemprop="dateCreated datePublished" datetime="2015-02-17T21:10:50+08:00">2015-02-17</time>
             
 
             
+              
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Được thay đổi: 2015-07-09 00:37:46" itemprop="dateModified" datetime="2015-07-09T00:37:46+08:00">2015-07-09</time>
+              
             
           </span>
 
@@ -687,14 +858,17 @@
 <p>两弯似蹙非蹙罥烟眉,一双似喜非喜含情目。<br>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2015/dull-day-2/#thêm" rel="contents">
-              阅读全文 &raquo;
+            <a class="btn" href="/2015/dull-day-2/#more" rel="contents">
+              Đọc tiếp &raquo;
             </a>
           </div>
           <!--/noindex-->
         
       
     </div>
+
+    
+
     
     
     
@@ -733,6 +907,8 @@
   
   
 
+  
+
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
   
   
@@ -757,25 +933,52 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/dull-day-1/" itemprop="url">平淡的一天(1)</a></h1>
+                <a class="post-title-link" href="/2015/dull-day-1/" itemprop="url">
+                  平淡的一天(1)
+                </a>
+              
+            
+          </h1>
         
 
         <div class="post-meta">
           <span class="post-time">
+
+            
+            
+            
+
             
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Tạo lúc</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-02-17T21:10:45+08:00">
-                2015-02-17
-              </time>
+
+              
+                
+              
+
+              <time title="Được tạo: 2015-02-17 21:10:45" itemprop="dateCreated datePublished" datetime="2015-02-17T21:10:45+08:00">2015-02-17</time>
             
 
             
+              
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Được thay đổi: 2015-07-09 00:37:46" itemprop="dateModified" datetime="2015-07-09T00:37:46+08:00">2015-07-09</time>
+              
             
           </span>
 
@@ -813,14 +1016,17 @@
 <p>　　OK，睁眼起床，卧槽，8点了！<br>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2015/dull-day-1/#thêm" rel="contents">
-              阅读全文 &raquo;
+            <a class="btn" href="/2015/dull-day-1/#more" rel="contents">
+              Đọc tiếp &raquo;
             </a>
           </div>
           <!--/noindex-->
         
       
     </div>
+
+    
+
     
     
     
@@ -859,6 +1065,8 @@
   
   
 
+  
+
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
   
   
@@ -883,25 +1091,52 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/minifying-your-source-code/" itemprop="url">压缩你的Ionic App源码【译】</a></h1>
+                <a class="post-title-link" href="/2015/minifying-your-source-code/" itemprop="url">
+                  压缩你的Ionic App源码【译】
+                </a>
+              
+            
+          </h1>
         
 
         <div class="post-meta">
           <span class="post-time">
+
+            
+            
+            
+
             
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Tạo lúc</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-01-26T18:17:56+08:00">
-                2015-01-26
-              </time>
+
+              
+                
+              
+
+              <time title="Được tạo: 2015-01-26 18:17:56" itemprop="dateCreated datePublished" datetime="2015-01-26T18:17:56+08:00">2015-01-26</time>
             
 
             
+              
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Được thay đổi: 2016-09-17 15:47:45" itemprop="dateModified" datetime="2016-09-17T15:47:45+08:00">2016-09-17</time>
+              
             
           </span>
 
@@ -939,14 +1174,17 @@
 <p>先前我介绍过丑化你的Apache Cordova应用源码的重要性。如果你读过我<a href="/">之前</a> 的文章你就会知道，hybrid应用非常容易被反编译，所以混淆你的代码会给那些恶意用户增加不少难度。</p>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2015/minifying-your-source-code/#thêm" rel="contents">
-              阅读全文 &raquo;
+            <a class="btn" href="/2015/minifying-your-source-code/#more" rel="contents">
+              Đọc tiếp &raquo;
             </a>
           </div>
           <!--/noindex-->
         
       
     </div>
+
+    
+
     
     
     
@@ -985,6 +1223,8 @@
   
   
 
+  
+
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
   
   
@@ -1009,25 +1249,52 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/navigating-the-changes/" itemprop="url">Navigating the Changes</a></h1>
+                <a class="post-title-link" href="/2015/navigating-the-changes/" itemprop="url">
+                  Navigating the Changes
+                </a>
+              
+            
+          </h1>
         
 
         <div class="post-meta">
           <span class="post-time">
+
+            
+            
+            
+
             
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Tạo lúc</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-01-07T02:00:00+08:00">
-                2015-01-07
-              </time>
+
+              
+                
+              
+
+              <time title="Được tạo: 2015-01-07 02:00:00" itemprop="dateCreated datePublished" datetime="2015-01-07T02:00:00+08:00">2015-01-07</time>
             
 
             
+              
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Được thay đổi: 2015-07-09 00:37:46" itemprop="dateModified" datetime="2015-07-09T00:37:46+08:00">2015-07-09</time>
+              
             
           </span>
 
@@ -1063,14 +1330,17 @@
           <p>在发布 Beta 14 版本之前，我们花费了很长时间在 ionic 社区上搜集导航 UI 应该如何表现，不只是关于过渡动画，而是所有的元素怎么在一个 app 里整合起来。Beta 14 中在导航的结构和元素上我们遵循了很多非常棒并且已经很成熟的模式，这些模式在所有平台上的 app 里随处可见。我们赶脚这些更新可以让你很平滑的去构建导航的 UI。</p>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2015/navigating-the-changes/#thêm" rel="contents">
-              阅读全文 &raquo;
+            <a class="btn" href="/2015/navigating-the-changes/#more" rel="contents">
+              Đọc tiếp &raquo;
             </a>
           </div>
           <!--/noindex-->
         
       
     </div>
+
+    
+
     
     
     
@@ -1109,6 +1379,8 @@
   
   
 
+  
+
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
   
   
@@ -1133,25 +1405,52 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2014/i-think-maybe-i-love-you/" itemprop="url">我想，我是爱你的</a></h1>
+                <a class="post-title-link" href="/2014/i-think-maybe-i-love-you/" itemprop="url">
+                  我想，我是爱你的
+                </a>
+              
+            
+          </h1>
         
 
         <div class="post-meta">
           <span class="post-time">
+
+            
+            
+            
+
             
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Tạo lúc</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-09-21T10:05:50+08:00">
-                2014-09-21
-              </time>
+
+              
+                
+              
+
+              <time title="Được tạo: 2014-09-21 10:05:50" itemprop="dateCreated datePublished" datetime="2014-09-21T10:05:50+08:00">2014-09-21</time>
             
 
             
+              
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Được thay đổi: 2015-07-09 00:37:46" itemprop="dateModified" datetime="2015-07-09T00:37:46+08:00">2015-07-09</time>
+              
             
           </span>
 
@@ -1194,6 +1493,9 @@
         
       
     </div>
+
+    
+
     
     
     
@@ -1232,6 +1534,8 @@
   
   
 
+  
+
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
   
   
@@ -1256,25 +1560,52 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2014/范东坡/" itemprop="url">某篇文章里</a></h1>
+                <a class="post-title-link" href="/2014/范东坡/" itemprop="url">
+                  某篇文章里
+                </a>
+              
+            
+          </h1>
         
 
         <div class="post-meta">
           <span class="post-time">
+
+            
+            
+            
+
             
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">发表于</span>
+                <span class="post-meta-item-text">Tạo lúc</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-02-21T12:03:50+08:00">
-                2014-02-21
-              </time>
+
+              
+                
+              
+
+              <time title="Được tạo: 2014-02-21 12:03:50" itemprop="dateCreated datePublished" datetime="2014-02-21T12:03:50+08:00">2014-02-21</time>
             
 
             
+              
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Được thay đổi: 2016-09-17 16:11:18" itemprop="dateModified" datetime="2016-09-17T16:11:18+08:00">2016-09-17</time>
+              
             
           </span>
 
@@ -1312,14 +1643,17 @@
 <p>看来最近真的太累了</p>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2014/范东坡/#thêm" rel="contents">
-              阅读全文 &raquo;
+            <a class="btn" href="/2014/范东坡/#more" rel="contents">
+              Đọc tiếp &raquo;
             </a>
           </div>
           <!--/noindex-->
         
       
     </div>
+
+    
+
     
     
     
@@ -1354,15 +1688,12 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/2/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span>
+    <a class="extend prev" rel="prev" href="/page/2/"><i class="fa fa-angle-left" aria-label="Previous page"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span>
   </nav>
 
 
 
           </div>
-          
-
-
           
 
         </div>
@@ -1393,33 +1724,59 @@
               <p class="site-description motion-element" itemprop="description"></p>
           </div>
 
-          <nav class="site-state motion-element">
-
-            
-              <div class="site-state-item site-state-posts">
+          
+            <nav class="site-state motion-element">
               
-                <a href="/archives/">
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">29</span>
+                    <span class="site-state-item-name">bài viết</span>
+                  </a>
+                </div>
               
-                  <span class="site-state-item-count">29</span>
-                  <span class="site-state-item-name">日志</span>
-                </a>
-              </div>
-            
 
-            
-
-            
               
-              
-              <div class="site-state-item site-state-tags">
-                <a href="/tags/index.html">
-                  <span class="site-state-item-count">12</span>
-                  <span class="site-state-item-name">标签</span>
-                </a>
-              </div>
-            
 
-          </nav>
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/tags/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">12</span>
+                    <span class="site-state-item-name">thẻ</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
 
           
             <div class="feed-link motion-element">
@@ -1438,6 +1795,9 @@
           
           
 
+          
+            
+          
           
 
         </div>
@@ -1458,16 +1818,20 @@
     <footer id="footer" class="footer">
       <div class="footer-inner">
         <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
-  <span class="with-love">
+  <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">小学生·董宏飞</span>
+  <span class="author" itemprop="copyrightHolder"></span>
+
+  
 
   
 </div>
 
 
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+  <div class="powered-by">Cung cấp bởi <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> v3.1.1</div>
 
 
 
@@ -1475,12 +1839,13 @@
 
 
 
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+  <div class="theme-info">Giao Diện – <a class="theme-link" target="_blank" href="https://theme-next.org">NexT.Muse</a> v</div>
 
 
 
 
         
+
 
 
 
@@ -1500,7 +1865,10 @@
     
 
     
+	
+    
 
+    
   </div>
 
   
@@ -1519,7 +1887,11 @@
 
 
 
-  
+
+
+
+
+
 
 
 
@@ -1539,16 +1911,6 @@
 
   
   
-    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-  
-
-  
-  
     <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
   
 
@@ -1557,18 +1919,13 @@
     <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
   
 
-  
-  
-    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-  
-
 
   
 
 
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+  <script type="text/javascript" src="/js/src/utils.js?v=6.4.0"></script>
 
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+  <script type="text/javascript" src="/js/src/motion.js?v=6.4.0"></script>
 
 
 
@@ -1580,21 +1937,7 @@
   
 
 
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
-
-
-
-  
-
-
-  
-
-
-
-
-	
-
-
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.4.0"></script>
 
 
 
@@ -1602,11 +1945,7 @@
 
 
 
-
-
   
-
-
 
 
 
@@ -1630,6 +1969,12 @@
   
 
   
+
+  
+  
+
+  
+
   
 
   
