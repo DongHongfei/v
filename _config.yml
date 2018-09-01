@@ -7,12 +7,13 @@ title: 小学生·董宏飞
 subtitle:
 description:
 author: 小学生·董宏飞
-language: zh-Hans
+# language: zh-Hans
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://v.donghongfei.com/
 root: /
 permalink: :title/
 permalink_defaults:
@@ -64,6 +65,7 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
+# theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

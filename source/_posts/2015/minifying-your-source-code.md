@@ -1,8 +1,8 @@
-title: 压缩你的Ionic App源码【译】 
+title: 压缩你的Ionic App源码【译】
 
 date: 2015-01-26 18:17:56
 
-tags: 
+tags:
 
 ---
 
@@ -12,6 +12,8 @@ tags:
 
 先前我介绍过丑化你的Apache Cordova应用源码的重要性。如果你读过我[之前]() 的文章你就会知道，hybrid应用非常容易被反编译，所以混淆你的代码会给那些恶意用户增加不少难度。
 
+<!-- more -->
+
 我还写过一篇[类似](https://blog.nraboy.com/2014/12/use-grunt-lint-uglify-javascript-project/)的文章，介绍如何使用Grunt任务来丑化你的代码。然而，对于Apache Cordova项目来说，Grunt并不是最理想的解决方案，因为它在丑化代码的同时会产生很多错误。
 
 在这篇教程中，我们就来看看对于Apache Cordova项目，在构建之前如何有效的缩减代码(译者注：原文是lint and minify，但在这里实在不知道怎么翻译了%>_<%)。这篇教程同样适用于[Phonegap](http://phonegap.com/)和[Ionic Framework](http://www.ionicframework.com/)项目。
@@ -19,7 +21,7 @@ tags:
 我们就先从创建一个新的Apache Cordova的Android 和 iOS项目开始吧：
 
 ```
-cordova create TestProject com.nraboy.testproject TestProject 
+cordova create TestProject com.nraboy.testproject TestProject
 cd TestProject
 cordova platform add android
 cordova platform add ios
@@ -144,5 +146,3 @@ $ npm install cordova-uglify
 [第二部分](https://www.youtube.com/watch?v=hoy3MESySWQ)
 
 Ps:下面的视频是放在YouTube上得，需要翻墙才能看，推荐个不错的Chrome插件[红杏](http://honx.in/i/U-LXTOz5NFxwRetD)
-
- 
