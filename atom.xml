@@ -3,9 +3,9 @@
   <title><![CDATA[小学生·董宏飞]]></title>
   
   <link href="/atom.xml" rel="self"/>
-  <link href="http://yoursite.com/"/>
+  <link href="http://v.donghongfei.com/"/>
   <updated>2016-10-06T15:38:30.000Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://v.donghongfei.com/</id>
   
   <author>
     <name><![CDATA[小学生·董宏飞]]></name>
@@ -16,8 +16,8 @@
   
   <entry>
     <title><![CDATA[虚度的国庆节]]></title>
-    <link href="http://yoursite.com/2016/the-day-i-lost-in-10-1-days/"/>
-    <id>http://yoursite.com/2016/the-day-i-lost-in-10-1-days/</id>
+    <link href="http://v.donghongfei.com/2016/the-day-i-lost-in-10-1-days/"/>
+    <id>http://v.donghongfei.com/2016/the-day-i-lost-in-10-1-days/</id>
     <published>2016-10-06T15:04:43.000Z</published>
     <updated>2016-10-06T15:38:30.000Z</updated>
     <content type="html"><![CDATA[<p>国庆节开始时候大致做了个度假计划：哪儿也不去，就在家待着。  </p>
@@ -44,8 +44,8 @@
   
   <entry>
     <title><![CDATA[第一份儿产品经理工作总结]]></title>
-    <link href="http://yoursite.com/2016/something-i-was-thinking/"/>
-    <id>http://yoursite.com/2016/something-i-was-thinking/</id>
+    <link href="http://v.donghongfei.com/2016/something-i-was-thinking/"/>
+    <id>http://v.donghongfei.com/2016/something-i-was-thinking/</id>
     <published>2016-10-03T18:05:33.000Z</published>
     <updated>2016-10-03T18:10:24.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
@@ -72,14 +72,14 @@
     
     </summary>
     
-      <category term="总结" scheme="http://yoursite.com/tags/%E6%80%BB%E7%BB%93/"/>
+      <category term="总结" scheme="http://v.donghongfei.com/tags/%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[给产品经理讲讲技术 - 爬虫]]></title>
-    <link href="http://yoursite.com/some-knowledge-you-need-to-know-as-a-pm/4-reptile/"/>
-    <id>http://yoursite.com/some-knowledge-you-need-to-know-as-a-pm/4-reptile/</id>
+    <link href="http://v.donghongfei.com/some-knowledge-you-need-to-know-as-a-pm/4-reptile/"/>
+    <id>http://v.donghongfei.com/some-knowledge-you-need-to-know-as-a-pm/4-reptile/</id>
     <published>2016-10-03T07:12:00.000Z</published>
     <updated>2016-10-07T13:08:29.000Z</updated>
     <content type="html"><![CDATA[<p>挖个坑儿😝<br><a id="more"></a></p>
@@ -92,39 +92,9 @@
   </entry>
   
   <entry>
-    <title><![CDATA[给产品经理讲讲技术 - sql]]></title>
-    <link href="http://yoursite.com/some-knowledge-you-need-to-know-as-a-pm/5-sql/"/>
-    <id>http://yoursite.com/some-knowledge-you-need-to-know-as-a-pm/5-sql/</id>
-    <published>2016-10-03T07:12:00.000Z</published>
-    <updated>2016-10-07T13:08:10.000Z</updated>
-    <content type="html"><![CDATA[<p>挖个坑儿😝<br><a id="more"></a></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>挖个坑儿😝<br>]]>
-    
-    </summary>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[给产品经理讲讲技术 - 服务端]]></title>
-    <link href="http://yoursite.com/some-knowledge-you-need-to-know-as-a-pm/3-server/"/>
-    <id>http://yoursite.com/some-knowledge-you-need-to-know-as-a-pm/3-server/</id>
-    <published>2016-10-03T07:12:00.000Z</published>
-    <updated>2016-10-07T13:08:41.000Z</updated>
-    <content type="html"><![CDATA[<p>挖个坑儿😝<br><a id="more"></a></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>挖个坑儿😝<br>]]>
-    
-    </summary>
-    
-  </entry>
-  
-  <entry>
     <title><![CDATA[给产品经理讲讲技术 - 前端]]></title>
-    <link href="http://yoursite.com/some-knowledge-you-need-to-know-as-a-pm/2-front-end/"/>
-    <id>http://yoursite.com/some-knowledge-you-need-to-know-as-a-pm/2-front-end/</id>
+    <link href="http://v.donghongfei.com/some-knowledge-you-need-to-know-as-a-pm/2-front-end/"/>
+    <id>http://v.donghongfei.com/some-knowledge-you-need-to-know-as-a-pm/2-front-end/</id>
     <published>2016-10-03T07:12:00.000Z</published>
     <updated>2016-10-07T13:08:55.000Z</updated>
     <content type="html"><![CDATA[<p>挖个坑儿😝<br><a id="more"></a></p>
@@ -137,9 +107,39 @@
   </entry>
   
   <entry>
+    <title><![CDATA[给产品经理讲讲技术 - 服务端]]></title>
+    <link href="http://v.donghongfei.com/some-knowledge-you-need-to-know-as-a-pm/3-server/"/>
+    <id>http://v.donghongfei.com/some-knowledge-you-need-to-know-as-a-pm/3-server/</id>
+    <published>2016-10-03T07:12:00.000Z</published>
+    <updated>2016-10-07T13:08:41.000Z</updated>
+    <content type="html"><![CDATA[<p>挖个坑儿😝<br><a id="more"></a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>挖个坑儿😝<br>]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[给产品经理讲讲技术 - sql]]></title>
+    <link href="http://v.donghongfei.com/some-knowledge-you-need-to-know-as-a-pm/5-sql/"/>
+    <id>http://v.donghongfei.com/some-knowledge-you-need-to-know-as-a-pm/5-sql/</id>
+    <published>2016-10-03T07:12:00.000Z</published>
+    <updated>2016-10-07T13:08:10.000Z</updated>
+    <content type="html"><![CDATA[<p>挖个坑儿😝<br><a id="more"></a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>挖个坑儿😝<br>]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[给产品经理讲讲技术 - 网络]]></title>
-    <link href="http://yoursite.com/some-knowledge-you-need-to-know-as-a-pm/1-network/"/>
-    <id>http://yoursite.com/some-knowledge-you-need-to-know-as-a-pm/1-network/</id>
+    <link href="http://v.donghongfei.com/some-knowledge-you-need-to-know-as-a-pm/1-network/"/>
+    <id>http://v.donghongfei.com/some-knowledge-you-need-to-know-as-a-pm/1-network/</id>
     <published>2016-10-03T07:06:00.000Z</published>
     <updated>2016-10-07T13:07:57.000Z</updated>
     <content type="html"><![CDATA[<p>挖个坑儿<br>😝</p>
@@ -149,14 +149,14 @@
 ]]>
     </summary>
     
-      <category term="产品&amp;技术" scheme="http://yoursite.com/tags/%E4%BA%A7%E5%93%81-%E6%8A%80%E6%9C%AF/"/>
+      <category term="产品&amp;技术" scheme="http://v.donghongfei.com/tags/%E4%BA%A7%E5%93%81-%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[心心]]></title>
-    <link href="http://yoursite.com/2016/xinxin/"/>
-    <id>http://yoursite.com/2016/xinxin/</id>
+    <link href="http://v.donghongfei.com/2016/xinxin/"/>
+    <id>http://v.donghongfei.com/2016/xinxin/</id>
     <published>2016-05-19T16:00:01.000Z</published>
     <updated>2018-08-27T02:15:54.768Z</updated>
     <content type="html"><![CDATA[<blockquote>
@@ -233,14 +233,14 @@
     
     </summary>
     
-      <category term="心心" scheme="http://yoursite.com/tags/%E5%BF%83%E5%BF%83/"/>
+      <category term="心心" scheme="http://v.donghongfei.com/tags/%E5%BF%83%E5%BF%83/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[张小龙饭否日记]]></title>
-    <link href="http://yoursite.com/2016/zhangxiaolong-fanfou-diary/"/>
-    <id>http://yoursite.com/2016/zhangxiaolong-fanfou-diary/</id>
+    <link href="http://v.donghongfei.com/2016/zhangxiaolong-fanfou-diary/"/>
+    <id>http://v.donghongfei.com/2016/zhangxiaolong-fanfou-diary/</id>
     <published>2016-01-31T12:00:17.000Z</published>
     <updated>2016-02-05T15:31:20.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
@@ -9669,14 +9669,14 @@
     
     </summary>
     
-      <category term="张小龙 饭否日记" scheme="http://yoursite.com/tags/%E5%BC%A0%E5%B0%8F%E9%BE%99-%E9%A5%AD%E5%90%A6%E6%97%A5%E8%AE%B0/"/>
+      <category term="张小龙 饭否日记" scheme="http://v.donghongfei.com/tags/%E5%BC%A0%E5%B0%8F%E9%BE%99-%E9%A5%AD%E5%90%A6%E6%97%A5%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[一篇流水账]]></title>
-    <link href="http://yoursite.com/2015/a-running-account/"/>
-    <id>http://yoursite.com/2015/a-running-account/</id>
+    <link href="http://v.donghongfei.com/2015/a-running-account/"/>
+    <id>http://v.donghongfei.com/2015/a-running-account/</id>
     <published>2015-09-18T15:12:36.000Z</published>
     <updated>2016-09-17T04:44:11.000Z</updated>
     <content type="html"><![CDATA[<p>写一篇流水账，来记录一下第一次以产品身份带项目的经历。</p>
@@ -9717,14 +9717,14 @@
     
     </summary>
     
-      <category term="产品经理 流水账 第一个项目" scheme="http://yoursite.com/tags/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86-%E6%B5%81%E6%B0%B4%E8%B4%A6-%E7%AC%AC%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE/"/>
+      <category term="产品经理 流水账 第一个项目" scheme="http://v.donghongfei.com/tags/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86-%E6%B5%81%E6%B0%B4%E8%B4%A6-%E7%AC%AC%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[首先是个产品]]></title>
-    <link href="http://yoursite.com/2015/first-of-all-i-am-pm/"/>
-    <id>http://yoursite.com/2015/first-of-all-i-am-pm/</id>
+    <link href="http://v.donghongfei.com/2015/first-of-all-i-am-pm/"/>
+    <id>http://v.donghongfei.com/2015/first-of-all-i-am-pm/</id>
     <published>2015-09-16T15:55:03.000Z</published>
     <updated>2016-09-17T07:37:49.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
@@ -9749,8 +9749,8 @@
   
   <entry>
     <title><![CDATA[初见Python]]></title>
-    <link href="http://yoursite.com/2015/%E5%88%9D%E8%A7%81Python/"/>
-    <id>http://yoursite.com/2015/初见Python/</id>
+    <link href="http://v.donghongfei.com/2015/%E5%88%9D%E8%A7%81Python/"/>
+    <id>http://v.donghongfei.com/2015/初见Python/</id>
     <published>2015-09-05T10:02:09.000Z</published>
     <updated>2016-09-17T07:47:59.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
@@ -9768,16 +9768,16 @@
     
     </summary>
     
-      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+      <category term="python" scheme="http://v.donghongfei.com/tags/python/"/>
     
-      <category term="学点儿代码" scheme="http://yoursite.com/tags/%E5%AD%A6%E7%82%B9%E5%84%BF%E4%BB%A3%E7%A0%81/"/>
+      <category term="学点儿代码" scheme="http://v.donghongfei.com/tags/%E5%AD%A6%E7%82%B9%E5%84%BF%E4%BB%A3%E7%A0%81/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[请用一张图证明你看过《深入浅出数据分析》]]></title>
-    <link href="http://yoursite.com/2015/head-first-data-analysis/"/>
-    <id>http://yoursite.com/2015/head-first-data-analysis/</id>
+    <link href="http://v.donghongfei.com/2015/head-first-data-analysis/"/>
+    <id>http://v.donghongfei.com/2015/head-first-data-analysis/</id>
     <published>2015-07-21T14:21:15.000Z</published>
     <updated>2015-09-16T15:56:53.000Z</updated>
     <content type="html"><![CDATA[<p>大图预警<br><a id="more"></a></p>
@@ -9792,8 +9792,8 @@
   
   <entry>
     <title><![CDATA[足球场不同位置职责]]></title>
-    <link href="http://yoursite.com/2015/football-field-different-position-description/"/>
-    <id>http://yoursite.com/2015/football-field-different-position-description/</id>
+    <link href="http://v.donghongfei.com/2015/football-field-different-position-description/"/>
+    <id>http://v.donghongfei.com/2015/football-field-different-position-description/</id>
     <published>2015-07-14T15:05:22.000Z</published>
     <updated>2015-07-20T15:39:11.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
@@ -9819,14 +9819,14 @@
     
     </summary>
     
-      <category term="足球" scheme="http://yoursite.com/tags/%E8%B6%B3%E7%90%83/"/>
+      <category term="足球" scheme="http://v.donghongfei.com/tags/%E8%B6%B3%E7%90%83/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[春雨医生产品分析报告]]></title>
-    <link href="http://yoursite.com/2015/chunyuyisheng-product-analysis-report/"/>
-    <id>http://yoursite.com/2015/chunyuyisheng-product-analysis-report/</id>
+    <link href="http://v.donghongfei.com/2015/chunyuyisheng-product-analysis-report/"/>
+    <id>http://v.donghongfei.com/2015/chunyuyisheng-product-analysis-report/</id>
     <published>2015-07-13T16:31:33.000Z</published>
     <updated>2015-09-16T15:57:19.000Z</updated>
     <content type="html"><![CDATA[<p>占坑儿</p>
@@ -9840,8 +9840,8 @@
   
   <entry>
     <title><![CDATA[为什么我想做产品经理]]></title>
-    <link href="http://yoursite.com/2015/why-do-i-want-to-be-pm/"/>
-    <id>http://yoursite.com/2015/why-do-i-want-to-be-pm/</id>
+    <link href="http://v.donghongfei.com/2015/why-do-i-want-to-be-pm/"/>
+    <id>http://v.donghongfei.com/2015/why-do-i-want-to-be-pm/</id>
     <published>2015-07-08T22:39:14.000Z</published>
     <updated>2015-07-20T15:40:09.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
@@ -9868,8 +9868,8 @@
   
   <entry>
     <title><![CDATA[无节操没下限段子类社交 app 竞品分析]]></title>
-    <link href="http://yoursite.com/2015/wujiecao-meixiaxian-shejiao-app-jingpinfenxi/"/>
-    <id>http://yoursite.com/2015/wujiecao-meixiaxian-shejiao-app-jingpinfenxi/</id>
+    <link href="http://v.donghongfei.com/2015/wujiecao-meixiaxian-shejiao-app-jingpinfenxi/"/>
+    <id>http://v.donghongfei.com/2015/wujiecao-meixiaxian-shejiao-app-jingpinfenxi/</id>
     <published>2015-05-26T10:17:56.000Z</published>
     <updated>2015-07-20T15:41:07.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
@@ -9931,20 +9931,20 @@
     
     </summary>
     
-      <category term="竞品分析" scheme="http://yoursite.com/tags/%E7%AB%9E%E5%93%81%E5%88%86%E6%9E%90/"/>
+      <category term="竞品分析" scheme="http://v.donghongfei.com/tags/%E7%AB%9E%E5%93%81%E5%88%86%E6%9E%90/"/>
     
-      <category term="糗事百科" scheme="http://yoursite.com/tags/%E7%B3%97%E4%BA%8B%E7%99%BE%E7%A7%91/"/>
+      <category term="糗事百科" scheme="http://v.donghongfei.com/tags/%E7%B3%97%E4%BA%8B%E7%99%BE%E7%A7%91/"/>
     
-      <category term="内涵段子" scheme="http://yoursite.com/tags/%E5%86%85%E6%B6%B5%E6%AE%B5%E5%AD%90/"/>
+      <category term="内涵段子" scheme="http://v.donghongfei.com/tags/%E5%86%85%E6%B6%B5%E6%AE%B5%E5%AD%90/"/>
     
-      <category term="冷笑话精选" scheme="http://yoursite.com/tags/%E5%86%B7%E7%AC%91%E8%AF%9D%E7%B2%BE%E9%80%89/"/>
+      <category term="冷笑话精选" scheme="http://v.donghongfei.com/tags/%E5%86%B7%E7%AC%91%E8%AF%9D%E7%B2%BE%E9%80%89/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Ionic 集成 jpush(极光)推送之 IOS 篇]]></title>
-    <link href="http://yoursite.com/2015/Ionic-jpush-IOS/"/>
-    <id>http://yoursite.com/2015/Ionic-jpush-IOS/</id>
+    <link href="http://v.donghongfei.com/2015/Ionic-jpush-IOS/"/>
+    <id>http://v.donghongfei.com/2015/Ionic-jpush-IOS/</id>
     <published>2015-03-08T22:39:14.000Z</published>
     <updated>2015-07-08T22:47:09.000Z</updated>
     <content type="html"><![CDATA[<p>极光推送官方版的 phonegap 插件在<a href="https://github.com/jpush/jpush-phonegap-plugin" target="_blank" rel="noopener">这里</a>。<br>由于官方版插件 ios 版暂时没有打开通知的方法，所以在官方基础上修改了下，修改后的插件放在了<a href="https://github.com/DongHongfei/jpush-phonegap-plugin" target="_blank" rel="noopener">这里</a>，下面说明以修改后的插件为准。（感谢极光官方大神viper耐心帮助，同时也参考了下<a href="http://ionichina.com/user/lanceli" target="_blank" rel="noopener">@lanceli</a>大神的<a href="https://github.com/lanceli/cnodejs-ionic" target="_blank" rel="noopener">cnodejs-ionic</a>项目）</p>
@@ -10002,8 +10002,8 @@
   
   <entry>
     <title><![CDATA[搬家了]]></title>
-    <link href="http://yoursite.com/2015/move-on/"/>
-    <id>http://yoursite.com/2015/move-on/</id>
+    <link href="http://v.donghongfei.com/2015/move-on/"/>
+    <id>http://v.donghongfei.com/2015/move-on/</id>
     <published>2015-03-08T15:11:49.000Z</published>
     <updated>2015-07-08T16:37:46.000Z</updated>
     <content type="html"><![CDATA[<p>搬家了，原来用的 wordpress，一点都不酷，内容也都是东朝西摘的，一点都不酷，所以这把搞个酷酷的~<br>安装参考:<a href="http://cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/" target="_blank" rel="noopener">http://cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/</a></p>
@@ -10016,8 +10016,8 @@
   
   <entry>
     <title><![CDATA[解决 ionic 中的 CORS 问题【译】]]></title>
-    <link href="http://yoursite.com/2015/handling-cors-issues-in-ionic/"/>
-    <id>http://yoursite.com/2015/handling-cors-issues-in-ionic/</id>
+    <link href="http://v.donghongfei.com/2015/handling-cors-issues-in-ionic/"/>
+    <id>http://v.donghongfei.com/2015/handling-cors-issues-in-ionic/</id>
     <published>2015-02-28T12:17:56.000Z</published>
     <updated>2015-07-08T16:37:46.000Z</updated>
     <content type="html"><![CDATA[<p><em>译者注：本人翻译功力有限，所以文中难免有翻译不准确的地方，凑合看吧，牛逼的话你看<a href="http://ionicframework.com/blog/handling-cors-issues-in-ionic/" target="_blank" rel="noopener">英文版</a>的去，完事儿欢迎回来指正交流（^_^）</em></p>
