@@ -17,9 +17,14 @@
 <html class="theme-next pisces use-motion" lang="zh-CN">
 <head>
   <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
-<meta name="theme-color" content="#222">
+<meta name="theme-color" content="#222"/>
+
+
+
+
+  <meta name="google-site-verification" content="hLXEUgYmEJNA3INdNEsnWGLg2eunb2iXuTvrvu--Ovs"/>
 
 
 
@@ -29,50 +34,30 @@
 
 
 
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.2.0">
 
 
-
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.2.0">
 
 
-
-  <meta name="google-site-verification" content="hLXEUgYmEJNA3INdNEsnWGLg2eunb2iXuTvrvu--Ovs" />
-
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.2.0">
 
 
-
-
+  <link rel="mask-icon" href="/images/logo.svg?v=7.2.0" color="#222">
 
 
 
 
 
 
+<link rel="stylesheet" href="/css/main.css?v=7.2.0"/>
 
 
 
 
 
 
-
-
-
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
-
-<link href="/css/main.css?v=6.4.0" rel="stylesheet" type="text/css" />
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.4.0">
-
-
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.4.0">
-
-
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.4.0">
-
-
-  <link rel="mask-icon" href="/images/logo.svg?v=6.4.0" color="#222">
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0"/>
 
 
 
@@ -81,15 +66,17 @@
 
 
 
-
-<script type="text/javascript" id="hexo.configurations">
+<script id="hexo.configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
     scheme: 'Pisces',
-    version: '6.4.0',
+    version: '7.2.0',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    copycode: {"enable":false,"show_result":false},
     fancybox: false,
+    mediumzoom: false,
     fastclick: false,
     lazyload: false,
     tabs: true,
@@ -100,15 +87,14 @@
       indexName: '',
       hits: {"per_page":10},
       labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    translation: {
+      copy_button: '复制',
+      copy_success: '复制成功',
+      copy_failure: '复制失败'
     }
   };
 </script>
-
-
-  
-
-
-
 
   <meta property="og:type" content="website">
 <meta property="og:title" content="小学生·董宏飞">
@@ -120,39 +106,32 @@
 
 
 
-  <link rel="alternate" href="/atom.xml" title="小学生·董宏飞" type="application/atom+xml" />
+  <link rel="alternate" href="/atom.xml" title="小学生·董宏飞" type="application/atom+xml"/>
 
 
 
-
+  
+  
   <link rel="canonical" href="http://v.donghongfei.com/"/>
 
 
 
-<script type="text/javascript" id="page.configurations">
+<script id="page.configurations">
   CONFIG.page = {
     sidebar: "",
   };
 </script>
 
+  
   <title>小学生·董宏飞</title>
   
 
 
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-58430635-3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-58430635-3');
-</script>
 
 
-
-  <script type="text/javascript">
+  <script>
     var _hmt = _hmt || [];
     (function() {
       var hm = document.createElement("script");
@@ -165,30 +144,31 @@
 
 
 
+
+
+
   <noscript>
-  <style type="text/css">
-    .use-motion .motion-element,
-    .use-motion .brand,
-    .use-motion .menu-item,
-    .sidebar-inner,
-    .use-motion .post-block,
-    .use-motion .pagination,
-    .use-motion .comments,
-    .use-motion .post-header,
-    .use-motion .post-body,
-    .use-motion .collection-title { opacity: initial; }
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
 
-    .use-motion .logo,
-    .use-motion .site-title,
-    .use-motion .site-subtitle {
-      opacity: initial;
-      top: initial;
-    }
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
 
-    .use-motion {
-      .logo-line-before i { left: initial; }
-      .logo-line-after i { right: initial; }
-    }
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
   </style>
 </noscript>
 
@@ -207,7 +187,7 @@
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
+  <div class="site-meta">
     
 
     <div class="custom-logo-site-title">
@@ -217,6 +197,7 @@
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
+    
     
   </div>
 
@@ -240,24 +221,48 @@
         
           
           <li class="menu-item menu-item-home menu-item-active">
-    <a href="/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
+
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br/>首页</a>
+
   </li>
         
         
         
           
           <li class="menu-item menu-item-tags">
-    <a href="/tags/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
+
+    
+    
+      
+    
+
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br/>标签</a>
+
   </li>
         
         
         
           
           <li class="menu-item menu-item-archives">
-    <a href="/archives/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
+
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br/>归档</a>
+
   </li>
 
       
@@ -269,10 +274,6 @@
 
   
 </nav>
-
-
-
-  
 
 
 
@@ -308,16 +309,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://v.donghongfei.com/2018/2018-09-01/">
+    <link itemprop="mainEntityOfPage" href="http://v.donghongfei.com/2019/2019-07-21/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="小学生·董宏飞">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://secure.gravatar.com/avatar/96db473f796b704624b52ba2d72bed46?size=460">
+      <meta itemprop="name" content="小学生·董宏飞"/>
+      <meta itemprop="description" content=""/>
+      <meta itemprop="image" content="https://secure.gravatar.com/avatar/96db473f796b704624b52ba2d72bed46?size=460"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="小学生·董宏飞">
+      <meta itemprop="name" content="小学生·董宏飞"/>
     </span>
 
     
@@ -327,22 +328,21 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/2018-09-01/" itemprop="url">
-                  2018年年不初年不中年不终的总结
-                </a>
+                
+                <a href="/2019/2019-07-21/" class="post-title-link" itemprop="url">2019年中总结</a>
               
             
           </h1>
         
 
         <div class="post-meta">
-          <span class="post-time">
 
-            
-            
-            
+          
+          
+          
 
-            
+          
+            <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
@@ -354,25 +354,173 @@
                 
               
 
-              <time title="创建时间：2018-09-01 19:12:35 / 修改时间：20:42:28" itemprop="dateCreated datePublished" datetime="2018-09-01T19:12:35+08:00">2018-09-01</time>
-            
+              <time title="创建时间：2019-07-21 18:31:04" itemprop="dateCreated datePublished" datetime="2019-07-21T18:31:04+08:00">2019-07-21</time>
+            </span>
+          
 
+          
+
+          
+
+          
             
+            
+          
+
+          
+          
+
+          
+
+          
+
+          <br/>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>总啥结啊总</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://v.donghongfei.com/2018/2018-09-01/"/>
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="小学生·董宏飞"/>
+      <meta itemprop="description" content=""/>
+      <meta itemprop="image" content="https://secure.gravatar.com/avatar/96db473f796b704624b52ba2d72bed46?size=460"/>
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="小学生·董宏飞"/>
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2018/2018-09-01/" class="post-title-link" itemprop="url">2018年年不初年不中年不终的总结</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          
+          
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
               
 
               
+                
+              
+
+              <time title="创建时间：2018-09-01 19:12:35" itemprop="dateCreated datePublished" datetime="2018-09-01T19:12:35+08:00">2018-09-01</time>
+            </span>
+          
+
+          
+
+          
+
+          
             
-          </span>
-
-          
-
-          
             
           
 
           
           
 
+          
+
+          
+
+          <br/>
           
 
           
@@ -404,11 +552,16 @@
     
 
     
+
+    
     
     
 
     
 
+    
+      
+    
     
 
     
@@ -448,16 +601,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://v.donghongfei.com/2016/the-day-i-lost-in-10-1-days/">
+    <link itemprop="mainEntityOfPage" href="http://v.donghongfei.com/2016/the-day-i-lost-in-10-1-days/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="小学生·董宏飞">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://secure.gravatar.com/avatar/96db473f796b704624b52ba2d72bed46?size=460">
+      <meta itemprop="name" content="小学生·董宏飞"/>
+      <meta itemprop="description" content=""/>
+      <meta itemprop="image" content="https://secure.gravatar.com/avatar/96db473f796b704624b52ba2d72bed46?size=460"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="小学生·董宏飞">
+      <meta itemprop="name" content="小学生·董宏飞"/>
     </span>
 
     
@@ -467,22 +620,21 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/the-day-i-lost-in-10-1-days/" itemprop="url">
-                  虚度的国庆节
-                </a>
+                
+                <a href="/2016/the-day-i-lost-in-10-1-days/" class="post-title-link" itemprop="url">虚度的国庆节</a>
               
             
           </h1>
         
 
         <div class="post-meta">
-          <span class="post-time">
 
-            
-            
-            
+          
+          
+          
 
-            
+          
+            <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
@@ -494,25 +646,27 @@
                 
               
 
-              <time title="创建时间：2016-10-06 23:04:43 / 修改时间：23:38:30" itemprop="dateCreated datePublished" datetime="2016-10-06T23:04:43+08:00">2016-10-06</time>
-            
+              <time title="创建时间：2016-10-06 23:04:43" itemprop="dateCreated datePublished" datetime="2016-10-06T23:04:43+08:00">2016-10-06</time>
+            </span>
+          
 
-            
-              
-
-              
-            
-          </span>
+          
 
           
 
           
+            
             
           
 
           
           
 
+          
+
+          
+
+          <br/>
           
 
           
@@ -535,11 +689,13 @@
         
           <p>国庆节开始时候大致做了个度假计划：哪儿也不去，就在家待着。  </p>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/the-day-i-lost-in-10-1-days/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/the-day-i-lost-in-10-1-days/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
           <!--/noindex-->
         
       
@@ -548,11 +704,16 @@
     
 
     
+
+    
     
     
 
     
 
+    
+      
+    
     
 
     
@@ -592,16 +753,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://v.donghongfei.com/2016/something-i-was-thinking/">
+    <link itemprop="mainEntityOfPage" href="http://v.donghongfei.com/2016/something-i-was-thinking/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="小学生·董宏飞">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://secure.gravatar.com/avatar/96db473f796b704624b52ba2d72bed46?size=460">
+      <meta itemprop="name" content="小学生·董宏飞"/>
+      <meta itemprop="description" content=""/>
+      <meta itemprop="image" content="https://secure.gravatar.com/avatar/96db473f796b704624b52ba2d72bed46?size=460"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="小学生·董宏飞">
+      <meta itemprop="name" content="小学生·董宏飞"/>
     </span>
 
     
@@ -611,22 +772,21 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/something-i-was-thinking/" itemprop="url">
-                  第一份儿产品经理工作总结
-                </a>
+                
+                <a href="/2016/something-i-was-thinking/" class="post-title-link" itemprop="url">第一份儿产品经理工作总结</a>
               
             
           </h1>
         
 
         <div class="post-meta">
-          <span class="post-time">
 
-            
-            
-            
+          
+          
+          
 
-            
+          
+            <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
@@ -639,36 +799,26 @@
               
 
               <time title="创建时间：2016-10-04 02:05:33" itemprop="dateCreated datePublished" datetime="2016-10-04T02:05:33+08:00">2016-10-04</time>
-            
+            </span>
+          
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-09-01 19:24:57" itemprop="dateModified" datetime="2018-09-01T19:24:57+08:00">2018-09-01</time>
-              
-            
-          </span>
+          
 
           
 
           
+            
             
           
 
           
           
 
+          
+
+          
+
+          <br/>
           
 
           
@@ -693,11 +843,13 @@
 <p>其实是一堆拉七八糟胡乱想到的牢骚</p>
 </blockquote>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/something-i-was-thinking/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/something-i-was-thinking/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
           <!--/noindex-->
         
       
@@ -706,11 +858,16 @@
     
 
     
+
+    
     
     
 
     
 
+    
+      
+    
     
 
     
@@ -750,16 +907,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://v.donghongfei.com/2016/xinxin/">
+    <link itemprop="mainEntityOfPage" href="http://v.donghongfei.com/2016/xinxin/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="小学生·董宏飞">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://secure.gravatar.com/avatar/96db473f796b704624b52ba2d72bed46?size=460">
+      <meta itemprop="name" content="小学生·董宏飞"/>
+      <meta itemprop="description" content=""/>
+      <meta itemprop="image" content="https://secure.gravatar.com/avatar/96db473f796b704624b52ba2d72bed46?size=460"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="小学生·董宏飞">
+      <meta itemprop="name" content="小学生·董宏飞"/>
     </span>
 
     
@@ -769,22 +926,21 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/xinxin/" itemprop="url">
-                  心心
-                </a>
+                
+                <a href="/2016/xinxin/" class="post-title-link" itemprop="url">心心</a>
               
             
           </h1>
         
 
         <div class="post-meta">
-          <span class="post-time">
 
-            
-            
-            
+          
+          
+          
 
-            
+          
+            <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
@@ -797,36 +953,26 @@
               
 
               <time title="创建时间：2016-05-20 00:00:01" itemprop="dateCreated datePublished" datetime="2016-05-20T00:00:01+08:00">2016-05-20</time>
-            
+            </span>
+          
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-08-27 10:15:54" itemprop="dateModified" datetime="2018-08-27T10:15:54+08:00">2018-08-27</time>
-              
-            
-          </span>
+          
 
           
 
           
+            
             
           
 
           
           
 
+          
+
+          
+
+          <br/>
           
 
           
@@ -851,11 +997,13 @@
 <p>春风十里 五十里 一百里 海底两万里<br>费列罗巧克力 草莓味八喜 可可布朗尼<br>榴莲菠萝蜜 芝士玉米粒 鸡汁土豆泥<br>摩卡边披萨 黑椒牛里脊 黄门辣子鸡<br>红烧排骨糖醋鱼不如你<br>全都不如你</p>
 </blockquote>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/xinxin/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/xinxin/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
           <!--/noindex-->
         
       
@@ -864,11 +1012,16 @@
     
 
     
+
+    
     
     
 
     
 
+    
+      
+    
     
 
     
@@ -908,16 +1061,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://v.donghongfei.com/2016/zhangxiaolong-fanfou-diary/">
+    <link itemprop="mainEntityOfPage" href="http://v.donghongfei.com/2016/zhangxiaolong-fanfou-diary/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="小学生·董宏飞">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://secure.gravatar.com/avatar/96db473f796b704624b52ba2d72bed46?size=460">
+      <meta itemprop="name" content="小学生·董宏飞"/>
+      <meta itemprop="description" content=""/>
+      <meta itemprop="image" content="https://secure.gravatar.com/avatar/96db473f796b704624b52ba2d72bed46?size=460"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="小学生·董宏飞">
+      <meta itemprop="name" content="小学生·董宏飞"/>
     </span>
 
     
@@ -927,22 +1080,21 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2016/zhangxiaolong-fanfou-diary/" itemprop="url">
-                  张小龙饭否日记
-                </a>
+                
+                <a href="/2016/zhangxiaolong-fanfou-diary/" class="post-title-link" itemprop="url">张小龙饭否日记</a>
               
             
           </h1>
         
 
         <div class="post-meta">
-          <span class="post-time">
 
-            
-            
-            
+          
+          
+          
 
-            
+          
+            <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
@@ -955,36 +1107,26 @@
               
 
               <time title="创建时间：2016-01-31 20:00:17" itemprop="dateCreated datePublished" datetime="2016-01-31T20:00:17+08:00">2016-01-31</time>
-            
+            </span>
+          
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-09-01 19:25:53" itemprop="dateModified" datetime="2018-09-01T19:25:53+08:00">2018-09-01</time>
-              
-            
-          </span>
+          
 
           
 
           
+            
             
           
 
           
           
 
+          
+
+          
+
+          <br/>
           
 
           
@@ -1010,11 +1152,13 @@
 </blockquote>
 <hr>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/zhangxiaolong-fanfou-diary/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/zhangxiaolong-fanfou-diary/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
           <!--/noindex-->
         
       
@@ -1023,11 +1167,16 @@
     
 
     
+
+    
     
     
 
     
 
+    
+      
+    
     
 
     
@@ -1067,16 +1216,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://v.donghongfei.com/2015/a-running-account/">
+    <link itemprop="mainEntityOfPage" href="http://v.donghongfei.com/2015/a-running-account/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="小学生·董宏飞">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://secure.gravatar.com/avatar/96db473f796b704624b52ba2d72bed46?size=460">
+      <meta itemprop="name" content="小学生·董宏飞"/>
+      <meta itemprop="description" content=""/>
+      <meta itemprop="image" content="https://secure.gravatar.com/avatar/96db473f796b704624b52ba2d72bed46?size=460"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="小学生·董宏飞">
+      <meta itemprop="name" content="小学生·董宏飞"/>
     </span>
 
     
@@ -1086,22 +1235,21 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/a-running-account/" itemprop="url">
-                  一篇流水账
-                </a>
+                
+                <a href="/2015/a-running-account/" class="post-title-link" itemprop="url">一篇流水账</a>
               
             
           </h1>
         
 
         <div class="post-meta">
-          <span class="post-time">
 
-            
-            
-            
+          
+          
+          
 
-            
+          
+            <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
@@ -1114,36 +1262,26 @@
               
 
               <time title="创建时间：2015-09-18 23:12:36" itemprop="dateCreated datePublished" datetime="2015-09-18T23:12:36+08:00">2015-09-18</time>
-            
+            </span>
+          
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-09-01 20:37:21" itemprop="dateModified" datetime="2018-09-01T20:37:21+08:00">2018-09-01</time>
-              
-            
-          </span>
+          
 
           
 
           
+            
             
           
 
           
           
 
+          
+
+          
+
+          <br/>
           
 
           
@@ -1167,11 +1305,13 @@
           <p>写一篇流水账，来记录一下第一次以产品身份带项目的经历。</p>
 <hr>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2015/a-running-account/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2015/a-running-account/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
           <!--/noindex-->
         
       
@@ -1180,11 +1320,16 @@
     
 
     
+
+    
     
     
 
     
 
+    
+      
+    
     
 
     
@@ -1224,16 +1369,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://v.donghongfei.com/2015/first-of-all-i-am-pm/">
+    <link itemprop="mainEntityOfPage" href="http://v.donghongfei.com/2015/first-of-all-i-am-pm/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="小学生·董宏飞">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://secure.gravatar.com/avatar/96db473f796b704624b52ba2d72bed46?size=460">
+      <meta itemprop="name" content="小学生·董宏飞"/>
+      <meta itemprop="description" content=""/>
+      <meta itemprop="image" content="https://secure.gravatar.com/avatar/96db473f796b704624b52ba2d72bed46?size=460"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="小学生·董宏飞">
+      <meta itemprop="name" content="小学生·董宏飞"/>
     </span>
 
     
@@ -1243,22 +1388,21 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/first-of-all-i-am-pm/" itemprop="url">
-                  首先是个产品
-                </a>
+                
+                <a href="/2015/first-of-all-i-am-pm/" class="post-title-link" itemprop="url">首先是个产品</a>
               
             
           </h1>
         
 
         <div class="post-meta">
-          <span class="post-time">
 
-            
-            
-            
+          
+          
+          
 
-            
+          
+            <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
@@ -1271,36 +1415,26 @@
               
 
               <time title="创建时间：2015-09-16 23:55:03" itemprop="dateCreated datePublished" datetime="2015-09-16T23:55:03+08:00">2015-09-16</time>
-            
+            </span>
+          
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-09-17 15:37:49" itemprop="dateModified" datetime="2016-09-17T15:37:49+08:00">2016-09-17</time>
-              
-            
-          </span>
+          
 
           
 
           
+            
             
           
 
           
           
 
+          
+
+          
+
+          <br/>
           
 
           
@@ -1325,11 +1459,13 @@
 <p>我是产品，我是产品，我是产品。</p>
 </blockquote>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2015/first-of-all-i-am-pm/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2015/first-of-all-i-am-pm/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
           <!--/noindex-->
         
       
@@ -1338,11 +1474,16 @@
     
 
     
+
+    
     
     
 
     
 
+    
+      
+    
     
 
     
@@ -1382,16 +1523,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://v.donghongfei.com/2015/初见Python/">
+    <link itemprop="mainEntityOfPage" href="http://v.donghongfei.com/2015/初见Python/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="小学生·董宏飞">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://secure.gravatar.com/avatar/96db473f796b704624b52ba2d72bed46?size=460">
+      <meta itemprop="name" content="小学生·董宏飞"/>
+      <meta itemprop="description" content=""/>
+      <meta itemprop="image" content="https://secure.gravatar.com/avatar/96db473f796b704624b52ba2d72bed46?size=460"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="小学生·董宏飞">
+      <meta itemprop="name" content="小学生·董宏飞"/>
     </span>
 
     
@@ -1401,22 +1542,21 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/初见Python/" itemprop="url">
-                  初见Python
-                </a>
+                
+                <a href="/2015/初见Python/" class="post-title-link" itemprop="url">初见Python</a>
               
             
           </h1>
         
 
         <div class="post-meta">
-          <span class="post-time">
 
-            
-            
-            
+          
+          
+          
 
-            
+          
+            <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
@@ -1429,36 +1569,26 @@
               
 
               <time title="创建时间：2015-09-05 18:02:09" itemprop="dateCreated datePublished" datetime="2015-09-05T18:02:09+08:00">2015-09-05</time>
-            
+            </span>
+          
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-09-17 15:47:59" itemprop="dateModified" datetime="2016-09-17T15:47:59+08:00">2016-09-17</time>
-              
-            
-          </span>
+          
 
           
 
           
+            
             
           
 
           
           
 
+          
+
+          
+
+          <br/>
           
 
           
@@ -1483,11 +1613,13 @@
 <p>伟大的先贤XXX曾说过，产品狗要学点儿代码</p>
 </blockquote>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2015/初见Python/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2015/初见Python/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
           <!--/noindex-->
         
       
@@ -1496,11 +1628,16 @@
     
 
     
+
+    
     
     
 
     
 
+    
+      
+    
     
 
     
@@ -1540,16 +1677,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://v.donghongfei.com/2015/head-first-data-analysis/">
+    <link itemprop="mainEntityOfPage" href="http://v.donghongfei.com/2015/head-first-data-analysis/"/>
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="小学生·董宏飞">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://secure.gravatar.com/avatar/96db473f796b704624b52ba2d72bed46?size=460">
+      <meta itemprop="name" content="小学生·董宏飞"/>
+      <meta itemprop="description" content=""/>
+      <meta itemprop="image" content="https://secure.gravatar.com/avatar/96db473f796b704624b52ba2d72bed46?size=460"/>
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="小学生·董宏飞">
+      <meta itemprop="name" content="小学生·董宏飞"/>
     </span>
 
     
@@ -1559,22 +1696,21 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2015/head-first-data-analysis/" itemprop="url">
-                  请用一张图证明你看过《深入浅出数据分析》
-                </a>
+                
+                <a href="/2015/head-first-data-analysis/" class="post-title-link" itemprop="url">请用一张图证明你看过《深入浅出数据分析》</a>
               
             
           </h1>
         
 
         <div class="post-meta">
-          <span class="post-time">
 
-            
-            
-            
+          
+          
+          
 
-            
+          
+            <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
@@ -1587,36 +1723,26 @@
               
 
               <time title="创建时间：2015-07-21 22:21:15" itemprop="dateCreated datePublished" datetime="2015-07-21T22:21:15+08:00">2015-07-21</time>
-            
+            </span>
+          
 
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2015-09-16 23:56:53" itemprop="dateModified" datetime="2015-09-16T23:56:53+08:00">2015-09-16</time>
-              
-            
-          </span>
+          
 
           
 
           
+            
             
           
 
           
           
 
+          
+
+          
+
+          <br/>
           
 
           
@@ -1639,11 +1765,13 @@
         
           <p>大图预警<br>
           <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2015/head-first-data-analysis/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2015/head-first-data-analysis/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
           <!--/noindex-->
         
       
@@ -1652,169 +1780,16 @@
     
 
     
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://v.donghongfei.com/2015/football-field-different-position-description/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="小学生·董宏飞">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://secure.gravatar.com/avatar/96db473f796b704624b52ba2d72bed46?size=460">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="小学生·董宏飞">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2015/football-field-different-position-description/" itemprop="url">
-                  足球场不同位置职责
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2015-07-14 23:05:22" itemprop="dateCreated datePublished" datetime="2015-07-14T23:05:22+08:00">2015-07-14</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-09-01 20:00:36" itemprop="dateModified" datetime="2018-09-01T20:00:36+08:00">2018-09-01</time>
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
 
     
     
     
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <blockquote>
-<p>参加了公司足球队，但是从高中开始踢球就纯凑热闹，今儿系统学习下职责。</p>
-</blockquote>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2015/football-field-different-position-description/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
 
     
 
     
+      
     
-    
-
-    
-
     
 
     
@@ -1864,120 +1839,139 @@
   </div>
 
   <aside id="sidebar" class="sidebar">
-    
     <div class="sidebar-inner">
 
       
 
       
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
+
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-            
-              <img class="site-author-image" itemprop="image"
-                src="https://secure.gravatar.com/avatar/96db473f796b704624b52ba2d72bed46?size=460"
-                alt="小学生·董宏飞" />
-            
-              <p class="site-author-name" itemprop="name">小学生·董宏飞</p>
-              <p class="site-description motion-element" itemprop="description"></p>
-          </div>
+  
+    <img class="site-author-image" itemprop="image"
+      src="https://secure.gravatar.com/avatar/96db473f796b704624b52ba2d72bed46?size=460"
+      alt="小学生·董宏飞"/>
+  
+  <p class="site-author-name" itemprop="name">小学生·董宏飞</p>
+  <div class="site-description motion-element" itemprop="description"></div>
+</div>
+
+
+  <nav class="site-state motion-element">
+    
+      <div class="site-state-item site-state-posts">
+        
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">26</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+    
+
+    
+
+    
+      
+      
+      <div class="site-state-item site-state-tags">
+        
+          
+            <a href="/tags/">
+          
+        
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        <span class="site-state-item-count">11</span>
+        <span class="site-state-item-name">标签</span>
+        </a>
+      </div>
+    
+  </nav>
+
+
+
+  <div class="feed-link motion-element">
+    <a href="/atom.xml" rel="alternate">
+      <i class="fa fa-rss"></i>RSS
+    </a>
+  </div>
+
+
+
+
+
+  <div class="links-of-author motion-element">
+    
+      <span class="links-of-author-item">
+      
+      
+        
+      
+      
+        
+      
+        <a href="https://github.com/DongHongfei" title="GitHub &rarr; https://github.com/DongHongfei" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+    
+      <span class="links-of-author-item">
+      
+      
+        
+      
+      
+        
+      
+        <a href="https://twitter.com/DongHongfei" title="Twitter &rarr; https://twitter.com/DongHongfei" rel="noopener" target="_blank"><i class="fa fa-fw fa-twitter"></i>Twitter</a>
+      </span>
+    
+      <span class="links-of-author-item">
+      
+      
+        
+      
+      
+        
+      
+        <a href="http://weibo.com/2012onlyone" title="Weibo &rarr; http://weibo.com/2012onlyone" rel="noopener" target="_blank"><i class="fa fa-fw fa-weibo"></i>Weibo</a>
+      </span>
+    
+  </div>
+
+
+
+
+
+
 
           
-            <nav class="site-state motion-element">
-              
-                <div class="site-state-item site-state-posts">
-                
-                  <a href="/archives/">
-                
-                    <span class="site-state-item-count">25</span>
-                    <span class="site-state-item-name">日志</span>
-                  </a>
-                </div>
-              
-
-              
-
-              
-                
-                
-                <div class="site-state-item site-state-tags">
-                  <a href="/tags/index.html">
-                    
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                    <span class="site-state-item-count">11</span>
-                    <span class="site-state-item-name">标签</span>
-                  </a>
-                </div>
-              
-            </nav>
           
-
-          
-            <div class="feed-link motion-element">
-              <a href="/atom.xml" rel="alternate">
-                <i class="fa fa-rss"></i>
-                RSS
-              </a>
-            </div>
-          
-
-          
-            <div class="links-of-author motion-element">
-              
-                <span class="links-of-author-item">
-                  <a href="https://github.com/DongHongfei" target="_blank" title="GitHub"><i class="fa fa-fw fa-github"></i>GitHub</a>
-                  
-                </span>
-              
-                <span class="links-of-author-item">
-                  <a href="https://twitter.com/DongHongfei" target="_blank" title="Twitter"><i class="fa fa-fw fa-twitter"></i>Twitter</a>
-                  
-                </span>
-              
-                <span class="links-of-author-item">
-                  <a href="http://weibo.com/2012onlyone" target="_blank" title="Weibo"><i class="fa fa-fw fa-weibo"></i>Weibo</a>
-                  
-                </span>
-              
-            </div>
-          
-
-          
-          
-
-          
-          
-
-          
-            
-          
-          
-
         </div>
-      </section>
+      </div>
 
       
 
@@ -1985,6 +1979,7 @@
 
     </div>
   </aside>
+  <div id="sidebar-dimmer"></div>
 
 
         
@@ -2005,9 +2000,7 @@
 </div>
 
 
-
-
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动 v3.7.1</div>
+  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v3.7.1</div>
 
 
 
@@ -2015,7 +2008,7 @@
 
 
 
-  <div class="theme-info">主题 – <a class="theme-link" target="_blank" href="https://theme-next.org">NexT.Pisces</a> v6.4.0</div>
+  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> v7.2.0</div>
 
 
 
@@ -2041,15 +2034,13 @@
     
 
     
-	
-    
 
     
   </div>
 
   
 
-<script type="text/javascript">
+<script>
   if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
     window.Promise = null;
   }
@@ -2064,7 +2055,8 @@
 
 
 
-
+  
+  
 
 
 
@@ -2081,27 +2073,20 @@
 
 
   
-  
-    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-  
+  <script src="/lib/jquery/index.js?v=3.4.1"></script>
 
   
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
 
   
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
 
 
-  
 
 
-  <script type="text/javascript" src="/js/src/utils.js?v=6.4.0"></script>
+  <script src="/js/utils.js?v=7.2.0"></script>
 
-  <script type="text/javascript" src="/js/src/motion.js?v=6.4.0"></script>
+  <script src="/js/motion.js?v=7.2.0"></script>
 
 
 
@@ -2109,20 +2094,15 @@
   
 
 
-  <script type="text/javascript" src="/js/src/affix.js?v=6.4.0"></script>
+  <script src="/js/affix.js?v=7.2.0"></script>
 
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=6.4.0"></script>
+  <script src="/js/schemes/pisces.js?v=7.2.0"></script>
 
 
-
-  
 
   
 
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.4.0"></script>
-
-
+  <script src="/js/next-boot.js?v=7.2.0"></script>
 
   
 
@@ -2130,22 +2110,7 @@
 
   
 
-
-
-
-
-
-
-
-
-
-
-
   
-
-
-
-
 
   
 
@@ -2158,13 +2123,50 @@
   
   
 
+
+
+
+
+
   
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+<script>
+// GET RESPONSIVE HEIGHT PASSED FROM IFRAME
+
+window.addEventListener("message", function(e) {
+  var data = e.data;
+  if ((typeof data === 'string') && (data.indexOf('ciu_embed') > -1)) {
+    var featureID = data.split(':')[1];
+    var height = data.split(':')[2];
+    $(`iframe[data-feature=${featureID}]`).height(parseInt(height) + 30);
+  }
+}, false);
+</script>
+
 
   
 
   
 
   
+
 
   
 
