@@ -7,6 +7,7 @@ tags: 足球
 
 <!-- more -->
 
+> 哈哈哈 还是不会踢，白学了
 
 ![职责图](/images/20150716/football.png)
 
