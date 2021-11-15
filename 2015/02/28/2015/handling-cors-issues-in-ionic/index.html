@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)">
+<meta name="generator" content="Hexo 5.4.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="google-site-verification" content="hLXEUgYmEJNA3INdNEsnWGLg2eunb2iXuTvrvu">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/themes/blue/pace-theme-minimal.css">
+  <script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.8.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":true,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+<meta name="description" content="译者注：本人翻译功力有限，所以文中难免有翻译不准确的地方，凑合看吧，牛逼的话你看英文版的去，完事儿欢迎回来指正交流（^_^） 如果你通过 ionic serve 或者 ionic run 命令使用或 live reload 或者访问过外部 API 结点，那么你肯定遇到过 CORS 问题，譬如下面这样： 123XMLHttpRequest cannot load http:&#x2F;&#x2F;api.ionic.c">
+<meta property="og:type" content="article">
+<meta property="og:title" content="解决 ionic 中的 CORS 问题【译】">
+<meta property="og:url" content="http://example.com/2015/02/28/2015/handling-cors-issues-in-ionic/index.html">
+<meta property="og:site_name" content="小学生·董宏飞">
+<meta property="og:description" content="译者注：本人翻译功力有限，所以文中难免有翻译不准确的地方，凑合看吧，牛逼的话你看英文版的去，完事儿欢迎回来指正交流（^_^） 如果你通过 ionic serve 或者 ionic run 命令使用或 live reload 或者访问过外部 API 结点，那么你肯定遇到过 CORS 问题，譬如下面这样： 123XMLHttpRequest cannot load http:&#x2F;&#x2F;api.ionic.c">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2015-02-28T12:17:56.000Z">
+<meta property="article:modified_time" content="2015-07-08T16:37:46.000Z">
+<meta property="article:author" content="小学生·董宏飞">
+<meta property="article:tag" content="董宏飞, 小学生·董宏飞, 小学生董宏飞, 产品经理, 工程师">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="http://example.com/2015/02/28/2015/handling-cors-issues-in-ionic/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://example.com/2015/02/28/2015/handling-cors-issues-in-ionic/","path":"2015/02/28/2015/handling-cors-issues-in-ionic/","title":"解决 ionic 中的 CORS 问题【译】"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>解决 ionic 中的 CORS 问题【译】 | 小学生·董宏飞</title>
+  
+  <script class="next-config" data-name="google_analytics" type="application/json">{"tracking_id":"UA-58430635-3","only_pageview":true}</script>
+  <script src="/js/third-party/analytics/google-analytics.js"></script>
+
+  <script src="/js/third-party/analytics/baidu-analytics.js"></script>
+  <script async src="https://hm.baidu.com/hm.js?201990663e500043f19067a1bb94c67b"></script>
+
+
+<link rel="dns-prefetch" href="https://waline-g2n23l5t0-donghongfei.vercel.app">
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">小学生·董宏飞</h1>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
+        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">11</span></a></li>
+        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">26</span></a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF-CORS%EF%BC%9F"><span class="nav-number">1.</span> <span class="nav-text">什么是 CORS？</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%AD%E7%9A%84%E8%BF%90%E8%A1%8C"><span class="nav-number">2.</span> <span class="nav-text">浏览器中的运行</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%AE%BE%E5%A4%87%E4%B8%8A%E7%9A%84%E8%BF%90%E8%A1%8C"><span class="nav-number">3.</span> <span class="nav-text">设备上的运行</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%9C%A8%E8%AE%BE%E5%A4%87%E4%BD%BF%E7%94%A8-livereload-%E8%BF%90%E8%A1%8C"><span class="nav-number">4.</span> <span class="nav-text">在设备使用 livereload 运行</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%9C%A8-ionic-%E4%B8%AD%E8%A7%A3%E5%86%B3-CORS-%E9%97%AE%E9%A2%98"><span class="nav-number">5.</span> <span class="nav-text">在 ionic 中解决 CORS 问题</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Ionic-CLI%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="nav-number">6.</span> <span class="nav-text">Ionic CLI代理服务器</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="nav-number">7.</span> <span class="nav-text">设置代理服务器</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86%E8%B7%AF%E5%BE%84"><span class="nav-number">8.</span> <span class="nav-text">设置代理路径</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE-Angular-Constant"><span class="nav-number">9.</span> <span class="nav-text">设置 Angular Constant</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AEAngular-Service"><span class="nav-number">10.</span> <span class="nav-text">设置Angular Service</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%80%9A%E8%BF%87-Gulp-%E8%87%AA%E5%8A%A8%E8%BD%AC%E6%8D%A2%E5%9C%B0%E5%9D%80"><span class="nav-number">11.</span> <span class="nav-text">通过 Gulp 自动转换地址</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%BB%93%E8%AF%AD"><span class="nav-number">12.</span> <span class="nav-text">结语</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="小学生·董宏飞"
+      src="https://secure.gravatar.com/avatar/96db473f796b704624b52ba2d72bed46?size=460">
+  <p class="site-author-name" itemprop="name">小学生·董宏飞</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">26</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">11</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/DongHongfei" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;DongHongfei" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="http://weibo.com/2012onlyone" title="Weibo → http:&#x2F;&#x2F;weibo.com&#x2F;2012onlyone" rel="noopener" target="_blank"><i class="fab fa-weibo fa-fw"></i>Weibo</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://twitter.com/DongHongfei" title="Twitter → https:&#x2F;&#x2F;twitter.com&#x2F;DongHongfei" rel="noopener" target="_blank"><i class="fab fa-twitter fa-fw"></i>Twitter</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/sitemap.xml" title="sitemap → &#x2F;sitemap.xml"><i class="fa fa-sitemap fa-fw"></i>sitemap</a>
+      </span>
+  </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2015/02/28/2015/handling-cors-issues-in-ionic/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://secure.gravatar.com/avatar/96db473f796b704624b52ba2d72bed46?size=460">
+      <meta itemprop="name" content="小学生·董宏飞">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="小学生·董宏飞">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          解决 ionic 中的 CORS 问题【译】
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2015-02-28 20:17:56" itemprop="dateCreated datePublished" datetime="2015-02-28T20:17:56+08:00">2015-02-28</time>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+  
+  <span class="post-meta-item">
+    
+    <span class="post-meta-item-icon">
+      <i class="far fa-comment"></i>
+    </span>
+    <span class="post-meta-item-text">Waline：</span>
+  
+    <a title="waline" href="/2015/02/28/2015/handling-cors-issues-in-ionic/#waline-comments" itemprop="discussionUrl">
+      <span class="post-comments-count waline-comment-count" id="/2015/02/28/2015/handling-cors-issues-in-ionic/" data-xid="/2015/02/28/2015/handling-cors-issues-in-ionic/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>5k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>5 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p><em>译者注：本人翻译功力有限，所以文中难免有翻译不准确的地方，凑合看吧，牛逼的话你看<a target="_blank" rel="noopener" href="http://ionicframework.com/blog/handling-cors-issues-in-ionic/">英文版</a>的去，完事儿欢迎回来指正交流（^_^）</em></p>
+<p>如果你通过 <code>ionic serve</code> 或者 <code>ionic run</code> 命令使用或 live reload 或者访问过外部 API 结点，那么你肯定遇到过 CORS 问题，譬如下面这样：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">XMLHttpRequest cannot load http://api.ionic.com/endpoint.</span><br><span class="line">No &#x27;Access-Control-Allow-Origin&#x27; header is present on the requested resource.</span><br><span class="line">Origin &#x27;http://localhost:8100&#x27; is therefore not allowed access.</span><br></pre></td></tr></table></figure>
+<p>那么问题来了，什么是 CORS 呢？又是什么导致了这个问题嘞？</p>
+<span id="more"></span>
+<h1 id="什么是-CORS？"><a href="#什么是-CORS？" class="headerlink" title="什么是 CORS？"></a>什么是 CORS？</h1><p>CORS=Cross origin resource sharing(跨域资源共享)</p>
+<p><code>origin</code> 就是你现在正在看的主站，你现在访问的是 <code>http://ionicframework.com/blog/handling-cors-issues-in-ionic</code>，那么 <code>origin</code> 就是 <code>ionicframework.com</code>。</p>
+<p>如果说我们向 <code>http://cors.api.com/api</code> 发起一个 AJAX 请求，那么 host origin 会由被浏览器自动列入CORS请求的 Orgin header 指定好了<em>（原文：Say we send an AJAX request to <a target="_blank" rel="noopener" href="http://cors.api.com/api">http://cors.api.com/api</a>, your host origin will be specified by the Origin header that is automatically included for CORS requests by the browser. ）</em> 由于 <code>ionicframework.com</code> 和 <code>api.com</code> 的主机并不匹配，所以在一个HTTP OPTIONS请求报头的 form 中我们所有从 <code>ionicframework.com</code> 发起的访问服务器资源的请求必修得到服务器的授权。</p>
+<p>假如上面的请求出现错误(不被服务器允许)，那么我们是无法从服务器访问到(<code>api.com</code>上的)资源的。</p>
+<p>让我们来看一下当你通过<code>ionic serve</code>， <code>ionic run</code>，<code>ionic run -l</code>来运行 app 的时候 <code>origin</code> 会是什么。</p>
+<h1 id="浏览器中的运行"><a href="#浏览器中的运行" class="headerlink" title="浏览器中的运行"></a>浏览器中的运行</h1><p>当你运行 <code>ionic serve</code> 时发生了什么呢？</p>
+<ul>
+<li>启动了一个本地 web 服务器</li>
+<li>你的浏览器打开并定位到本地服务器地址</li>
+</ul>
+<p>这让你看着你的应用加载到你电脑上一个浏览器里，地址是：<code>http://localhost:8100</code>（如果你选择了 localhost的话）。</p>
+<p>你的 <code>origin</code> 就是 <code>localhost:8100</code>。</p>
+<p>任何的发送到其他不是 <code>localhost:8100</code> 主机上的 AJAX 请求都会把<code>localhost:8100</code>作为他的 origin，这就会导致必须要经过一个 CORS 预检来看是否可以访问（非本机的）服务器资源。</p>
+<h1 id="设备上的运行"><a href="#设备上的运行" class="headerlink" title="设备上的运行"></a>设备上的运行</h1><p>当你运行 <code>ionic run</code> 时发生了什么呢？</p>
+<ul>
+<li>app 所有的文件被拷贝到设备（或者模拟器）上。</li>
+<li>app 运行起来，触发手机/模拟器上的浏览器访问已经被拷贝上去的文件，比如：<br><code>file://some/path/www/index.html</code>。</li>
+</ul>
+<p>因为你正在运行的 URI 是 <code>file://</code>，所以你的 <code>origin</code> 将不会存在，所以任何向外的请求都不再需要 CORS 请求。</p>
+<h1 id="在设备使用-livereload-运行"><a href="#在设备使用-livereload-运行" class="headerlink" title="在设备使用 livereload 运行"></a>在设备使用 livereload 运行</h1><p>当你运行 <code>ionic run -l</code>时又发生了什么呢？</p>
+<ul>
+<li>启动了一个本地服务器</li>
+<li>app 运行起来，触发手机/模拟器上的一个浏览器通过<code>http://192.168.1.1:8100</code>来运行文件(你的 本地 ip 可能是其他的)。</li>
+</ul>
+<p>你的 <code>origin</code> 就会是 <code>192.168.1.1:8100</code>。</p>
+<p>任何一个发送到不是<code>192.168.1.1:8100</code>的服务器上的 AJAX 请求都会需要进行 CORS 预检请求来看是否可以访问到该服务器上的资源。</p>
+<h1 id="在-ionic-中解决-CORS-问题"><a href="#在-ionic-中解决-CORS-问题" class="headerlink" title="在 ionic 中解决 CORS 问题"></a>在 ionic 中解决 CORS 问题</h1><p>CORS 问题只有在我们通过 <code>ionic serve</code> 或者 <code>ionic run -l</code> 来运行或测试应用的时候才会遇到。</p>
+<p>解决这个问题有两个办法：第一个，也是比较简单的一个，就是在你的 API 服务器端允许所有的 origin，然而我们并不能控制我们访问的所有的结点。我们需要的是一个不指定<code>origin</code>的请求。</p>
+<p>我们可以通过使用代理服务器来解决这个问题。我们来看看 Ionic CLI 是怎样提供了一个易配置的代理服务器的。</p>
+<h1 id="Ionic-CLI代理服务器"><a href="#Ionic-CLI代理服务器" class="headerlink" title="Ionic CLI代理服务器"></a>Ionic CLI代理服务器</h1><p>关于代理的快速定义：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">在计算机网络中，代理服务器就是一个服务器（计算机系统或者应用程序），是客户端发起的请求从其他服务器寻求资源的中间桥梁。</span><br></pre></td></tr></table></figure>
+<p><em>原文：In computer networks, a proxy server is a server (a computer system or an application) that acts as an intermediary for requests from clients seeking resources from other servers.</em></p>
+<p>我们为了避开 CORS 问题需要做的就是有一个代理服务器，可以接收我们的请求，想 API 结点发出一个新的请求，接收结点响应，之后反馈给我们的应用，从而避开 CORS 问题。</p>
+<p>Ionic CLI 就有给你提供一个代理服务器从而避开所有可能会遇到的 CORS 问题的能力。</p>
+<p>由于代理服务器向你的目标主机发起了一个新的请求，所以就不会再有 <code>origin</code>，也就不再需要 CORS 了。要注意，在浏览器增加了 Origin header 是很重要的。</p>
+<h1 id="设置代理服务器"><a href="#设置代理服务器" class="headerlink" title="设置代理服务器"></a>设置代理服务器</h1><p><em>注意，这些设置只有通过<code>ionic serve</code> 和 <code>ionic run -l</code> 运行应用才需要</em></p>
+<p>首先我们需要在 <code>ionic.project</code>文件中设置我们的代理，这会告诉我们的 Ionic 本地服务器监听这些地址，然后发送这些请求到我们的目标地址上。</p>
+<p>在我们的应用中，当运行 <code>serve</code> 或 <code>run -l</code> 时候，我们需要把要访问的结点地址替换成代理服务器的地址。</p>
+<p>使用gulp任务的 replace 模块来转换出口地址会简单一点。</p>
+<p>建议的方法是设置一个 Angular Constant 来定位到我们试图代理的 API。</p>
+<p>这就是我们下面要采用的方法。我们会同时设置一个 Angular Service 来从 API结点 获取数据。</p>
+<h1 id="设置代理路径"><a href="#设置代理路径" class="headerlink" title="设置代理路径"></a>设置代理路径</h1><p>比如说我们想要访问 <code>http://cors.api.com/api</code>，但并不允许我们来自 <code>localhost</code>的 origin。</p>
+<p>代理的设置包括两件事儿：在你本地 Ionic 服务器需要访问的 <code>path</code>，最终需要访问API的 <code>proxyUrl</code>。</p>
+<p>在你的 <code>ionic.project</code> 中像这样设置：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  &quot;name&quot;: &quot;proxy-example&quot;,</span><br><span class="line">  &quot;app_id&quot;: &quot;&quot;,</span><br><span class="line">  &quot;proxies&quot;: [</span><br><span class="line">    &#123;</span><br><span class="line">      &quot;path&quot;: &quot;/api&quot;,</span><br><span class="line">      &quot;proxyUrl&quot;: &quot;http://cors.api.com/api&quot;</span><br><span class="line">    &#125;</span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>通过<code>ionic serve</code>启动你的服务器。</p>
+<p>像我们上面指定的这样，当你访问 Ionic 服务器地址 <code>http://localhost:8100/api</code> 的时候，它会以你的名义访问 <code>http://cors.api.com/api</code>。</p>
+<p>这样，就不需要 CORS 了。</p>
+<h1 id="设置-Angular-Constant"><a href="#设置-Angular-Constant" class="headerlink" title="设置 Angular Constant"></a>设置 Angular Constant</h1><p>把你的 API结点设置成 Angular Constants是非常简单的一件事儿。</p>
+<p>下面我们就来把API结点指定成为我们的代理 URL。</p>
+<p>之后(发布时候)我们会把正式的地址作为 constant。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">angular.module(&#x27;starter&#x27;, [&#x27;ionic&#x27;, &#x27;starter.controllers&#x27;, &#x27;starter.services&#x27;])</span><br><span class="line">.constant(&#x27;ApiEndpoint&#x27;, &#123;</span><br><span class="line">  url: &#x27;http://localhost:8100/api&#x27;</span><br><span class="line">&#125;)</span><br><span class="line">// For the real endpoint, we&#x27;d use this</span><br><span class="line">// .constant(&#x27;ApiEndpoint&#x27;, &#123;</span><br><span class="line">//  url: &#x27;http://cors.api.com/api&#x27;</span><br><span class="line">// &#125;)</span><br></pre></td></tr></table></figure>
+
+<p>设置好之后你就能像下面这样在应用中引入<code>ApiEndpoint</code>依赖，随意调用这个constant了。</p>
+<h1 id="设置Angular-Service"><a href="#设置Angular-Service" class="headerlink" title="设置Angular Service"></a>设置Angular Service</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">angular.module(&#x27;starter.services&#x27;, [])</span><br><span class="line"></span><br><span class="line">//NOTE: We are including the constant `ApiEndpoint` to be used here.</span><br><span class="line">.factory(&#x27;Api&#x27;, function($http, ApiEndpoint) &#123;</span><br><span class="line">  console.log(&#x27;ApiEndpoint&#x27;, ApiEndpoint)</span><br><span class="line"></span><br><span class="line">  var getApiData = function() &#123;</span><br><span class="line">    return $http.get(ApiEndpoint.url + &#x27;/tasks&#x27;)</span><br><span class="line">      .then(function(data) &#123;</span><br><span class="line">        console.log(&#x27;Got some data: &#x27;, data);</span><br><span class="line">        return data;</span><br><span class="line">      &#125;);</span><br><span class="line">  &#125;;</span><br><span class="line"></span><br><span class="line">  return &#123;</span><br><span class="line">    getApiData: getApiData</span><br><span class="line">  &#125;;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+<h1 id="通过-Gulp-自动转换地址"><a href="#通过-Gulp-自动转换地址" class="headerlink" title="通过 Gulp 自动转换地址"></a>通过 Gulp 自动转换地址</h1><p>这个过程中，我们需要修改<code>gulpfile.js</code>来添加两个任务：添加代理和移除代理。</p>
+<p>首先安装<code>replace</code>模块 - <code>npm install --save replace</code></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">// `npm install --save replace`</span><br><span class="line">var replace = require(&#x27;replace&#x27;);</span><br><span class="line">var replaceFiles = [&#x27;./www/js/app.js&#x27;];</span><br><span class="line"></span><br><span class="line">gulp.task(&#x27;add-proxy&#x27;, function() &#123;</span><br><span class="line">  return replace(&#123;</span><br><span class="line">    regex: &quot;http://cors.api.com/api&quot;,</span><br><span class="line">    replacement: &quot;http://localhost:8100/api&quot;,</span><br><span class="line">    paths: replaceFiles,</span><br><span class="line">    recursive: false,</span><br><span class="line">    silent: false,</span><br><span class="line">  &#125;);</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line">gulp.task(&#x27;remove-proxy&#x27;, function() &#123;</span><br><span class="line">  return replace(&#123;</span><br><span class="line">    regex: &quot;http://localhost:8100/api&quot;,</span><br><span class="line">    replacement: &quot;http://cors.api.com/api&quot;,</span><br><span class="line">    paths: replaceFiles,</span><br><span class="line">    recursive: false,</span><br><span class="line">    silent: false,</span><br><span class="line">  &#125;);</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+<h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>本教程向你展示了一个解决通过<code>ionic serve</code>或<code>ionic run -l</code>命令运行应用时候遇到的 CORS 问题的方法。</p>
+<p>我们知道在<code>ionic serve</code>和<code>ionic run -l</code>之间转换 API 结点地址的时候可能会是个麻烦，比较建议的方法是启动一个 gulp 进程。</p>
+<p>解决 CORS 问题最简单的方法是让 API 提供者允许所有的 hosts，然后这事儿有点儿不太现实。</p>
+<p>使用 Angular constant 和 replace 模块可以给我们一个避开 CORS 的折中的办法。</p>
+<p>如果你想看看完整的例子，可以看看这个<a target="_blank" rel="noopener" href="http://github.com/driftyco/ionic-proxy-example">示例项目</a>。</p>
+<p>这就是你需要访问一个有 CORS 限制的 API 服务器时候需要了解的所有事儿了。</p>
+<p>如果你还有什么疑问、问题或者想法，请在下面评论，或者在 <a target="_blank" rel="noopener" href="https://twitter.com/IonicChina">twitter</a> 或 <a target="_blank" rel="noopener" href="https://github.com/IonicChina">github</a> 上联系我们。</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2015/02/26/2015/The%20Ionic%20Framework%20Cheatsheet/" rel="prev" title="Ionic Framework 操作说明书">
+                  <i class="fa fa-chevron-left"></i> Ionic Framework 操作说明书
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2015/03/08/2015/move-on/" rel="next" title="搬家了">
+                  搬家了 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments" id="waline-comments"></div>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">小学生·董宏飞</span>
+</div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+    <span title="站点总字数">168k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">2:33</span>
+  </span>
+</div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@next-theme/pjax@0.5.0/pjax.min.js" integrity="sha256-3NkoLDrmHLTYj7csHIZSr0MHAFTXth7Ua/DDt4MRUAg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script><script src="/js/pjax.js"></script>
+
+  
+<script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.4.0/dist/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+  <script src="/js/third-party/pace.js"></script>
+
+  
+  <script data-pjax async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+<script class="next-config" data-name="waline" type="application/json">{"lang":"zh-cn","enable":true,"serverURL":"https://waline-g2n23l5t0-donghongfei.vercel.app","placeholder":"Just go go","avatar":"mm","pageSize":10,"visitor":false,"comment_count":false,"requiredFields":[],"meta":["nick","mail","link"],"libUrl":"https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js","el":"#waline-comments","path":"/2015/02/28/2015/handling-cors-issues-in-ionic/"}</script>
+<script>
+document.addEventListener('page:loaded', () => {
+  NexT.utils.loadComments(CONFIG.waline.el).then(() => 
+    NexT.utils.getScript(CONFIG.waline.libUrl, { condition: window.Waline })
+  ).then(() => {
+    new Waline(CONFIG.waline);
+  });
+});
+</script>
+</body>
+</html>
