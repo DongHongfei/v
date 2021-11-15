@@ -137,6 +137,12 @@
       </tags>
   </entry>
   <entry>
+    <title>春雨医生产品分析报告</title>
+    <url>/2015/07/14/2015/chunyuyisheng-product-analysis-report/</url>
+    <content><![CDATA[<p>占坑儿</p>
+]]></content>
+  </entry>
+  <entry>
     <title>平淡的一天(1)</title>
     <url>/2015/02/17/2015/dull-day-1/</url>
     <content><![CDATA[<p>“波噜波噜波噜波噜，波噜波噜波噜波噜…”</p>
@@ -151,12 +157,6 @@
 <p>　　但是，在抬起头的一瞬间，我可以赌上腹肌发誓，我绝对看到了这个世界上最美的风景。</p>
 <p>　　……</p>
 <p>　　(未完待续)</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>春雨医生产品分析报告</title>
-    <url>/2015/07/14/2015/chunyuyisheng-product-analysis-report/</url>
-    <content><![CDATA[<p>占坑儿</p>
 ]]></content>
   </entry>
   <entry>
@@ -289,15 +289,6 @@
       </tags>
   </entry>
   <entry>
-    <title>请用一张图证明你看过《深入浅出数据分析》</title>
-    <url>/2015/07/21/2015/head-first-data-analysis/</url>
-    <content><![CDATA[<p>大图预警</p>
-<span id="more"></span>
-
-<p><img src="/images/20150721/head-first-data-analysis.png" alt="职责图"></p>
-]]></content>
-  </entry>
-  <entry>
     <title>解决 ionic 中的 CORS 问题【译】</title>
     <url>/2015/02/28/2015/handling-cors-issues-in-ionic/</url>
     <content><![CDATA[<p><em>译者注：本人翻译功力有限，所以文中难免有翻译不准确的地方，凑合看吧，牛逼的话你看<a href="http://ionicframework.com/blog/handling-cors-issues-in-ionic/">英文版</a>的去，完事儿欢迎回来指正交流（^_^）</em></p>
@@ -376,9 +367,12 @@
 ]]></content>
   </entry>
   <entry>
-    <title>搬家了</title>
-    <url>/2015/03/08/2015/move-on/</url>
-    <content><![CDATA[<p>搬家了，原来用的 wordpress，一点都不酷，内容也都是东朝西摘的，一点都不酷，所以这把搞个酷酷的~<br>安装参考:<a href="http://cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/">http://cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/</a></p>
+    <title>请用一张图证明你看过《深入浅出数据分析》</title>
+    <url>/2015/07/21/2015/head-first-data-analysis/</url>
+    <content><![CDATA[<p>大图预警</p>
+<span id="more"></span>
+
+<p><img src="/images/20150721/head-first-data-analysis.png" alt="职责图"></p>
 ]]></content>
   </entry>
   <entry>
@@ -415,6 +409,12 @@
 <p><a href="https://www.youtube.com/watch?v=qQiYE6x7cFk">第一部分</a></p>
 <p><a href="https://www.youtube.com/watch?v=hoy3MESySWQ">第二部分</a></p>
 <p>Ps:下面的视频是放在YouTube上得，需要翻墙才能看，推荐个不错的Chrome插件<a href="http://honx.in/i/U-LXTOz5NFxwRetD">红杏</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>搬家了</title>
+    <url>/2015/03/08/2015/move-on/</url>
+    <content><![CDATA[<p>搬家了，原来用的 wordpress，一点都不酷，内容也都是东朝西摘的，一点都不酷，所以这把搞个酷酷的~<br>安装参考:<a href="http://cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/">http://cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/</a></p>
 ]]></content>
   </entry>
   <entry>
@@ -503,23 +503,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>初见Python</title>
-    <url>/2015/09/05/2015/%E5%88%9D%E8%A7%81Python/</url>
-    <content><![CDATA[<blockquote>
-<p>伟大的先贤XXX曾说过，产品狗要学点儿代码</p>
-</blockquote>
-<span id="more"></span>
-
-<h1 id="为啥是Python"><a href="#为啥是Python" class="headerlink" title="为啥是Python?"></a>为啥是Python?</h1><p>一个字：简单。</p>
-<hr>
-<p>20150916更新<br>算了，又不想学了。</p>
-]]></content>
-      <tags>
-        <tag>python</tag>
-        <tag>学点儿代码</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>无节操没下限段子类社交 app 竞品分析</title>
     <url>/2015/05/26/2015/wujiecao-meixiaxian-shejiao-app-jingpinfenxi/</url>
     <content><![CDATA[<blockquote>
@@ -583,6 +566,23 @@
       </tags>
   </entry>
   <entry>
+    <title>初见Python</title>
+    <url>/2015/09/05/2015/%E5%88%9D%E8%A7%81Python/</url>
+    <content><![CDATA[<blockquote>
+<p>伟大的先贤XXX曾说过，产品狗要学点儿代码</p>
+</blockquote>
+<span id="more"></span>
+
+<h1 id="为啥是Python"><a href="#为啥是Python" class="headerlink" title="为啥是Python?"></a>为啥是Python?</h1><p>一个字：简单。</p>
+<hr>
+<p>20150916更新<br>算了，又不想学了。</p>
+]]></content>
+      <tags>
+        <tag>python</tag>
+        <tag>学点儿代码</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2019年中总结</title>
     <url>//2019/2019-07-21</url>
     <content><![CDATA[<p>总啥结啊总</p>
@@ -616,26 +616,6 @@
       <tags>
         <tag>总结</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>虚度的国庆节</title>
-    <url>/2016/10/06/2016/the-day-i-lost-in-10-1-days/</url>
-    <content><![CDATA[<p>国庆节开始时候大致做了个度假计划：哪儿也不去，就在家待着。  </p>
-<span id="more"></span>
-
-<h1 id="第一天"><a href="#第一天" class="headerlink" title="第一天"></a>第一天</h1><p>做了个计划</p>
-<h1 id="第二天"><a href="#第二天" class="headerlink" title="第二天"></a>第二天</h1><p>忘了</p>
-<h1 id="第三天"><a href="#第三天" class="headerlink" title="第三天"></a>第三天</h1><p>忘了</p>
-<h1 id="第四天"><a href="#第四天" class="headerlink" title="第四天"></a>第四天</h1><p>忘了</p>
-<h1 id="第五天"><a href="#第五天" class="headerlink" title="第五天"></a>第五天</h1><p>忘了</p>
-<h1 id="第六天-吃了死苍蝇一样恶心"><a href="#第六天-吃了死苍蝇一样恶心" class="headerlink" title="第六天 - 吃了死苍蝇一样恶心"></a>第六天 - 吃了死苍蝇一样恶心</h1><p>早上好像是10点多醒的，凌晨2点多3点睡的，好像。<br>昨天看的郭德纲相声，德云社20周年开幕式。<br>真的很赞，一群明星大咖。<br>一个事儿印象特别深刻，郭德纲说，相声讲究的说学逗唱，唱，是因为历史，在最开始的时候，相声是在大街上说的，需要唱一段儿，来把人都吸引过来，否则直接说，没人会停下来听。<br>我们要读历史，是因为平常很多事儿，很多我们以为理所应当的事儿，从历史的发展来看，都是有他的原因的。</p>
-<p>晚上时候去买衣服，自己转了一圈儿，买了个90块钱的毛衣，同时发现了几件比之前买的又贵又丑的白衬衣好看又便宜的衣服。 这几件衣服是去买衣服，售货员强行给搭配的，当时一顿夸，自己看着也不错，就买了，尼玛，一件衬衣好几百，料子又不舒服，sb透了。</p>
-<p>去付款的时候，旁边珠宝柜台说可以抽奖，然后竟然尼玛抽中了一等奖，一折购买玉器，尼玛！服务员演的跟真的一样，啊！竟然抽中了一等奖！然后假装跟旁边人说，啊，怎么被他抽中了呢！一副不理解的样子。<br>第一次以第一人称经历这种事儿，贪便宜的心顿时上来了，但又担心被骗，想着买个两三千的，打完折两三百，就算被骗也不太心疼，但是都真的太丑了，看中个平安扣，原价9800，样子还不错，想着正好老夫人生日送给她，还没送过这么贵重的东西呢，她要是知道原价1w不得高兴毁了。<br>纠纠结结的，服务员也半生推销半激将法的劝了大半天，几乎丧失了理智就买了……<br>完事儿百度了下，关键词“商场中奖一折”，尼玛……<br>吃了死苍蝇都没这么恶心……  </p>
-<p>贪便宜！！！</p>
-<p>我决定以后就自己带着，时刻警醒自己！！！</p>
-<p>天上绝逼不会掉馅饼！！！</p>
-<p>不要丧失了理智！！！</p>
-<h1 id="第七天"><a href="#第七天" class="headerlink" title="第七天"></a>第七天</h1>]]></content>
   </entry>
   <entry>
     <title>心心</title>
@@ -713,6 +693,26 @@
       <tags>
         <tag>心心</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>虚度的国庆节</title>
+    <url>/2016/10/06/2016/the-day-i-lost-in-10-1-days/</url>
+    <content><![CDATA[<p>国庆节开始时候大致做了个度假计划：哪儿也不去，就在家待着。  </p>
+<span id="more"></span>
+
+<h1 id="第一天"><a href="#第一天" class="headerlink" title="第一天"></a>第一天</h1><p>做了个计划</p>
+<h1 id="第二天"><a href="#第二天" class="headerlink" title="第二天"></a>第二天</h1><p>忘了</p>
+<h1 id="第三天"><a href="#第三天" class="headerlink" title="第三天"></a>第三天</h1><p>忘了</p>
+<h1 id="第四天"><a href="#第四天" class="headerlink" title="第四天"></a>第四天</h1><p>忘了</p>
+<h1 id="第五天"><a href="#第五天" class="headerlink" title="第五天"></a>第五天</h1><p>忘了</p>
+<h1 id="第六天-吃了死苍蝇一样恶心"><a href="#第六天-吃了死苍蝇一样恶心" class="headerlink" title="第六天 - 吃了死苍蝇一样恶心"></a>第六天 - 吃了死苍蝇一样恶心</h1><p>早上好像是10点多醒的，凌晨2点多3点睡的，好像。<br>昨天看的郭德纲相声，德云社20周年开幕式。<br>真的很赞，一群明星大咖。<br>一个事儿印象特别深刻，郭德纲说，相声讲究的说学逗唱，唱，是因为历史，在最开始的时候，相声是在大街上说的，需要唱一段儿，来把人都吸引过来，否则直接说，没人会停下来听。<br>我们要读历史，是因为平常很多事儿，很多我们以为理所应当的事儿，从历史的发展来看，都是有他的原因的。</p>
+<p>晚上时候去买衣服，自己转了一圈儿，买了个90块钱的毛衣，同时发现了几件比之前买的又贵又丑的白衬衣好看又便宜的衣服。 这几件衣服是去买衣服，售货员强行给搭配的，当时一顿夸，自己看着也不错，就买了，尼玛，一件衬衣好几百，料子又不舒服，sb透了。</p>
+<p>去付款的时候，旁边珠宝柜台说可以抽奖，然后竟然尼玛抽中了一等奖，一折购买玉器，尼玛！服务员演的跟真的一样，啊！竟然抽中了一等奖！然后假装跟旁边人说，啊，怎么被他抽中了呢！一副不理解的样子。<br>第一次以第一人称经历这种事儿，贪便宜的心顿时上来了，但又担心被骗，想着买个两三千的，打完折两三百，就算被骗也不太心疼，但是都真的太丑了，看中个平安扣，原价9800，样子还不错，想着正好老夫人生日送给她，还没送过这么贵重的东西呢，她要是知道原价1w不得高兴毁了。<br>纠纠结结的，服务员也半生推销半激将法的劝了大半天，几乎丧失了理智就买了……<br>完事儿百度了下，关键词“商场中奖一折”，尼玛……<br>吃了死苍蝇都没这么恶心……  </p>
+<p>贪便宜！！！</p>
+<p>我决定以后就自己带着，时刻警醒自己！！！</p>
+<p>天上绝逼不会掉馅饼！！！</p>
+<p>不要丧失了理智！！！</p>
+<h1 id="第七天"><a href="#第七天" class="headerlink" title="第七天"></a>第七天</h1>]]></content>
   </entry>
   <entry>
     <title>2018年年不初年不中年不终的总结</title>
