@@ -137,12 +137,6 @@
       </tags>
   </entry>
   <entry>
-    <title>春雨医生产品分析报告</title>
-    <url>/2015/07/14/2015/chunyuyisheng-product-analysis-report/</url>
-    <content><![CDATA[<p>占坑儿</p>
-]]></content>
-  </entry>
-  <entry>
     <title>平淡的一天(1)</title>
     <url>/2015/02/17/2015/dull-day-1/</url>
     <content><![CDATA[<p>“波噜波噜波噜波噜，波噜波噜波噜波噜…”</p>
@@ -157,6 +151,12 @@
 <p>　　但是，在抬起头的一瞬间，我可以赌上腹肌发誓，我绝对看到了这个世界上最美的风景。</p>
 <p>　　……</p>
 <p>　　(未完待续)</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>春雨医生产品分析报告</title>
+    <url>/2015/07/14/2015/chunyuyisheng-product-analysis-report/</url>
+    <content><![CDATA[<p>占坑儿</p>
 ]]></content>
   </entry>
   <entry>
@@ -289,6 +289,15 @@
       </tags>
   </entry>
   <entry>
+    <title>请用一张图证明你看过《深入浅出数据分析》</title>
+    <url>/2015/07/21/2015/head-first-data-analysis/</url>
+    <content><![CDATA[<p>大图预警</p>
+<span id="more"></span>
+
+<p><img src="/images/20150721/head-first-data-analysis.png" alt="职责图"></p>
+]]></content>
+  </entry>
+  <entry>
     <title>解决 ionic 中的 CORS 问题【译】</title>
     <url>/2015/02/28/2015/handling-cors-issues-in-ionic/</url>
     <content><![CDATA[<p><em>译者注：本人翻译功力有限，所以文中难免有翻译不准确的地方，凑合看吧，牛逼的话你看<a href="http://ionicframework.com/blog/handling-cors-issues-in-ionic/">英文版</a>的去，完事儿欢迎回来指正交流（^_^）</em></p>
@@ -367,12 +376,9 @@
 ]]></content>
   </entry>
   <entry>
-    <title>请用一张图证明你看过《深入浅出数据分析》</title>
-    <url>/2015/07/21/2015/head-first-data-analysis/</url>
-    <content><![CDATA[<p>大图预警</p>
-<span id="more"></span>
-
-<p><img src="/images/20150721/head-first-data-analysis.png" alt="职责图"></p>
+    <title>搬家了</title>
+    <url>/2015/03/08/2015/move-on/</url>
+    <content><![CDATA[<p>搬家了，原来用的 wordpress，一点都不酷，内容也都是东朝西摘的，一点都不酷，所以这把搞个酷酷的~<br>安装参考:<a href="http://cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/">http://cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/</a></p>
 ]]></content>
   </entry>
   <entry>
@@ -409,12 +415,6 @@
 <p><a href="https://www.youtube.com/watch?v=qQiYE6x7cFk">第一部分</a></p>
 <p><a href="https://www.youtube.com/watch?v=hoy3MESySWQ">第二部分</a></p>
 <p>Ps:下面的视频是放在YouTube上得，需要翻墙才能看，推荐个不错的Chrome插件<a href="http://honx.in/i/U-LXTOz5NFxwRetD">红杏</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>搬家了</title>
-    <url>/2015/03/08/2015/move-on/</url>
-    <content><![CDATA[<p>搬家了，原来用的 wordpress，一点都不酷，内容也都是东朝西摘的，一点都不酷，所以这把搞个酷酷的~<br>安装参考:<a href="http://cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/">http://cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/</a></p>
 ]]></content>
   </entry>
   <entry>
@@ -503,6 +503,23 @@
 ]]></content>
   </entry>
   <entry>
+    <title>初见Python</title>
+    <url>/2015/09/05/2015/%E5%88%9D%E8%A7%81Python/</url>
+    <content><![CDATA[<blockquote>
+<p>伟大的先贤XXX曾说过，产品狗要学点儿代码</p>
+</blockquote>
+<span id="more"></span>
+
+<h1 id="为啥是Python"><a href="#为啥是Python" class="headerlink" title="为啥是Python?"></a>为啥是Python?</h1><p>一个字：简单。</p>
+<hr>
+<p>20150916更新<br>算了，又不想学了。</p>
+]]></content>
+      <tags>
+        <tag>python</tag>
+        <tag>学点儿代码</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>无节操没下限段子类社交 app 竞品分析</title>
     <url>/2015/05/26/2015/wujiecao-meixiaxian-shejiao-app-jingpinfenxi/</url>
     <content><![CDATA[<blockquote>
@@ -563,23 +580,6 @@
         <tag>糗事百科</tag>
         <tag>内涵段子</tag>
         <tag>冷笑话精选</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>初见Python</title>
-    <url>/2015/09/05/2015/%E5%88%9D%E8%A7%81Python/</url>
-    <content><![CDATA[<blockquote>
-<p>伟大的先贤XXX曾说过，产品狗要学点儿代码</p>
-</blockquote>
-<span id="more"></span>
-
-<h1 id="为啥是Python"><a href="#为啥是Python" class="headerlink" title="为啥是Python?"></a>为啥是Python?</h1><p>一个字：简单。</p>
-<hr>
-<p>20150916更新<br>算了，又不想学了。</p>
-]]></content>
-      <tags>
-        <tag>python</tag>
-        <tag>学点儿代码</tag>
       </tags>
   </entry>
   <entry>
