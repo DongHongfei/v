@@ -84,6 +84,19 @@
 ]]></content>
   </entry>
   <entry>
+    <title>Ionic Framework 操作说明书</title>
+    <url>/2015/The%20Ionic%20Framework%20Cheatsheet/</url>
+    <content><![CDATA[<h2 id="Ionic-Framework-操作说明书"><a href="#Ionic-Framework-操作说明书" class="headerlink" title="Ionic Framework 操作说明书"></a>Ionic Framework 操作说明书</h2><p>如果你用了 Ionic Framework 一段时间之后你会发现有好多经常重复用到的命令行语句。有时候经常会突然用到一个特殊的标记或者选项，所以我做了个小抄放在手边。这样在开发我的 app 的时候就能把注意力集中在编程上，不用时不时的去搜索一个特殊的命令了。</p>
+<p>另外这个对初学者来说太方便了，你会发现分分钟搞出来一个很棒的 Ionic App。你往下看看，爽死你<del>如果你觉得还有哪儿需要添加什么东西，欢迎给我留言(译者注：在 Ionichina 社区讨论也可以的哦</del>)。</p>
+<span id="more"></span>
+
+<p>下面这张图就是 Ionic Framework 操作说明书了，送给所有的初学者，懒蛋和所有喜欢我的人~</p>
+<p><img data-src="http://7vzo2z.com1.z0.glb.clouddn.com/FiwlXYxEha6sdME06DdQGcvc62TM" alt="ionic-cheatsheet.png"></p>
+<p>来源：<a href="http://devdactic.com/ionic-cheatsheet/">The Ionic Framework Cheatsheet</a></p>
+<p><em>译者注：原文是Cheatsheet，我这里翻译成说明书，如果不对或者有更好的解释，请指正。</em></p>
+]]></content>
+  </entry>
+  <entry>
     <title>一篇流水账</title>
     <url>/2015/a-running-account/</url>
     <content><![CDATA[<p>写一篇流水账，来记录一下第一次以产品身份带项目的经历。</p>
@@ -122,19 +135,6 @@
       <tags>
         <tag>产品经理 流水账 第一个项目</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Ionic Framework 操作说明书</title>
-    <url>/2015/The%20Ionic%20Framework%20Cheatsheet/</url>
-    <content><![CDATA[<h2 id="Ionic-Framework-操作说明书"><a href="#Ionic-Framework-操作说明书" class="headerlink" title="Ionic Framework 操作说明书"></a>Ionic Framework 操作说明书</h2><p>如果你用了 Ionic Framework 一段时间之后你会发现有好多经常重复用到的命令行语句。有时候经常会突然用到一个特殊的标记或者选项，所以我做了个小抄放在手边。这样在开发我的 app 的时候就能把注意力集中在编程上，不用时不时的去搜索一个特殊的命令了。</p>
-<p>另外这个对初学者来说太方便了，你会发现分分钟搞出来一个很棒的 Ionic App。你往下看看，爽死你<del>如果你觉得还有哪儿需要添加什么东西，欢迎给我留言(译者注：在 Ionichina 社区讨论也可以的哦</del>)。</p>
-<span id="more"></span>
-
-<p>下面这张图就是 Ionic Framework 操作说明书了，送给所有的初学者，懒蛋和所有喜欢我的人~</p>
-<p><img data-src="http://7vzo2z.com1.z0.glb.clouddn.com/FiwlXYxEha6sdME06DdQGcvc62TM" alt="ionic-cheatsheet.png"></p>
-<p>来源：<a href="http://devdactic.com/ionic-cheatsheet/">The Ionic Framework Cheatsheet</a></p>
-<p><em>译者注：原文是Cheatsheet，我这里翻译成说明书，如果不对或者有更好的解释，请指正。</em></p>
-]]></content>
   </entry>
   <entry>
     <title>春雨医生产品分析报告</title>
@@ -412,12 +412,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>搬家了</title>
-    <url>/2015/move-on/</url>
-    <content><![CDATA[<p>搬家了，原来用的 wordpress，一点都不酷，内容也都是东朝西摘的，一点都不酷，所以这把搞个酷酷的~<br>安装参考:<a href="http://cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/">http://cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>Navigating the Changes</title>
     <url>/2015/navigating-the-changes/</url>
     <content><![CDATA[<p>在发布 Beta 14 版本之前，我们花费了很长时间在 ionic 社区上搜集导航 UI 应该如何表现，不只是关于过渡动画，而是所有的元素怎么在一个 app 里整合起来。Beta 14 中在导航的结构和元素上我们遵循了很多非常棒并且已经很成熟的模式，这些模式在所有平台上的 app 里随处可见。我们赶脚这些更新可以让你很平滑的去构建导航的 UI。</p>
@@ -482,6 +476,12 @@
 <p><a href="http://ionicframework.com/docs/api/directive/ionNavButtons/">ionNavButtons</a></p>
 <p><a href="http://ionicframework.com/docs/api/directive/ionSideMenus/">ionSideMenus</a></p>
 <p><a href="http://ionicframework.com/docs/api/directive/ionTabs/">ionTabs</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>搬家了</title>
+    <url>/2015/move-on/</url>
+    <content><![CDATA[<p>搬家了，原来用的 wordpress，一点都不酷，内容也都是东朝西摘的，一点都不酷，所以这把搞个酷酷的~<br>安装参考:<a href="http://cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/">http://cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/</a></p>
 ]]></content>
   </entry>
   <entry>
@@ -580,6 +580,24 @@
       <tags>
         <tag>python</tag>
         <tag>学点儿代码</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2019年中总结</title>
+    <url>/2019/2019%E5%B9%B4%E5%B9%B4%E4%B8%8D%E5%88%9D%E5%B9%B4%E4%B8%8D%E4%B8%AD%E5%B9%B4%E4%B8%8D%E7%BB%88%E7%9A%84%E6%80%BB%E7%BB%93/</url>
+    <content><![CDATA[<p>总啥结啊总</p>
+]]></content>
+      <tags>
+        <tag>总结</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2018年年不初年不中年不终的总结</title>
+    <url>/2018/2018%E5%B9%B4%E5%B9%B4%E4%B8%8D%E5%88%9D%E5%B9%B4%E4%B8%8D%E4%B8%AD%E5%B9%B4%E4%B8%8D%E7%BB%88%E7%9A%84%E6%80%BB%E7%BB%93/</url>
+    <content><![CDATA[<p>没啥好总结的</p>
+]]></content>
+      <tags>
+        <tag>总结</tag>
       </tags>
   </entry>
   <entry>
@@ -703,24 +721,6 @@
 ]]></content>
       <tags>
         <tag>心心</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2019年中总结</title>
-    <url>/2019/2019%E5%B9%B4%E5%B9%B4%E4%B8%8D%E5%88%9D%E5%B9%B4%E4%B8%8D%E4%B8%AD%E5%B9%B4%E4%B8%8D%E7%BB%88%E7%9A%84%E6%80%BB%E7%BB%93/</url>
-    <content><![CDATA[<p>总啥结啊总</p>
-]]></content>
-      <tags>
-        <tag>总结</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2018年年不初年不中年不终的总结</title>
-    <url>/2018/2018%E5%B9%B4%E5%B9%B4%E4%B8%8D%E5%88%9D%E5%B9%B4%E4%B8%8D%E4%B8%AD%E5%B9%B4%E4%B8%8D%E7%BB%88%E7%9A%84%E6%80%BB%E7%BB%93/</url>
-    <content><![CDATA[<p>没啥好总结的</p>
-]]></content>
-      <tags>
-        <tag>总结</tag>
       </tags>
   </entry>
   <entry>
