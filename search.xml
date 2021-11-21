@@ -1,32 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>我想，我是爱你的</title>
-    <url>/2014/i-think-maybe-i-love-you/</url>
-    <content><![CDATA[<p>我想，我是爱你的</p>
-<p>我不知道我是否真的爱你<br>只是在寂静的夜里<br>你经常出现在梦里</p>
-<p>我不知道我是否真的爱你<br>只是曾经的只言片语<br>会蓦然的想起</p>
-<p>我不知道我是否真的爱你<br>即便无法再收到你的讯息<br>依然无法将你忘记</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>某篇文章里</title>
-    <url>/2014/%E8%8C%83%E4%B8%9C%E5%9D%A1/</url>
-    <content><![CDATA[<p>今天头昏昏沉沉的，一出门就撞着柱子了</p>
-<p>我记得这儿以前没有柱子的</p>
-<p>看来最近真的太累了</p>
-<span id="more"></span>
-
-<p>该好好休息休息了</p>
-<p>谁知道还会不会出现比柱子更硬的东西呢</p>
-<p>总有一天我会一头撞死在上头</p>
-<p>不知到时会不会被人捡回家煮了吃</p>
-<p>成就另一个守柱待T的故事</p>
-]]></content>
-  </entry>
-  <entry>
     <title>Ionic Framework 操作说明书</title>
-    <url>/2015/The%20Ionic%20Framework%20Cheatsheet/</url>
+    <url>/The%20Ionic%20Framework%20Cheatsheet/</url>
     <content><![CDATA[<h2 id="Ionic-Framework-操作说明书"><a href="#Ionic-Framework-操作说明书" class="headerlink" title="Ionic Framework 操作说明书"></a>Ionic Framework 操作说明书</h2><p>如果你用了 Ionic Framework 一段时间之后你会发现有好多经常重复用到的命令行语句。有时候经常会突然用到一个特殊的标记或者选项，所以我做了个小抄放在手边。这样在开发我的 app 的时候就能把注意力集中在编程上，不用时不时的去搜索一个特殊的命令了。</p>
 <p>另外这个对初学者来说太方便了，你会发现分分钟搞出来一个很棒的 Ionic App。你往下看看，爽死你<del>如果你觉得还有哪儿需要添加什么东西，欢迎给我留言(译者注：在 Ionichina 社区讨论也可以的哦</del>)。</p>
 <span id="more"></span>
@@ -39,7 +15,7 @@
   </entry>
   <entry>
     <title>Ionic 集成 jpush(极光)推送之 IOS 篇</title>
-    <url>/2015/Ionic-jpush-IOS/</url>
+    <url>/Ionic-jpush-IOS/</url>
     <content><![CDATA[<p>极光推送官方版的 phonegap 插件在<a href="https://github.com/jpush/jpush-phonegap-plugin">这里</a>。<br>由于官方版插件 ios 版暂时没有打开通知的方法，所以在官方基础上修改了下，修改后的插件放在了<a href="https://github.com/DongHongfei/jpush-phonegap-plugin">这里</a>，下面说明以修改后的插件为准。（感谢极光官方大神viper耐心帮助，同时也参考了下<a href="http://ionichina.com/user/lanceli">@lanceli</a>大神的<a href="https://github.com/lanceli/cnodejs-ionic">cnodejs-ionic</a>项目）</p>
 <p>极光账户设置部分可以参考小和尚的<a href="http://ionichina.com/topic/54f96e7b59a9bdef119234a1">这篇</a>分享。</p>
 <p>下面主要说明项目代码部分修改。</p>
@@ -97,31 +73,8 @@
 ]]></content>
   </entry>
   <entry>
-    <title>春雨医生产品分析报告</title>
-    <url>/2015/chunyuyisheng-product-analysis-report/</url>
-    <content><![CDATA[<p>占坑儿</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>平淡的一天(1)</title>
-    <url>/2015/dull-day-1/</url>
-    <content><![CDATA[<p>“波噜波噜波噜波噜，波噜波噜波噜波噜…”</p>
-<p>　　摸过手机，眯开半只眼睛，6点半，分秒不差，闭上眼给今天做个计划：起来跑步，5公里，吃早点洗漱，然后精精神神上班去！what a beautful day!</p>
-<p>　　OK，睁眼起床，卧槽，8点了！</p>
-<span id="more"></span>
-<p>　　二十分钟后，地铁站。</p>
-<p>　　“……清车回库不上人…等候下趟…”</p>
-<p>　　望着攒动的人头，无奈的将耳机的声音开到了最大，撸起袖子，如勇士般冲入人流。</p>
-<p>　　“It’s our party we can do what we want, It’s our party we can say what we want……”</p>
-<p>　　一路小跑，穿越了mount people mount sea之后爬上站台，哈哈，刚刚好，箭步冲进地铁的那一刹那身后响起了关门声。</p>
-<p>　　但是，在抬起头的一瞬间，我可以赌上腹肌发誓，我绝对看到了这个世界上最美的风景。</p>
-<p>　　……</p>
-<p>　　(未完待续)</p>
-]]></content>
-  </entry>
-  <entry>
     <title>一篇流水账</title>
-    <url>/2015/a-running-account/</url>
+    <url>/a-running-account/</url>
     <content><![CDATA[<p>写一篇流水账，来记录一下第一次以产品身份带项目的经历。</p>
 <hr>
 <span id="more"></span>
@@ -160,24 +113,31 @@
       </tags>
   </entry>
   <entry>
-    <title>平淡的一天(2)</title>
-    <url>/2015/dull-day-2/</url>
-    <content><![CDATA[<p>好漂亮的眼睛！</p>
-<p>口罩遮住了大半张脸，却无法遮住那份美丽和灵动！</p>
-<p>两弯似蹙非蹙罥烟眉,一双似喜非喜含情目。</p>
+    <title>春雨医生产品分析报告</title>
+    <url>/chunyuyisheng-product-analysis-report/</url>
+    <content><![CDATA[<p>占坑儿</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>平淡的一天(1)</title>
+    <url>/dull-day-1/</url>
+    <content><![CDATA[<p>“波噜波噜波噜波噜，波噜波噜波噜波噜…”</p>
+<p>　　摸过手机，眯开半只眼睛，6点半，分秒不差，闭上眼给今天做个计划：起来跑步，5公里，吃早点洗漱，然后精精神神上班去！what a beautful day!</p>
+<p>　　OK，睁眼起床，卧槽，8点了！</p>
 <span id="more"></span>
-<p>短暂的大脑空白之后，突然意识到该说点儿什么或做点儿什么。</p>
-<p>听过见过想象过的各种桥段一个一个在脑海中闪现，又一个一个Pass掉，电光火石间进行着天人交战。</p>
-<p>突然感觉被人撞了一下，NMB，心中默念三字经，不爽的扭过头，但扭过来只够看到对方胸大肌的时候，放弃了仰视下是什么鸟人的想法，同时豁达的原谅了他的不礼貌。</p>
-<p>地铁就是这样神奇的一个地方，总会在你觉得挤满了的时候，又能挤进来一拨人。所以被从莫名其妙的地方冒出来个人挤一下一点儿也不会觉得莫名其妙。</p>
-<p>电光火石间调整好心态，却发现，姑娘不见了…</p>
+<p>　　二十分钟后，地铁站。</p>
+<p>　　“……清车回库不上人…等候下趟…”</p>
+<p>　　望着攒动的人头，无奈的将耳机的声音开到了最大，撸起袖子，如勇士般冲入人流。</p>
+<p>　　“It’s our party we can do what we want, It’s our party we can say what we want……”</p>
+<p>　　一路小跑，穿越了mount people mount sea之后爬上站台，哈哈，刚刚好，箭步冲进地铁的那一刹那身后响起了关门声。</p>
+<p>　　但是，在抬起头的一瞬间，我可以赌上腹肌发誓，我绝对看到了这个世界上最美的风景。</p>
 <p>　　……</p>
 <p>　　(未完待续)</p>
 ]]></content>
   </entry>
   <entry>
     <title>平淡的一天(3)</title>
-    <url>/2015/dull-day-3/</url>
+    <url>/dull-day-3/</url>
     <content><![CDATA[<p>姑姑，不是，姑娘，你在哪儿？</p>
 <p>不是吧，大早起的，就给我整个这？</p>
 <p>拨开一群带着口罩冷漠的人，不甘心的跋涉到传说中的列车中部，再往前看，看到的又是另一波儿口罩们，搞毛啊！</p>
@@ -204,8 +164,40 @@
 ]]></content>
   </entry>
   <entry>
+    <title>首先是个产品</title>
+    <url>/first-of-all-i-am-pm/</url>
+    <content><![CDATA[<blockquote>
+<p>我是产品，我是产品，我是产品。</p>
+</blockquote>
+<span id="more"></span>
+
+
+<p>经历了好几天开会撕逼后，项目终于缓缓进入了开发阶段。<br>#问题&amp;思考<br>从之前升级分诊功能，到后面问诊运营修复bug，再到现在系统升级，以产品角色参与其中，中间走了挺多弯路的。  </p>
+<p>我想问题还是出在自己并没有完全的站在一个产品的角度去做每件事情，作为一个产品，更多地应该是从解决实际问题出发，而不是让之前作为程序员的角色思维过多影响到自己。  </p>
+<p>我觉得产品应该是团队的核心，从需求采集到方案设计再到实施上线，一个优秀的产品在这个过程中应该起到主导作用。</p>
+<p>而在这段时间的工作中，可能对开发工作相对比较熟悉，在与开发同学讨论需求时候会过多的去想一些方案的具体实现，会过多的干预到开发同学实现方案的制定上，而在产品应该发挥作用的地方并没有完全hold住，比如流程的梳理、功能的设计、对用户需求的挖掘、对项目整体的把控，结果就导致在讨论具体开发开发方案时比较混乱，而在涉及到产品层面的东西时，自己还是做不到完全心里有底。</p>
+<p>捡了芝麻丢了西瓜的感觉，一定得记着，首先是个产品~~~</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>平淡的一天(2)</title>
+    <url>/dull-day-2/</url>
+    <content><![CDATA[<p>好漂亮的眼睛！</p>
+<p>口罩遮住了大半张脸，却无法遮住那份美丽和灵动！</p>
+<p>两弯似蹙非蹙罥烟眉,一双似喜非喜含情目。</p>
+<span id="more"></span>
+<p>短暂的大脑空白之后，突然意识到该说点儿什么或做点儿什么。</p>
+<p>听过见过想象过的各种桥段一个一个在脑海中闪现，又一个一个Pass掉，电光火石间进行着天人交战。</p>
+<p>突然感觉被人撞了一下，NMB，心中默念三字经，不爽的扭过头，但扭过来只够看到对方胸大肌的时候，放弃了仰视下是什么鸟人的想法，同时豁达的原谅了他的不礼貌。</p>
+<p>地铁就是这样神奇的一个地方，总会在你觉得挤满了的时候，又能挤进来一拨人。所以被从莫名其妙的地方冒出来个人挤一下一点儿也不会觉得莫名其妙。</p>
+<p>电光火石间调整好心态，却发现，姑娘不见了…</p>
+<p>　　……</p>
+<p>　　(未完待续)</p>
+]]></content>
+  </entry>
+  <entry>
     <title>平淡的一天(4)</title>
-    <url>/2015/dull-day-4/</url>
+    <url>/dull-day-4/</url>
     <content><![CDATA[<p>·霍营地铁站台·</p>
 <p>一个碎花裙姑娘眼含笑意盯着面前这个满脸疲惫的男孩儿亢奋的滔滔不绝。</p>
 <p>“住这边真的还蛮好的，离地铁站走路只要5分钟，并且隔两趟就回有一趟空车，一趟车隔两分钟，所以稍等一会儿就可以保证可以坐到有座的车！”</p>
@@ -246,24 +238,8 @@
 ]]></content>
   </entry>
   <entry>
-    <title>首先是个产品</title>
-    <url>/2015/first-of-all-i-am-pm/</url>
-    <content><![CDATA[<blockquote>
-<p>我是产品，我是产品，我是产品。</p>
-</blockquote>
-<span id="more"></span>
-
-
-<p>经历了好几天开会撕逼后，项目终于缓缓进入了开发阶段。<br>#问题&amp;思考<br>从之前升级分诊功能，到后面问诊运营修复bug，再到现在系统升级，以产品角色参与其中，中间走了挺多弯路的。  </p>
-<p>我想问题还是出在自己并没有完全的站在一个产品的角度去做每件事情，作为一个产品，更多地应该是从解决实际问题出发，而不是让之前作为程序员的角色思维过多影响到自己。  </p>
-<p>我觉得产品应该是团队的核心，从需求采集到方案设计再到实施上线，一个优秀的产品在这个过程中应该起到主导作用。</p>
-<p>而在这段时间的工作中，可能对开发工作相对比较熟悉，在与开发同学讨论需求时候会过多的去想一些方案的具体实现，会过多的干预到开发同学实现方案的制定上，而在产品应该发挥作用的地方并没有完全hold住，比如流程的梳理、功能的设计、对用户需求的挖掘、对项目整体的把控，结果就导致在讨论具体开发开发方案时比较混乱，而在涉及到产品层面的东西时，自己还是做不到完全心里有底。</p>
-<p>捡了芝麻丢了西瓜的感觉，一定得记着，首先是个产品~~~</p>
-]]></content>
-  </entry>
-  <entry>
     <title>足球场不同位置职责</title>
-    <url>/2015/football-field-different-position-description/</url>
+    <url>/football-field-different-position-description/</url>
     <content><![CDATA[<blockquote>
 <p>参加了公司足球队，但是从高中开始踢球就纯凑热闹，今儿系统学习下职责。</p>
 </blockquote>
@@ -290,7 +266,7 @@
   </entry>
   <entry>
     <title>解决 ionic 中的 CORS 问题【译】</title>
-    <url>/2015/handling-cors-issues-in-ionic/</url>
+    <url>/handling-cors-issues-in-ionic/</url>
     <content><![CDATA[<p><em>译者注：本人翻译功力有限，所以文中难免有翻译不准确的地方，凑合看吧，牛逼的话你看<a href="http://ionicframework.com/blog/handling-cors-issues-in-ionic/">英文版</a>的去，完事儿欢迎回来指正交流（^_^）</em></p>
 <p>如果你通过 <code>ionic serve</code> 或者 <code>ionic run</code> 命令使用或 live reload 或者访问过外部 API 结点，那么你肯定遇到过 CORS 问题，譬如下面这样：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">XMLHttpRequest cannot load http://api.ionic.com/endpoint.</span><br><span class="line">No &#x27;Access-Control-Allow-Origin&#x27; header is present on the requested resource.</span><br><span class="line">Origin &#x27;http://localhost:8100&#x27; is therefore not allowed access.</span><br></pre></td></tr></table></figure>
@@ -368,7 +344,7 @@
   </entry>
   <entry>
     <title>请用一张图证明你看过《深入浅出数据分析》</title>
-    <url>/2015/head-first-data-analysis/</url>
+    <url>/head-first-data-analysis/</url>
     <content><![CDATA[<p>大图预警</p>
 <span id="more"></span>
 
@@ -377,7 +353,7 @@
   </entry>
   <entry>
     <title>压缩你的Ionic App源码【译】</title>
-    <url>/2015/minifying-your-source-code/</url>
+    <url>/minifying-your-source-code/</url>
     <content><![CDATA[<p><em>译者注：本人翻译功力有限，所以文中难免有翻译不准确的地方，凑合看吧，牛逼的话你看<a href="http://ionicframework.com/blog/minifying-your-source-code/">英文版</a>的去，完事儿欢迎回来指正交流（^_^）。</em></p>
 <p><em>这篇文章是邀请<a href="http://blog.nraboy.com/">Nic Raboy</a>来写的，他是在Android， AngularJS， Ionic， Java， SQL和 Unity3D等多个领域都很有建树的应用开发者。Nic经常写一些关于Ionic和如何创建非常棒的hybrid应用的文章。</em></p>
 <p>先前我介绍过丑化你的Apache Cordova应用源码的重要性。如果你读过我<a href="">之前</a> 的文章你就会知道，hybrid应用非常容易被反编译，所以混淆你的代码会给那些恶意用户增加不少难度。</p>
@@ -412,14 +388,8 @@
 ]]></content>
   </entry>
   <entry>
-    <title>搬家了</title>
-    <url>/2015/move-on/</url>
-    <content><![CDATA[<p>搬家了，原来用的 wordpress，一点都不酷，内容也都是东朝西摘的，一点都不酷，所以这把搞个酷酷的~<br>安装参考:<a href="http://cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/">http://cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>Navigating the Changes</title>
-    <url>/2015/navigating-the-changes/</url>
+    <url>/navigating-the-changes/</url>
     <content><![CDATA[<p>在发布 Beta 14 版本之前，我们花费了很长时间在 ionic 社区上搜集导航 UI 应该如何表现，不只是关于过渡动画，而是所有的元素怎么在一个 app 里整合起来。Beta 14 中在导航的结构和元素上我们遵循了很多非常棒并且已经很成熟的模式，这些模式在所有平台上的 app 里随处可见。我们赶脚这些更新可以让你很平滑的去构建导航的 UI。</p>
 <span id="more"></span>
 <p>###Nav buttons<br>在 Beta 14 版本中我们新增了一个新的navbar 集成结构（inheritance structure，翻译成这个咋这别扭…）。在<code>&lt;ion-nav-buttons&gt;</code> 或<br><code>&lt;ion-nav-title&gt;</code> 下的任何元素的集合都会被默认的 header 或者顶级视图（一般是在 index.html 文件中）中的内容替换掉。</p>
@@ -485,8 +455,14 @@
 ]]></content>
   </entry>
   <entry>
+    <title>搬家了</title>
+    <url>/move-on/</url>
+    <content><![CDATA[<p>搬家了，原来用的 wordpress，一点都不酷，内容也都是东朝西摘的，一点都不酷，所以这把搞个酷酷的~<br>安装参考:<a href="http://cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/">http://cnfeat.com/2014/05/10/2014-05-11-how-to-build-a-blog/</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>为什么我想做产品经理</title>
-    <url>/2015/why-do-i-want-to-be-pm/</url>
+    <url>/why-do-i-want-to-be-pm/</url>
     <content><![CDATA[<blockquote>
 <p>到今天为止，以产品的身份参加工作满一个月了，小纪念下。  </p>
 </blockquote>
@@ -503,8 +479,25 @@
 ]]></content>
   </entry>
   <entry>
+    <title>初见Python</title>
+    <url>/%E5%88%9D%E8%A7%81Python/</url>
+    <content><![CDATA[<blockquote>
+<p>伟大的先贤XXX曾说过，产品狗要学点儿代码</p>
+</blockquote>
+<span id="more"></span>
+
+<h1 id="为啥是Python"><a href="#为啥是Python" class="headerlink" title="为啥是Python?"></a>为啥是Python?</h1><p>一个字：简单。</p>
+<hr>
+<p>20150916更新<br>算了，又不想学了。</p>
+]]></content>
+      <tags>
+        <tag>python</tag>
+        <tag>学点儿代码</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>无节操没下限段子类社交 app 竞品分析</title>
-    <url>/2015/wujiecao-meixiaxian-shejiao-app-jingpinfenxi/</url>
+    <url>/wujiecao-meixiaxian-shejiao-app-jingpinfenxi/</url>
     <content><![CDATA[<blockquote>
 <p>   v1.2<br>   小学生·董宏飞<br>   2015年5月27日</p>
 </blockquote>
@@ -566,25 +559,32 @@
       </tags>
   </entry>
   <entry>
-    <title>初见Python</title>
-    <url>/2015/%E5%88%9D%E8%A7%81Python/</url>
-    <content><![CDATA[<blockquote>
-<p>伟大的先贤XXX曾说过，产品狗要学点儿代码</p>
-</blockquote>
+    <title>我想，我是爱你的</title>
+    <url>/i-think-maybe-i-love-you/</url>
+    <content><![CDATA[<p>我想，我是爱你的</p>
+<p>我不知道我是否真的爱你<br>只是在寂静的夜里<br>你经常出现在梦里</p>
+<p>我不知道我是否真的爱你<br>只是曾经的只言片语<br>会蓦然的想起</p>
+<p>我不知道我是否真的爱你<br>即便无法再收到你的讯息<br>依然无法将你忘记</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>某篇文章里</title>
+    <url>/%E8%8C%83%E4%B8%9C%E5%9D%A1/</url>
+    <content><![CDATA[<p>今天头昏昏沉沉的，一出门就撞着柱子了</p>
+<p>我记得这儿以前没有柱子的</p>
+<p>看来最近真的太累了</p>
 <span id="more"></span>
 
-<h1 id="为啥是Python"><a href="#为啥是Python" class="headerlink" title="为啥是Python?"></a>为啥是Python?</h1><p>一个字：简单。</p>
-<hr>
-<p>20150916更新<br>算了，又不想学了。</p>
+<p>该好好休息休息了</p>
+<p>谁知道还会不会出现比柱子更硬的东西呢</p>
+<p>总有一天我会一头撞死在上头</p>
+<p>不知到时会不会被人捡回家煮了吃</p>
+<p>成就另一个守柱待T的故事</p>
 ]]></content>
-      <tags>
-        <tag>python</tag>
-        <tag>学点儿代码</tag>
-      </tags>
   </entry>
   <entry>
     <title>第一份儿产品经理工作总结</title>
-    <url>/2016/something-i-was-thinking/</url>
+    <url>/something-i-was-thinking/</url>
     <content><![CDATA[<blockquote>
 <p>其实是一堆拉七八糟胡乱想到的牢骚</p>
 </blockquote>
@@ -609,8 +609,28 @@
       </tags>
   </entry>
   <entry>
+    <title>虚度的国庆节</title>
+    <url>/the-day-i-lost-in-10-1-days/</url>
+    <content><![CDATA[<p>国庆节开始时候大致做了个度假计划：哪儿也不去，就在家待着。  </p>
+<span id="more"></span>
+
+<h1 id="第一天"><a href="#第一天" class="headerlink" title="第一天"></a>第一天</h1><p>做了个计划</p>
+<h1 id="第二天"><a href="#第二天" class="headerlink" title="第二天"></a>第二天</h1><p>忘了</p>
+<h1 id="第三天"><a href="#第三天" class="headerlink" title="第三天"></a>第三天</h1><p>忘了</p>
+<h1 id="第四天"><a href="#第四天" class="headerlink" title="第四天"></a>第四天</h1><p>忘了</p>
+<h1 id="第五天"><a href="#第五天" class="headerlink" title="第五天"></a>第五天</h1><p>忘了</p>
+<h1 id="第六天-吃了死苍蝇一样恶心"><a href="#第六天-吃了死苍蝇一样恶心" class="headerlink" title="第六天 - 吃了死苍蝇一样恶心"></a>第六天 - 吃了死苍蝇一样恶心</h1><p>早上好像是10点多醒的，凌晨2点多3点睡的，好像。<br>昨天看的郭德纲相声，德云社20周年开幕式。<br>真的很赞，一群明星大咖。<br>一个事儿印象特别深刻，郭德纲说，相声讲究的说学逗唱，唱，是因为历史，在最开始的时候，相声是在大街上说的，需要唱一段儿，来把人都吸引过来，否则直接说，没人会停下来听。<br>我们要读历史，是因为平常很多事儿，很多我们以为理所应当的事儿，从历史的发展来看，都是有他的原因的。</p>
+<p>晚上时候去买衣服，自己转了一圈儿，买了个90块钱的毛衣，同时发现了几件比之前买的又贵又丑的白衬衣好看又便宜的衣服。 这几件衣服是去买衣服，售货员强行给搭配的，当时一顿夸，自己看着也不错，就买了，尼玛，一件衬衣好几百，料子又不舒服，sb透了。</p>
+<p>去付款的时候，旁边珠宝柜台说可以抽奖，然后竟然尼玛抽中了一等奖，一折购买玉器，尼玛！服务员演的跟真的一样，啊！竟然抽中了一等奖！然后假装跟旁边人说，啊，怎么被他抽中了呢！一副不理解的样子。<br>第一次以第一人称经历这种事儿，贪便宜的心顿时上来了，但又担心被骗，想着买个两三千的，打完折两三百，就算被骗也不太心疼，但是都真的太丑了，看中个平安扣，原价9800，样子还不错，想着正好老夫人生日送给她，还没送过这么贵重的东西呢，她要是知道原价1w不得高兴毁了。<br>纠纠结结的，服务员也半生推销半激将法的劝了大半天，几乎丧失了理智就买了……<br>完事儿百度了下，关键词“商场中奖一折”，尼玛……<br>吃了死苍蝇都没这么恶心……  </p>
+<p>贪便宜！！！</p>
+<p>我决定以后就自己带着，时刻警醒自己！！！</p>
+<p>天上绝逼不会掉馅饼！！！</p>
+<p>不要丧失了理智！！！</p>
+<h1 id="第七天"><a href="#第七天" class="headerlink" title="第七天"></a>第七天</h1>]]></content>
+  </entry>
+  <entry>
     <title>心心</title>
-    <url>/2016/xinxin/</url>
+    <url>/xinxin/</url>
     <content><![CDATA[<blockquote>
 <p>春风十里 五十里 一百里 海底两万里<br>费列罗巧克力 草莓味八喜 可可布朗尼<br>榴莲菠萝蜜 芝士玉米粒 鸡汁土豆泥<br>摩卡边披萨 黑椒牛里脊 黄门辣子鸡<br>红烧排骨糖醋鱼不如你<br>全都不如你</p>
 </blockquote>
@@ -624,16 +644,16 @@
 <p>刚上大学那阵儿，有哥们儿问我，飞哥你喜欢什么样儿的女孩儿，赶紧搞一个噻。<br>我说，我喜欢那种，我喜欢她，她也喜欢我的。<br>他们都笑我，说你别做梦了，哪儿会有这种事儿啊。</p>
 <p>在十渡农家院楼顶玩儿杀人游戏时候，感觉你老谋深算的，后来知道你是93的后，我偷偷儿跟宏宇说，哇，大家都笑你不像93的，那个妹子也是93的哇。</p>
 <p>在去爬山的路上，我去和你搭讪，哇，你竟然穿着高跟鞋爬山，好厉害呀，哇，你这里还有两个兜儿呀，是不是可以很方便的放水瓶子呀，没想到你竟然真的把我的瓶子放进去了，还让我拍了照…</p>
-<p><img data-src="/images/20160520/shidu_liangpingshui.jpg" alt="十渡"></p>
+<p><img data-src="./images/20160520/shidu_liangpingshui.jpg" alt="十渡"></p>
 <p>回去地铁上，你瞪着大眼珠子望着我们，武杰说他在找工作，你说我也正在找男朋友。我想开玩笑说，好巧，我也在找女朋友。说出来却变成了，找男朋友和找工作一样，不过一个是投简历，一个是收简历，蛮拙劣的玩笑。</p>
-<p><img data-src="/images/20160520/sanciyuan.jpg" alt="三次元"><br>这一期的三次元我是主席，我招募了三节课里所有认识的漂亮的妹子，想要搞一个噱头，颜值最高的志愿者团队。<br>我发给你之后，你欣然答应了。</p>
+<p><img data-src="./images/20160520/sanciyuan.jpg" alt="三次元"><br>这一期的三次元我是主席，我招募了三节课里所有认识的漂亮的妹子，想要搞一个噱头，颜值最高的志愿者团队。<br>我发给你之后，你欣然答应了。</p>
 <p>第一次线下聚会时去晓晨家，你是最后来的，给我打电话问位置时，我艰难的向你解释着这个楼该怎么走怎么走，我让你去找下王赢，她在超市买东西，晓晨说，你直接下去接她吧。<br>我傻站在大门口儿，用电话指挥着你从公交站怎么走过来，完全没想到这个时候正常的男人应该是去找你，然后把你领过来。<br>晓晨说，哇，这么多妹子宏飞只去接了你一个啊。你不好意思的笑了，我挠挠头，强忍着没把“我还接了汞汞”说出来。</p>
 <p>头天晚上语音时，你说你会做小熊寿司，我在想，小熊寿司？什么鬼…</p>
 <p>完事儿我们一起看了《夏洛特烦恼》，我祈祷和盘算着要怎么样才能跟你坐一起，结果就真的跟你挨着坐的，我打开电脑，你给我拍了张照片，说主席好负责啊，拍完我就把电脑合上了…</p>
 <p>你负责了三次元宣传的UI部分，大晚上10点多11点还在跟你讲需求。你说你还在加班，你说你刚到家。<br>活动时候李宁说想找志愿者速记，你说你想试试。几天之后把速记的内容给了我。<br>后来我才知道当时你是发着烧，请了一天假，在家反复听录音看录像，才把内容整理好的。<br>我心疼的不要不要的。</p>
 <p>后来为了感谢你，我说请你吃饭。<br>你说，吃什么？<br>我说，我也不知道，来北京好多年，但一直没咋转过。<br>你说，跟着我，姐带你粗去浪~</p>
 <p>你说你想去三联书店，我说好呀好呀。<br>跟着导航绕了一大圈，才发现三联书店已经搬走了，那边只剩着跟破旧书库一样的几层。<br>你说，算了，我们去美术馆吧。<br>我说，好呀好呀。<br>坐公交车横穿整个长安街，阳光有点儿刺眼，我说你站这边，没那么晒，你笑着说还好吧。<br>路上看到黑胶唱片，你说你老爸最近一直想买黑胶唱片。<br>结果那个点儿美术馆关门了。<br>你说，我们吃饭去吧。<br>我说，好呀好呀。<br>你领着我在胡同里穿来穿去，说什么也不告诉我去哪儿。</p>
-<p><img data-src="/images/20160520/haioushitang.png" alt="海鸥食堂"><br>海鸥食堂。<br>电影里才会有的镜头。<br>我们选了靠窗的位置，吃了我们在一起的第一顿饭。<br>一切的一切，都美好的那么不真实。<br>后来海鸥食堂翻新，好后悔没有买下那张桌子和椅子。</p>
+<p><img data-src="./images/20160520/haioushitang.png" alt="海鸥食堂"><br>海鸥食堂。<br>电影里才会有的镜头。<br>我们选了靠窗的位置，吃了我们在一起的第一顿饭。<br>一切的一切，都美好的那么不真实。<br>后来海鸥食堂翻新，好后悔没有买下那张桌子和椅子。</p>
 <p>傻呼呼的领着穿着高跟鞋的你走到南锣鼓巷之后，被拥挤的人群吓到了。<br>你看看表说，走吧，姐带你去个好地方。<br>我问你去哪儿。<br>你死活不告诉我是哪儿，也不让我看导航。</p>
 <p>你说，一只猩猩有多重？<br>你说，八克！<br>你说，星巴克！<br>我说，Star~bucks！！！</p>
 <p>路痴的你领着我在大厦地下左转右转，到了一个神秘的咖啡馆门口。<br>伟大航路咖啡馆。<br>痴迷于海贼王的我痴痴的看着闪耀着娜米酱光环的你。<br>在最里面的位置，我们点了齁甜齁甜的奶茶。<br>我们看了海贼王漫画书。</p>
@@ -641,9 +661,9 @@
 <p>一部恐怖片，我要激动尿了。<br>看着窝在沙发里的你，不断的做着心里斗争，快抱住她！等下等下，可能机会会更好…就是现在，快抱她！再等等，再等等…<br>半部片子放完，换片儿时，我只想背过去抽自己几个大嘴巴子，狠狠的鄙视自己。<br>老板说不好意思，放错了，先放的是下半部，算了，我们换个轻松的电影吧。</p>
 <p>《砰然心动》</p>
 <p>我想，这tm不是做梦就是在拍电影。<br>我想，我一定要追你。</p>
-<p>可是单身27年的单身狗已经完全丧失了追求姑娘的本能。<br><img data-src="/images/20160520/yes.png" alt="yes"><br><img data-src="/images/20160520/ido.png" alt="ido"></p>
+<p>可是单身27年的单身狗已经完全丧失了追求姑娘的本能。<br><img data-src="./images/20160520/yes.png" alt="yes"><br><img data-src="./images/20160520/ido.png" alt="ido"></p>
 <p>我说：“我想要追求一个可爱的女孩儿，可是，我不会，可以给我一些指点或者建议么”<br>你说：“你想要追的女孩儿是我么？”<br>我说：“是”<br>你说：“如果是，那你不用追了，我也喜欢你…”</p>
-<p><img data-src="/images/20160520/iloveyou.png" alt="ido"></p>
+<p><img data-src="./images/20160520/iloveyou.png" alt="ido"></p>
 <p>那一个月里，我没再加过一次班，我们没有隔过一天见面，风雨无阻。<br>从北四环，坐地铁到东四环，一起坐双层公交车，绕着四环路，陪你回到西三环，在楼下抱着你，寒冬夜里的我们仿佛感受到了春天，回到北五环外的家里，12点多，将近1点。<br>那个时候，第一次做了双层公交车，你拉我坐在第一排，我说，哇，好害怕，连个司机都没有，我恐高啊，其实我只是为了拉你坐到后面没人的地方，可以抱抱，可以偷偷亲亲。<br>吃完拉面送你回去路过天桥，我说好害怕啊，我恐高，其实是为了拉紧你的手。<br>那个时候，更深入的了解了Uber和滴滴。<br>那个时候，每天都好累啊。<br>那个时候，每天都好兴奋呀。</p>
 <p>我们走了好远的路，去吃海底捞。<br>吃了两回都没吃着。<br>第一次，人太多。<br>第二次，还是人太多。<br>第一次，我们去那个老旧电影院，看了部上上个世纪的哈尔滨电影。奇葩的座位，完全够不到亲亲。<br>第二次，我们吃了包子，我还炒鸡傻的要了韭菜馅儿的，一路都不敢亲亲。<br>终于吃到了海底捞，然后在服务员眼皮底下秀了一个多小时的恩爱。<br>出来后在商场的楼梯口儿偷偷儿亲亲。</p>
 <p>第一次去你家。<br>请苏菲她们吃了顿涮锅儿。<br>真的傻爆了，没有捧着花第一时间给你，还偷偷跟你说，我把花放在楼下了，一会儿我们带走。<br>你说，我们去收拾收拾厨房。<br>你说，你以前舍友做饭炒鸡好吃。<br>你说，你跟她关系最好。<br>我们关上门，抱在一起。<br>客厅电视大声发着的张杰的《这就是爱》的高潮部分。<br>我们亲了嘴儿。</p>
@@ -660,7 +680,7 @@
 <p>你说，我以前没做过饭，<br>我说，没事，我会做饭。<br>你说你是第一次做双拼饭，可是比吉野家好吃100倍，可是我的可乐鸡翅做糊了。<br>你说你是第一次做蛋炒饭，可是材料超级丰富，超级好吃，可是我的糖醋排骨做糊了。<br>你说你是第一次黄焖鸡米饭，可是秒杀掉了一切的杨明宇，可是我的可乐鸡翅又做糊了。<br>我说我最会煮方便面了，我给你煮方便面吃吧。</p>
 <p>你说你不喜欢看这种动画电影。<br>我拉你去看了《疯狂动物城》。<br>你说，哇，欧巴，超级好看，还想再看一遍。</p>
 <p>你说你不喜欢看电子书。<br>鄙视的看着我买了kindle。<br>我帮你下载了哈利波特。<br>从此以后睡觉都要抱着你的小KK。</p>
-<p><img data-src="/images/20160520/gohome.jpg" alt="二宝宝的信"><br>![二宝宝的信](/images/20160520/baby’s letter.jpg)</p>
+<p><img data-src="./images/20160520/gohome.jpg" alt="二宝宝的信"><br>![二宝宝的信](./images/20160520/baby’s letter.jpg)</p>
 <p>你考试回学校，我们在一起之后，第一次分开那么久，你在家给我留了纸条，在我还没到家时，你就没忍住说出来了。<br>你偷偷往我兜儿里塞了张纸条，后知后觉的好几天之后才发现。</p>
 <p>你说你炒鸡喜欢吃榴莲。<br>好臭。<br>给你买回来你当宝贝似的放着。<br>你吃完一脸淫笑的看着我，我就知道毁了。<br>榴莲吻。</p>
 <p>你病了。<br>好着急。<br>你难受的哭的时候，我扎耳挠腮不知道怎么办，好想病的是我。<br>第一次做汤，还好做的不那么难喝。<br>你说你突然想吃罐头。<br>还想吃凉的。<br>放在暖气上帮你热。</p>
@@ -686,37 +706,8 @@
       </tags>
   </entry>
   <entry>
-    <title>虚度的国庆节</title>
-    <url>/2016/the-day-i-lost-in-10-1-days/</url>
-    <content><![CDATA[<p>国庆节开始时候大致做了个度假计划：哪儿也不去，就在家待着。  </p>
-<span id="more"></span>
-
-<h1 id="第一天"><a href="#第一天" class="headerlink" title="第一天"></a>第一天</h1><p>做了个计划</p>
-<h1 id="第二天"><a href="#第二天" class="headerlink" title="第二天"></a>第二天</h1><p>忘了</p>
-<h1 id="第三天"><a href="#第三天" class="headerlink" title="第三天"></a>第三天</h1><p>忘了</p>
-<h1 id="第四天"><a href="#第四天" class="headerlink" title="第四天"></a>第四天</h1><p>忘了</p>
-<h1 id="第五天"><a href="#第五天" class="headerlink" title="第五天"></a>第五天</h1><p>忘了</p>
-<h1 id="第六天-吃了死苍蝇一样恶心"><a href="#第六天-吃了死苍蝇一样恶心" class="headerlink" title="第六天 - 吃了死苍蝇一样恶心"></a>第六天 - 吃了死苍蝇一样恶心</h1><p>早上好像是10点多醒的，凌晨2点多3点睡的，好像。<br>昨天看的郭德纲相声，德云社20周年开幕式。<br>真的很赞，一群明星大咖。<br>一个事儿印象特别深刻，郭德纲说，相声讲究的说学逗唱，唱，是因为历史，在最开始的时候，相声是在大街上说的，需要唱一段儿，来把人都吸引过来，否则直接说，没人会停下来听。<br>我们要读历史，是因为平常很多事儿，很多我们以为理所应当的事儿，从历史的发展来看，都是有他的原因的。</p>
-<p>晚上时候去买衣服，自己转了一圈儿，买了个90块钱的毛衣，同时发现了几件比之前买的又贵又丑的白衬衣好看又便宜的衣服。 这几件衣服是去买衣服，售货员强行给搭配的，当时一顿夸，自己看着也不错，就买了，尼玛，一件衬衣好几百，料子又不舒服，sb透了。</p>
-<p>去付款的时候，旁边珠宝柜台说可以抽奖，然后竟然尼玛抽中了一等奖，一折购买玉器，尼玛！服务员演的跟真的一样，啊！竟然抽中了一等奖！然后假装跟旁边人说，啊，怎么被他抽中了呢！一副不理解的样子。<br>第一次以第一人称经历这种事儿，贪便宜的心顿时上来了，但又担心被骗，想着买个两三千的，打完折两三百，就算被骗也不太心疼，但是都真的太丑了，看中个平安扣，原价9800，样子还不错，想着正好老夫人生日送给她，还没送过这么贵重的东西呢，她要是知道原价1w不得高兴毁了。<br>纠纠结结的，服务员也半生推销半激将法的劝了大半天，几乎丧失了理智就买了……<br>完事儿百度了下，关键词“商场中奖一折”，尼玛……<br>吃了死苍蝇都没这么恶心……  </p>
-<p>贪便宜！！！</p>
-<p>我决定以后就自己带着，时刻警醒自己！！！</p>
-<p>天上绝逼不会掉馅饼！！！</p>
-<p>不要丧失了理智！！！</p>
-<h1 id="第七天"><a href="#第七天" class="headerlink" title="第七天"></a>第七天</h1>]]></content>
-  </entry>
-  <entry>
-    <title>2019年中总结</title>
-    <url>/2019/2019%E5%B9%B4%E5%B9%B4%E4%B8%8D%E5%88%9D%E5%B9%B4%E4%B8%8D%E4%B8%AD%E5%B9%B4%E4%B8%8D%E7%BB%88%E7%9A%84%E6%80%BB%E7%BB%93/</url>
-    <content><![CDATA[<p>总啥结啊总</p>
-]]></content>
-      <tags>
-        <tag>总结</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2018年年不初年不中年不终的总结</title>
-    <url>/2018/2018%E5%B9%B4%E5%B9%B4%E4%B8%8D%E5%88%9D%E5%B9%B4%E4%B8%8D%E4%B8%AD%E5%B9%B4%E4%B8%8D%E7%BB%88%E7%9A%84%E6%80%BB%E7%BB%93/</url>
+    <url>//2018/2018-09-01</url>
     <content><![CDATA[<p>没啥好总结的</p>
 ]]></content>
       <tags>
@@ -724,8 +715,26 @@
       </tags>
   </entry>
   <entry>
+    <title>2021年了啊</title>
+    <url>/2021%E5%B9%B4%E4%BA%86%E5%95%8A/</url>
+    <content><![CDATA[<p>嗝~~~~~~~~</p>
+]]></content>
+      <tags>
+        <tag>人生感叹</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2019年中总结</title>
+    <url>//2019/2019-07-21</url>
+    <content><![CDATA[<p>总啥结啊总</p>
+]]></content>
+      <tags>
+        <tag>总结</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>张小龙饭否日记</title>
-    <url>/2016/zhangxiaolong-fanfou-diary/</url>
+    <url>/zhangxiaolong-fanfou-diary/</url>
     <content><![CDATA[<blockquote>
 <p>转载请注明出处: <a href="http://v.donghongfei.com/zhangxiaolong-fanfou-diary/">http://v.donghongfei.com/zhangxiaolong-fanfou-diary/</a></p>
 </blockquote>
