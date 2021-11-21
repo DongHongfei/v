@@ -156,21 +156,7 @@
   </url>
   
   <url>
-    <loc>http://v.donghongfei.com/dull-day-1/</loc>
-    
-    <lastmod>2015-07-08</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://v.donghongfei.com/dull-day-2/</loc>
-    
-    <lastmod>2015-07-08</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://v.donghongfei.com/dull-day-3/</loc>
     
     <lastmod>2015-07-08</lastmod>
     
@@ -184,6 +170,20 @@
   </url>
   
   <url>
+    <loc>http://v.donghongfei.com/dull-day-1/</loc>
+    
+    <lastmod>2015-07-08</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://v.donghongfei.com/dull-day-3/</loc>
+    
+    <lastmod>2015-07-08</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://v.donghongfei.com/handling-cors-issues-in-ionic/</loc>
     
     <lastmod>2015-07-08</lastmod>
@@ -191,14 +191,14 @@
   </url>
   
   <url>
-    <loc>http://v.donghongfei.com/move-on/</loc>
+    <loc>http://v.donghongfei.com/navigating-the-changes/</loc>
     
     <lastmod>2015-07-08</lastmod>
     
   </url>
   
   <url>
-    <loc>http://v.donghongfei.com/navigating-the-changes/</loc>
+    <loc>http://v.donghongfei.com/move-on/</loc>
     
     <lastmod>2015-07-08</lastmod>
     
